@@ -1,0 +1,6 @@
+D:\vs2\vs_code\csharp\2020_2_28\test2\test2\bin\Debug\test2.exe.config
+D:\vs2\vs_code\csharp\2020_2_28\test2\test2\bin\Debug\test2.exe
+D:\vs2\vs_code\csharp\2020_2_28\test2\test2\bin\Debug\test2.pdb
+D:\vs2\vs_code\csharp\2020_2_28\test2\test2\obj\Debug\test2.csprojAssemblyReference.cache
+D:\vs2\vs_code\csharp\2020_2_28\test2\test2\obj\Debug\test2.exe
+D:\vs2\vs_code\csharp\2020_2_28\test2\test2\obj\Debug\test2.pdb
