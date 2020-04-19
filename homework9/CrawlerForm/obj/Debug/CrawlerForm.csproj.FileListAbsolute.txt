@@ -1,0 +1,10 @@
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\obj\Debug\CrawlerForm.csprojAssemblyReference.cache
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\obj\Debug\CrawlerForm.Form1.resources
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\obj\Debug\CrawlerForm.Properties.Resources.resources
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\obj\Debug\CrawlerForm.csproj.GenerateResource.cache
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\obj\Debug\CrawlerForm.csproj.CoreCompileInputs.cache
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\bin\Debug\CrawlerForm.exe.config
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\bin\Debug\CrawlerForm.exe
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\bin\Debug\CrawlerForm.pdb
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\obj\Debug\CrawlerForm.exe
+D:\vs2\vs_code\csharp\2020_4_17\CrawlerForm\obj\Debug\CrawlerForm.pdb

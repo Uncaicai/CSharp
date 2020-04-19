@@ -1,0 +1,1379 @@
+﻿<!DOCTYPE html>
+<html lang="zh" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0,minimum-scale=1.0,width=device-width" />
+    <title>Microsoft Edge Insider</title>
+    <link rel="icon" href="https://edgetipscdn.microsoft.com/insider-site/images/favicon.fbd89822.png">
+
+    
+        <link rel="stylesheet" href="https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/chinese-simplified/shell/_scrf/css/themes=default.device=uplevel_web_pc/da-4984fd/1c-c84309/e1-5adead/63-110476/a0-ff2952/f8-c4bb56/3b-fcdae1/87-5bf343?ver=2.0" type="text/css" media="all" /><link rel='stylesheet' href='https://statics-marketingsites-eus-ms-com.akamaized.net/statics/override.css?c=7' type='text/css' />
+    
+    <link rel="stylesheet" href="https://edgetipscdn.microsoft.com/insider-site/css/app.9610700d.css">
+</head>
+
+<body class="home  "
+    dir="ltr">
+
+
+    <div id="skip-banner">
+        <a aria-label="Skip to main content" href="#primaryArea">Skip to main content</a>
+    </div>
+
+    
+            <div id="headerArea" class="uhf"  data-m='{"cN":"headerArea","cT":"Area_coreuiArea","id":"a1Body","sN":1,"aN":"Body"}'>
+                <div id="headerRegion"     data-region-key="headerregion" data-m='{"cN":"headerRegion","cT":"Region_coreui-region","id":"r1a1","sN":1,"aN":"a1"}' >
+
+    <div  id="headerUniversalHeader" data-m='{"cN":"headerUniversalHeader","cT":"Module_coreui-universalheader","id":"m1r1a1","sN":1,"aN":"r1a1"}'  data-module-id="Category|headerRegion|coreui-region|headerUniversalHeader|coreui-universalheader">
+        
+
+                        <div id="epb" class="x-hidden x-hidden-vp-mobile-st uhfc-universal-context context-uhf" data-m='{"cN":"epb_cont","cT":"Container","id":"c1m1r1a1","sN":1,"aN":"m1r1a1"}'>
+
+	<div class="c-uhfh-alert f-information epb-container theme-light" role="dialog" aria-label="banner" data-m='{"cT":"Container","id":"c1c1m1r1a1","sN":1,"aN":"c1m1r1a1"}' data-pb="[{&quot;Browser&quot;:&quot;chrome&quot;,&quot;ExtensionType&quot;:&quot;news&quot;,&quot;ExtensionUrl&quot;:&quot;https://browserdefaults.microsoft.com/extn/redirect/?xid=10&amp;br=gc&amp;channel=uhf&amp;pc=U556&quot;,&quot;BackgroundColorDarkTheme&quot;:&quot;b-black&quot;,&quot;LogoUrlDarkTheme&quot;:&quot;https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4myc9?ver=c8c3&quot;,&quot;ActionLinkBackgroundColorDarkTheme&quot;:&quot;btn-white&quot;,&quot;BackgroundColorLightTheme&quot;:&quot;b-white&quot;,&quot;LogoUrlLightTheme&quot;:&quot;https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE4myc9?ver=c8c3&quot;,&quot;ActionLinkBackgroundColorLightTheme&quot;:&quot;btn-red&quot;,&quot;Title&quot;:&quot;随时了解全球重大新闻&quot;,&quot;Paragraph&quot;:&quot;获取 Microsoft News 扩展&quot;,&quot;ActionLinkText&quot;:&quot;立即添加&quot;,&quot;ActionLinkAriaLabel&quot;:&quot;立即添加&quot;,&quot;DismissText&quot;:&quot;不，谢谢&quot;,&quot;DismissAriaLabel&quot;:&quot;不，谢谢&quot;,&quot;CookieExpiration&quot;:&quot;30&quot;,&quot;CurrentTheme&quot;:&quot;theme-light&quot;},{&quot;Browser&quot;:&quot;firefox&quot;,&quot;ExtensionType&quot;:&quot;msn&quot;,&quot;ExtensionUrl&quot;:&quot;https://browserdefaults.microsoft.com/BNP/redirect?br=mf&amp;xid=2&amp;channel=uhf&quot;,&quot;BackgroundColorDarkTheme&quot;:&quot;b-blue&quot;,&quot;LogoUrlDarkTheme&quot;:&quot;https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3zanz?ver=4e18&quot;,&quot;ActionLinkBackgroundColorDarkTheme&quot;:&quot;btn-white&quot;,&quot;BackgroundColorLightTheme&quot;:&quot;b-white&quot;,&quot;LogoUrlLightTheme&quot;:&quot;https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE3zcX5?ver=0d48&quot;,&quot;ActionLinkBackgroundColorLightTheme&quot;:&quot;btn-blue&quot;,&quot;Title&quot;:&quot;随时了解全球重大新闻&quot;,&quot;Paragraph&quot;:&quot;获取 Bing + MSN 扩展&quot;,&quot;ActionLinkText&quot;:&quot;立即添加&quot;,&quot;ActionLinkAriaLabel&quot;:&quot;立即添加&quot;,&quot;DismissText&quot;:&quot;不，谢谢&quot;,&quot;DismissAriaLabel&quot;:&quot;不，谢谢&quot;,&quot;CookieExpiration&quot;:&quot;30&quot;,&quot;CurrentTheme&quot;:&quot;theme-light&quot;}]" data-pb-g="true">
+		<div>
+			<div class="c-paragraph">
+				<img alt="" data-src="" src="" class="f-img-lzy" />
+				<span class="c-text-group pb-content">
+					<span class="epb-launch pb-content-heading"></span>
+					<span class="epb-text pb-content-text"></span>
+				</span>
+			</div>
+			<span class="c-group">
+				<button id="close-epb" class="c-action-trigger c-action-cancel glyph-cancel" data-m='{"cN":"PB-dismiss_nonnav","id":"nn1c1c1m1r1a1","sN":1,"aN":"c1c1m1r1a1"}'></button>
+				<a id="epbTryNow" href="" target="_blank" class="epb-launch c-action-trigger c-action-open" data-m='{"cN":"PB-launch_nav","id":"n2c1c1m1r1a1","sN":2,"aN":"c1c1m1r1a1"}'></a>
+			</span>
+		</div>
+	</div>
+
+
+
+
+
+                            
+                        </div>
+
+
+
+
+        <a id="uhfSkipToMain" class="m-skip-to-main" data-href="" tabindex="0" data-m='{"cN":"Skip to content_nonnav","id":"nn2c1m1r1a1","sN":2,"aN":"c1m1r1a1"}'>跳转至主内容</a>
+
+
+<header class="c-uhfh context-uhf no-js c-sgl-stck c-category-header " itemscope="itemscope" data-header-footprint="/MSEdgeInsider/MSEdgeInsiderHeader, fromService: True"   data-magict="true"  itemtype="http://schema.org/Organization">
+    <div class="theme-light js-global-head f-closed  global-head-cont" data-m='{"cN":"Universal Header_cont","cT":"Container","id":"c3c1m1r1a1","sN":3,"aN":"c1m1r1a1"}'>
+        <div class="c-uhfh-gcontainer-st">
+            <button type="button" class="c-action-trigger c-glyph glyph-global-nav-button" aria-label="所有 Microsoft 项目都会扩展以显示 Microsoft 产品和服务的列表" initialState-label="所有 Microsoft 项目都会扩展以显示 Microsoft 产品和服务的列表" toggleState-label="Close All Microsoft list" aria-expanded="false" data-m='{"cN":"Mobile menu button_nonnav","id":"nn1c3c1m1r1a1","sN":1,"aN":"c3c1m1r1a1"}'></button>
+            <button type="button" class="c-action-trigger c-glyph glyph-arrow-htmllegacy" aria-label="关闭搜索" aria-expanded="false" data-m='{"cN":"Close Search_nonnav","id":"nn2c3c1m1r1a1","sN":2,"aN":"c3c1m1r1a1"}'></button>
+                    <a id="uhfLogo" class="c-logo c-sgl-stk-uhfLogo" itemprop="url" href="https://www.microsoft.com" aria-label="Microsoft" data-m='{"cN":"GlobalNav_Logo_cont","cT":"Container","id":"c3c3c1m1r1a1","sN":3,"aN":"c3c1m1r1a1"}'>
+                        <img alt="" itemprop="logo" itemscope="itemscope" class="c-image" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE1Mu3b?ver=5c31" role="presentation" aria-hidden="true" />
+                        <span role="presentation" aria-hidden="true">Microsoft</span>
+                    </a>
+            <div class="f-mobile-title">
+                <button type="button" class="c-action-trigger c-glyph glyph-chevron-left" aria-label="查看更多菜单选项" data-m='{"cN":"Mobile back button_nonnav","id":"nn4c3c1m1r1a1","sN":4,"aN":"c3c1m1r1a1"}'></button>
+                <span data-global-title="Microsoft 主页" class="js-mobile-title">Microsoft Edge Insider</span>
+                <button type="button" class="c-action-trigger c-glyph glyph-chevron-right" aria-label="查看更多菜单选项" data-m='{"cN":"Mobile forward button_nonnav","id":"nn5c3c1m1r1a1","sN":5,"aN":"c3c1m1r1a1"}'></button>
+            </div>
+                    <div class="c-show-pipe x-hidden-vp-mobile-st">
+                        <a id="uhfCatLogo" class="c-logo c-cat-logo" href="/zh-cn/" aria-label="Microsoft Edge Insider" itemprop="url" data-m='{"cN":"CatNav_Microsoft Edge Insider_nav","id":"n6c3c1m1r1a1","sN":6,"aN":"c3c1m1r1a1"}'>
+                                <span>Microsoft Edge Insider</span>
+                        </a>
+                    </div>
+                <div class="cat-logo-button-cont x-hidden">
+                        <button type="button" id="uhfCatLogoButton" class="c-cat-logo-button x-hidden" aria-expanded="false" aria-label="Microsoft Edge Insider" data-m='{"cN":"Microsoft Edge Insider_nonnav","id":"nn7c3c1m1r1a1","sN":7,"aN":"c3c1m1r1a1"}'>
+                            Microsoft Edge Insider
+                        </button>
+                </div>
+
+
+
+                    <nav id="uhf-g-nav" aria-label="Contextual menu" class="c-uhfh-gnav" data-m='{"cN":"Category nav_cont","cT":"Container","id":"c8c3c1m1r1a1","sN":8,"aN":"c3c1m1r1a1"}'>
+            <ul class="js-paddle-items">
+                    <li class="single-link js-nav-menu x-hidden-none-mobile-vp uhf-menu-item">
+                        <a class="c-uhf-nav-link" href="/zh-cn/" data-m='{"cN":"CatNav_主页_nav","id":"n1c8c3c1m1r1a1","sN":1,"aN":"c8c3c1m1r1a1"}' > 主页 </a>
+                    </li>
+                                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_36" class="c-uhf-nav-link" href="/zh-cn/download" data-m='{"cN":"CatNav_Download_nav","id":"n2c8c3c1m1r1a1","sN":2,"aN":"c8c3c1m1r1a1"}'>下载</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_37" class="c-uhf-nav-link" href="/zh-cn/whats-new" data-m='{"cN":"CatNav_WhatsNew_nav","id":"n3c8c3c1m1r1a1","sN":3,"aN":"c8c3c1m1r1a1"}'>最新动态</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="whats-next" class="c-uhf-nav-link" href="/zh-cn/whats-next" data-m='{"cN":"CatNav_whats-next_nav","id":"n4c8c3c1m1r1a1","sN":4,"aN":"c8c3c1m1r1a1"}'>下一步</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_39" class="c-uhf-nav-link" href="/zh-cn/enterprise" data-m='{"cN":"CatNav_enterprise_nav","id":"n5c8c3c1m1r1a1","sN":5,"aN":"c8c3c1m1r1a1"}'>大型企业</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_40" class="c-uhf-nav-link" href="/zh-cn/community" data-m='{"cN":"CatNav_Community_nav","id":"n6c8c3c1m1r1a1","sN":6,"aN":"c8c3c1m1r1a1"}'>社区</a>
+                        </li>
+                        <li class="single-link js-nav-menu uhf-menu-item">
+                            <a id="c-shellmenu_41" class="c-uhf-nav-link" href="https://go.microsoft.com/fwlink/?linkid=2058029" data-m='{"cN":"CatNav_Support_nav","id":"n7c8c3c1m1r1a1","sN":7,"aN":"c8c3c1m1r1a1"}'>支持</a>
+                        </li>
+
+
+                <li id="overflow-menu" class="overflow-menu x-hidden uhf-menu-item">
+                        <div class="c-uhf-menu js-nav-menu">
+        <button data-m='{"pid":"更多","id":"nn8c8c3c1m1r1a1","sN":8,"aN":"c8c3c1m1r1a1"}' type="button" aria-label="更多" aria-expanded="false">更多</button>
+        <ul id="overflow-menu-list" aria-hidden="true" class="overflow-menu-list">
+        </ul>
+    </div>
+
+                </li>
+                            </ul>
+            
+        </nav>
+
+
+            <div class="c-uhfh-actions" data-m='{"cN":"Header actions_cont","cT":"Container","id":"c9c3c1m1r1a1","sN":9,"aN":"c3c1m1r1a1"}'>
+                <div class="wf-menu">        <nav id="uhf-c-nav" aria-label="All microsoft menu" data-m='{"cN":"GlobalNav_cont","cT":"Container","id":"c1c9c3c1m1r1a1","sN":1,"aN":"c9c3c1m1r1a1"}'>
+            <ul class="js-paddle-items">
+                <li>
+                    <div class="c-uhf-menu js-nav-menu">
+                        <button type="button" class="c-button-logo all-ms-nav" aria-label="所有 Microsoft 项目都会扩展以显示 Microsoft 产品和服务的列表" aria-expanded="false" data-m='{"cN":"GlobalNav_More_nonnav","id":"nn1c1c9c3c1m1r1a1","sN":1,"aN":"c1c9c3c1m1r1a1"}'> <span>所有 Microsoft</span></button>
+                        <ul class="f-multi-column f-multi-column-6" aria-hidden="true" data-m='{"cN":"More_cont","cT":"Container","id":"c2c1c9c3c1m1r1a1","sN":2,"aN":"c1c9c3c1m1r1a1"}'>
+                                    <li class="c-w0-contr">
+            <ul class="c-w0">
+        <li class="js-nav-menu single-link" data-m='{"cN":"M365_cont","cT":"Container","id":"c1c2c1c9c3c1m1r1a1","sN":1,"aN":"c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_0" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/microsoft-365" data-m='{"cN":"W0Nav_M365_nav","id":"n1c1c2c1c9c3c1m1r1a1","sN":1,"aN":"c1c2c1c9c3c1m1r1a1"}'>Microsoft 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Office_cont","cT":"Container","id":"c2c2c1c9c3c1m1r1a1","sN":2,"aN":"c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_1" class="js-subm-uhf-nav-link" href="https://products.office.com/zh-cn/home" data-m='{"cN":"W0Nav_Office_nav","id":"n1c2c2c1c9c3c1m1r1a1","sN":1,"aN":"c2c2c1c9c3c1m1r1a1"}'>Office</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Windows_cont","cT":"Container","id":"c3c2c1c9c3c1m1r1a1","sN":3,"aN":"c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_2" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/windows/" data-m='{"cN":"W0Nav_Windows_nav","id":"n1c3c2c1c9c3c1m1r1a1","sN":1,"aN":"c3c2c1c9c3c1m1r1a1"}'>Windows</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Surface_cont","cT":"Container","id":"c4c2c1c9c3c1m1r1a1","sN":4,"aN":"c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_3" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/surface" data-m='{"cN":"W0Nav_Surface_nav","id":"n1c4c2c1c9c3c1m1r1a1","sN":1,"aN":"c4c2c1c9c3c1m1r1a1"}'>Surface</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Xbox_cont","cT":"Container","id":"c5c2c1c9c3c1m1r1a1","sN":5,"aN":"c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_4" class="js-subm-uhf-nav-link" href="https://www.xbox.com/" data-m='{"cN":"W0Nav_Xbox_nav","id":"n1c5c2c1c9c3c1m1r1a1","sN":1,"aN":"c5c2c1c9c3c1m1r1a1"}'>Xbox</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Support_cont","cT":"Container","id":"c6c2c1c9c3c1m1r1a1","sN":6,"aN":"c2c1c9c3c1m1r1a1"}'>
+            <a id="l1_support" class="js-subm-uhf-nav-link" href="https://support.microsoft.com/zh-cn" data-m='{"cN":"W0Nav_Support_nav","id":"n1c6c2c1c9c3c1m1r1a1","sN":1,"aN":"c6c2c1c9c3c1m1r1a1"}'>支持</a>
+            
+        </li>
+            </ul>
+        </li>
+
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c7c2c1c9c3c1m1r1a1","sN":7,"aN":"c2c1c9c3c1m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c7c2c1c9c3c1m1r1a1","sN":1,"aN":"c7c2c1c9c3c1m1r1a1"}'>软件</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_WindowsApps_cont","cT":"Container","id":"c2c7c2c1c9c3c1m1r1a1","sN":2,"aN":"c7c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_8" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/store/apps/windows?icid=CNavAppsWindowsApps" data-m='{"cN":"GlobalNav_More_Software_WindowsApps_nav","id":"n1c2c7c2c1c9c3c1m1r1a1","sN":1,"aN":"c2c7c2c1c9c3c1m1r1a1"}'>Windows 应用</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_OneDrive_cont","cT":"Container","id":"c3c7c2c1c9c3c1m1r1a1","sN":3,"aN":"c7c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_9" class="js-subm-uhf-nav-link" href="https://onedrive.live.com/about/zh-CN/" data-m='{"cN":"GlobalNav_More_Software_OneDrive_nav","id":"n1c3c7c2c1c9c3c1m1r1a1","sN":1,"aN":"c3c7c2c1c9c3c1m1r1a1"}'>OneDrive</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_Outlook_cont","cT":"Container","id":"c4c7c2c1c9c3c1m1r1a1","sN":4,"aN":"c7c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_10" class="js-subm-uhf-nav-link" href="https://outlook.live.com/owa/" data-m='{"cN":"GlobalNav_More_Software_Outlook_nav","id":"n1c4c7c2c1c9c3c1m1r1a1","sN":1,"aN":"c4c7c2c1c9c3c1m1r1a1"}'>Outlook</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_Skype_cont","cT":"Container","id":"c5c7c2c1c9c3c1m1r1a1","sN":5,"aN":"c7c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_11" class="js-subm-uhf-nav-link" href="https://www.skype.com/zh-Hans/" data-m='{"cN":"GlobalNav_More_Software_Skype_nav","id":"n1c5c7c2c1c9c3c1m1r1a1","sN":1,"aN":"c5c7c2c1c9c3c1m1r1a1"}'>Skype</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_OneNote_cont","cT":"Container","id":"c6c7c2c1c9c3c1m1r1a1","sN":6,"aN":"c7c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_12" class="js-subm-uhf-nav-link" href="https://www.onenote.com/?omkt=zh-CN" data-m='{"cN":"GlobalNav_More_Software_OneNote_nav","id":"n1c6c7c2c1c9c3c1m1r1a1","sN":1,"aN":"c6c7c2c1c9c3c1m1r1a1"}'>OneNote</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Software_Microsoft Teams_cont","cT":"Container","id":"c7c7c2c1c9c3c1m1r1a1","sN":7,"aN":"c7c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_13" class="js-subm-uhf-nav-link" href="https://products.office.com/zh-cn/microsoft-teams/free?icid=SSM_AS_Promo_Apps_MicrosoftTeams" data-m='{"cN":"GlobalNav_More_Software_Microsoft Teams_nav","id":"n1c7c7c2c1c9c3c1m1r1a1","sN":1,"aN":"c7c7c2c1c9c3c1m1r1a1"}'>Microsoft Teams</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cN":"PCsAndDevices_cont","cT":"Container","id":"c8c2c1c9c3c1m1r1a1","sN":8,"aN":"c2c1c9c3c1m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"cN":"GlobalNav_PCsAndDevices_nonnav","id":"nn1c8c2c1c9c3c1m1r1a1","sN":1,"aN":"c8c2c1c9c3c1m1r1a1"}'>PC 和设备</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCAndDevices_ShopXbox_cont","cT":"Container","id":"c2c8c2c1c9c3c1m1r1a1","sN":2,"aN":"c8c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_15" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/store/b/xbox?icid=CNavDevicesXbox" data-m='{"cN":"GlobalNav_More_PCAndDevices_ShopXbox_nav","id":"n1c2c8c2c1c9c3c1m1r1a1","sN":1,"aN":"c2c8c2c1c9c3c1m1r1a1"}'>购买 Xbox</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCsAndDevices_PCsAndTablets_cont","cT":"Container","id":"c3c8c2c1c9c3c1m1r1a1","sN":3,"aN":"c8c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_16" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/windows/devices" data-m='{"cN":"GlobalNav_More_PCsAndDevices_PCsAndTablets_nav","id":"n1c3c8c2c1c9c3c1m1r1a1","sN":1,"aN":"c3c8c2c1c9c3c1m1r1a1"}'>PC 和平板电脑</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_PCAndDevices_Accessories_cont","cT":"Container","id":"c4c8c2c1c9c3c1m1r1a1","sN":4,"aN":"c8c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_17" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/accessories/zh-cn" data-m='{"cN":"GlobalNav_More_PCAndDevices_Accessories_nav","id":"n1c4c8c2c1c9c3c1m1r1a1","sN":1,"aN":"c4c8c2c1c9c3c1m1r1a1"}'>配件</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c9c2c1c9c3c1m1r1a1","sN":9,"aN":"c2c1c9c3c1m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c9c2c1c9c3c1m1r1a1","sN":1,"aN":"c9c2c1c9c3c1m1r1a1"}'>娱乐</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"Products_DevicesAndXbox_XboxAndGames_cont","cT":"Container","id":"c2c9c2c1c9c3c1m1r1a1","sN":2,"aN":"c9c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_19" class="js-subm-uhf-nav-link" href="https://www.xbox.com/zh-cn/games/xbox-one?xr=shellnav" data-m='{"cN":"GlobalNav_Products_DevicesAndXbox_XboxAndGames_nav","id":"n1c2c9c2c1c9c3c1m1r1a1","sN":1,"aN":"c2c9c2c1c9c3c1m1r1a1"}'>Xbox 与游戏</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Entertainment_PCGames_cont","cT":"Container","id":"c3c9c2c1c9c3c1m1r1a1","sN":3,"aN":"c9c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_20" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/store/games/windows?icid=CNavGamesWindowsGames" data-m='{"cN":"GlobalNav_Entertainment_PCGames_nav","id":"n1c3c9c2c1c9c3c1m1r1a1","sN":1,"aN":"c3c9c2c1c9c3c1m1r1a1"}'>PC 游戏</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c10c2c1c9c3c1m1r1a1","sN":10,"aN":"c2c1c9c3c1m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c10c2c1c9c3c1m1r1a1","sN":1,"aN":"c10c2c1c9c3c1m1r1a1"}'>企业版</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_MicrosoftAzure_cont","cT":"Container","id":"c2c10c2c1c9c3c1m1r1a1","sN":2,"aN":"c10c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_22" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/china/azure/" data-m='{"cN":"GlobalNav_More_Business_MicrosoftAzure_nav","id":"n1c2c10c2c1c9c3c1m1r1a1","sN":1,"aN":"c2c10c2c1c9c3c1m1r1a1"}'>Microsoft Azure</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Business_Microsoft365_cont","cT":"Container","id":"c3c10c2c1c9c3c1m1r1a1","sN":3,"aN":"c10c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_23" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/microsoft-365/business/all-business" data-m='{"cN":"GlobalNav_Business_Microsoft365_nav","id":"n1c3c10c2c1c9c3c1m1r1a1","sN":1,"aN":"c3c10c2c1c9c3c1m1r1a1"}'>Microsoft 365</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_Enterprise_cont","cT":"Container","id":"c4c10c2c1c9c3c1m1r1a1","sN":4,"aN":"c10c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_24" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/enterprise" data-m='{"cN":"GlobalNav_More_Business_Enterprise_nav","id":"n1c4c10c2c1c9c3c1m1r1a1","sN":1,"aN":"c4c10c2c1c9c3c1m1r1a1"}'>Microsoft Industry</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_DataPlatform_cont","cT":"Container","id":"c5c10c2c1c9c3c1m1r1a1","sN":5,"aN":"c10c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_25" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/sql-server/ " data-m='{"cN":"GlobalNav_More_Business_DataPlatform_nav","id":"n1c5c10c2c1c9c3c1m1r1a1","sN":1,"aN":"c5c10c2c1c9c3c1m1r1a1"}'>数据平台</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_Business_ShopBusiness_cont","cT":"Container","id":"c6c10c2c1c9c3c1m1r1a1","sN":6,"aN":"c10c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_26" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/store/b/business?icid=CNavBusinessStore" data-m='{"cN":"GlobalNav_More_Business_ShopBusiness_nav","id":"n1c6c10c2c1c9c3c1m1r1a1","sN":1,"aN":"c6c10c2c1c9c3c1m1r1a1"}'>购买商业版</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c11c2c1c9c3c1m1r1a1","sN":11,"aN":"c2c1c9c3c1m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c11c2c1c9c3c1m1r1a1","sN":1,"aN":"c11c2c1c9c3c1m1r1a1"}'>开发人员与 IT</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_.Net_cont","cT":"Container","id":"c2c11c2c1c9c3c1m1r1a1","sN":2,"aN":"c11c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_28" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/net/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_.Net_nav","id":"n1c2c11c2c1c9c3c1m1r1a1","sN":1,"aN":"c2c11c2c1c9c3c1m1r1a1"}'>.NET</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DevelopersAndIT_VisualStudio_cont","cT":"Container","id":"c3c11c2c1c9c3c1m1r1a1","sN":3,"aN":"c11c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_29" class="js-subm-uhf-nav-link" href="https://visualstudio.microsoft.com/" data-m='{"cN":"GlobalNav_More_DevelopersAndIT_VisualStudio_nav","id":"n1c3c11c2c1c9c3c1m1r1a1","sN":1,"aN":"c3c11c2c1c9c3c1m1r1a1"}'>Visual Studio</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_ProductsandServices_WindowsServer_cont","cT":"Container","id":"c4c11c2c1c9c3c1m1r1a1","sN":4,"aN":"c11c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_30" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/cloud-platform/windows-server" data-m='{"cN":"GlobalNav_More_ProductsandServices_WindowsServer_nav","id":"n1c4c11c2c1c9c3c1m1r1a1","sN":1,"aN":"c4c11c2c1c9c3c1m1r1a1"}'>Windows Server</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_WindowsDevCenter_cont","cT":"Container","id":"c5c11c2c1c9c3c1m1r1a1","sN":5,"aN":"c11c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_31" class="js-subm-uhf-nav-link" href="https://developer.microsoft.com/zh-cn/windows" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_WindowsDevCenter_nav","id":"n1c5c11c2c1c9c3c1m1r1a1","sN":1,"aN":"c5c11c2c1c9c3c1m1r1a1"}'>开发 Windows 应用</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"More_DeveloperAndIT_Docs.microsoft.com_cont","cT":"Container","id":"c6c11c2c1c9c3c1m1r1a1","sN":6,"aN":"c11c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_32" class="js-subm-uhf-nav-link" href="https://docs.microsoft.com/zh-cn/" data-m='{"cN":"GlobalNav_More_DeveloperAndIT_Docs.microsoft.com_nav","id":"n1c6c11c2c1c9c3c1m1r1a1","sN":1,"aN":"c6c11c2c1c9c3c1m1r1a1"}'>文档</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+        <li class="f-sub-menu js-nav-menu nested-menu" data-m='{"cT":"Container","id":"c12c2c1c9c3c1m1r1a1","sN":12,"aN":"c2c1c9c3c1m1r1a1"}'>
+
+            <button type="button"   f-multi-parent="true" aria-expanded="false" data-m='{"id":"nn1c12c2c1c9c3c1m1r1a1","sN":1,"aN":"c12c2c1c9c3c1m1r1a1"}'>其他</button>
+            <ul aria-hidden="true">
+        <li class="js-nav-menu single-link" data-m='{"cN":"Products_SoftwareAndServices_FreeDownloadsAndSecurity_cont","cT":"Container","id":"c2c12c2c1c9c3c1m1r1a1","sN":2,"aN":"c12c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_34" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/download/default.aspx" data-m='{"cN":"GlobalNav_Products_SoftwareAndServices_FreeDownloadsAndSecurity_nav","id":"n1c2c12c2c1c9c3c1m1r1a1","sN":1,"aN":"c2c12c2c1c9c3c1m1r1a1"}'>免费下载与安全性</a>
+            
+        </li>
+        <li class="js-nav-menu single-link" data-m='{"cN":"Products_ForStudentsAndEducators_Education_cont","cT":"Container","id":"c3c12c2c1c9c3c1m1r1a1","sN":3,"aN":"c12c2c1c9c3c1m1r1a1"}'>
+            <a id="shellmenu_35" class="js-subm-uhf-nav-link" href="https://www.microsoft.com/zh-cn/education?icid=CNavMSCOML0_Studentsandeducation" data-m='{"cN":"GlobalNav_Products_ForStudentsAndEducators_Education_nav","id":"n1c3c12c2c1c9c3c1m1r1a1","sN":1,"aN":"c3c12c2c1c9c3c1m1r1a1"}'>教育</a>
+            
+        </li>
+            </ul>
+            
+        </li>
+                                                            <li class="f-multi-column-info">
+                                    <a data-m='{"id":"n13c2c1c9c3c1m1r1a1","sN":13,"aN":"c2c1c9c3c1m1r1a1"}' href="https://www.microsoft.com/zh-cn/sitemap.aspx" aria-label="" class="c-glyph">查看站点地图</a>
+                                </li>
+                            
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+</div>
+                            <form class="c-search" autocomplete="off" id="searchForm" name="searchForm" role="search" action="https://www.microsoft.com/zh-cn/search/result.aspx" method="GET" data-seAutoSuggest='{"queryParams":{"market":"zh-cn","clientId":"7F27B536-CF6B-4C65-8638-A0F8CBDFCA65","sources":"Iris-Products,DCatAll-Products,Microsoft-Terms","filter":"ExcludeDCatProducts:DCatDevices-Products,DCatSoftware-Products,DCatBundles-Products+ClientType:StoreWeb","counts":"1,5,5"},"familyNames":{"Apps":"应用","Books":"书籍","Bundles":"套装","Devices":"设备","Fees":"Fee","Games":"游戏","MusicAlbums":"专辑","MusicTracks":"歌曲","MusicVideos":"视频","MusicArtists":"艺术家","OperatingSystem":"操作系统","Software":"软件","Movies":"影片","TV":"电视","CSV":"礼品卡","VideoActor":"表演者"}}' data-seautosuggestapi="https://www.microsoft.com/services/api/v3/suggest" data-m='{"cN":"GlobalNav_Search_cont","cT":"Container","id":"c3c1c9c3c1m1r1a1","sN":3,"aN":"c1c9c3c1m1r1a1"}' aria-expanded="false">
+                                <input id="cli_shellHeaderSearchInput" aria-label="search expanded" aria-autocomplete="list" aria-controls="universal-header-search-auto-suggest-transparent" aria-owns="universal-header-search-auto-suggest-ul" type="search" name="q" placeholder="在 Microsoft.com 中搜索" data-m='{"cN":"SearchBox_nav","id":"n1c3c1c9c3c1m1r1a1","sN":1,"aN":"c3c1c9c3c1m1r1a1"}' />
+                                    <input type="hidden" name="form" value="MSHOME" data-m='{"cN":"HiddenInput_nav","id":"n2c3c1c9c3c1m1r1a1","sN":2,"aN":"c3c1c9c3c1m1r1a1"}' />
+                                    <button id="search" aria-label="在 Microsoft.com 中搜索" class="c-glyph" data-m='{"cN":"Search_nav","id":"n3c3c1c9c3c1m1r1a1","sN":3,"aN":"c3c1c9c3c1m1r1a1"}' data-bi-dnt="true" data-bi-mto="true" aria-expanded="false">
+                                        <span role="presentation">搜索</span>
+                                        <span role="tooltip" class="tooltip search-tooltip">在 Microsoft.com 中搜索</span>
+                                    </button>
+                                <div class="m-auto-suggest" id="universal-header-search-auto-suggest-transparent" role="group">
+                                    <ul class="c-menu" id="universal-header-search-auto-suggest-ul" aria-label="Search Suggestions" aria-hidden="true" data-bi-dnt="true" data-bi-mto="true" data-js-auto-suggest-position="default" role="listbox" data-tel="jsll" data-m='{"cN":"search suggestions_cont","cT":"Container","id":"c4c3c1c9c3c1m1r1a1","sN":4,"aN":"c3c1c9c3c1m1r1a1"}'></ul>
+                                </div>
+                                
+                            </form>
+                        <button data-m='{"cN":"cancel-search","pid":"Cancel Search","id":"nn4c1c9c3c1m1r1a1","sN":4,"aN":"c1c9c3c1m1r1a1"}' id="cancel-search" class="cancel-search" aria-label="Cancel Search">
+                            <span>取消</span>
+                        </button>
+                    <a id="uhf-shopping-cart"
+                       aria-label="0 购物车中的物品"
+                       class="c-action-trigger c-glyph c-uhf-nav-link glyph-shopping-cart"
+                       href="//www.microsoftstore.com.cn/cart"
+                       data-src-dmn-chk="true"
+                       data-m='{"cN":"GlobalNav_Cart_nav","bhvr":82,"id":"n5c1c9c3c1m1r1a1","sN":5,"aN":"c1c9c3c1m1r1a1"}'>
+                        <span class="shopping-cart-amount x-hidden" aria-hidden="true">0</span>
+                        <span class="c-cart-lbl c-st-lbl">购物车</span>
+                        <span class="tooltip" role="tooltip">0 购物车中的物品</span>
+                    </a>
+                            <iframe id="shell-cart-count" data-src="//www.microsoftstore.com.cn/cart"></iframe>
+                        <div id="meControl" class="c-me"  data-signinsettings='{"containerId":"meControl","enabled":true,"headerHeight":48,"debug":false,"extensibleLinks":[{"string":"Order history","url":"https://www.microsoftstore.com/store/msca/en_CA/DisplayAccountOrderListPage","id":""},{"string":"Return history","url":"https://www.microsoftstore.com/store/msca/en_CA/DisplayAccountReturnListPage","id":""},{"string":"Digital content","url":"https://www.microsoftstore.com/store/msca/en_CA/DisplayDownloadHistoryPage","id":""},{"string":"Address book","url":"https://www.microsoftstore.com/store/msca/en_CA/DisplayEditProfilePage/tab.addressbook","id":""},{"string":"Payment","url":"https://www.microsoftstore.com/store/msca/en_CA/DisplayAddEditPaymentPage","id":""},{"string":"Account profile","url":"https://www.microsoftstore.com/store/msusa/en_US/DisplayEditProfilePage/tab.profile","id":""}],"userData":{"idp":"msa","firstName":"","lastName":"","memberName":"","cid":"","authenticatedState":"3"},"rpData":{"preferredIdp":"msa","msaInfo":{"signInUrl":"/zh-cn/store/signin","signOutUrl":"/zh-cn/store/signout","meUrl":"https://login.live.com/me.srf?wa=wsignin1.0"},"aadInfo":{"signOutUrl":"/zh-cn/store/signout","appId":"","siteUrl":"","blockMsaFed":true}}}' data-m='{"cN":"GlobalNav_Account_cont","cT":"Container","id":"c6c1c9c3c1m1r1a1","sN":6,"aN":"c1c9c3c1m1r1a1"}'>
+                            <div class="msame_Header">
+                                <div class="msame_Header_name st_msame_placeholder">登录</div>
+                            </div>
+                            
+                        </div>
+                
+            </div>
+        </div>
+        
+        
+    </div>
+    
+</header>
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+
+    
+
+    <main>
+    <section class="home-top-section pv-3x mt-1_5x phone-pv-2x">
+        <div class="container home-top-container">
+            <div id="home-top" class="row flush items-center home-top">
+                <div class="home-top-left seven columns">
+                    <h1 class="mv-1x spacenator">查看即将推出的内容！</h1>
+
+
+                        <p class="sh2 spacenator mb-3x desktop-sm-mb-2x" >
+                                全新 Microsoft Edge 已推出。 想要抢先预览新增功能？ 我们将持续更新包含最新功能的 Insider Channels，请立即下载并加入 Microsoft Edge 预览体验成员社区。
+                        </p>
+                        
+                        
+                        
+                                <div class="dl-button-group button" >
+                                    <button class="dl-download-button"
+                                        data-popup="eula-popup"
+                                        data-download-title="下载 Microsoft Edge Beta 渠道"
+                                        data-image-url="https://edgetipscdn.microsoft.com/insider-site/images/logo-drone-beta.d16351cd.png"
+                                        data-class="build-beta"
+                                        data-channel="beta"
+                                        data-platform="win10"
+                                        aria-label="下载 Beta 渠道 Windows 10 版"
+                        
+                                        data-consent="将你使用浏览器和浏览网站的相关信息发送至 Microsoft，帮助我们改进产品。"
+                        
+                                        data-consent-hidden="true"
+                        
+                                        data-download-url="https://go.microsoft.com/fwlink/?linkid&#x3D;{linkId}&amp;Channel&#x3D;Beta&amp;language&#x3D;en-us&amp;Consent&#x3D;{consent}"
+                        
+                                        data-yes-telemetry-id="2100016"
+                                        data-no-telemetry-id="2100017">
+                                                下载 Beta 渠道<br>
+                                                <span class="subtle">
+                                                    Windows 10 版
+                                                    
+                                                </span>
+                        
+                                    </button>
+                        
+                                </div>
+                        
+                        
+                        
+                        
+                        <div class="dl-single-links mt-1x mb-1x align-center">
+                            <p><a id="home-more-platforms" href="/zh-cn/download/">更多平台和渠道</a></p>
+                        </div>
+
+
+                </div>
+                <div class="home-top-right five columns">
+                    <div class="home-illustration">
+                        <div class="home-illustration-inner">
+                            <img alt="" src="https://edgetipscdn.microsoft.com/insider-site/images/home-hero.3845757b.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="home-linkback bg-blue-dark fg-white rel p-5x align-center">
+        <div style="max-width: 960px" class="mh-auto">
+            <h4 class="mb-1x">正在寻找新版 Microsoft Edge？</h4>
+            <p class="fs-md">你可以在 Microsoft Edge 预览体验成员页面上下载全新 Microsoft Edge 预览版本。 若要下载并详细了解新版 Microsoft Edge，请访问 <a href="https://www.microsoft.com/edge?form=MI13FO&OCID=MI13FO"> microsoft.com/edge</a>。</p>
+        </div>
+    </section>
+
+    <section class="home-features-section bg-gray-white rel pt-5x pb-7x">
+        <div class="home-features container">
+
+
+            <div class="home-feature row items-center mv-3x home-feature-2 home-feature-row">
+                <div class="home-feature-image-col five columns">
+                    <div class="home-feature-image">
+                        <img alt="" src=https://edgetipscdn.microsoft.com/insider-site/images/home-panel-01.524516ff.png>
+                    </div>
+                </div>
+                <div class="home-feature-desc-col seven columns">
+                    <div class="home-feature-desc">
+                        <h2 class="h3 mb-1x spacenator">成为 Microsoft Edge 预览体验成员</h2>
+                        <p class="sh3">
+                            我们的预览体验成员社区在帮助构建新版 Microsoft Edge 方面发挥了重大作用，而且我们的创新从未停止。 如果你想要了解我们的后续工作，我们诚邀你下载我们的预览渠道并加入预览体验成员社区。 届时你将可以抢先预览新功能，并且有机会在开发过程中与 Microsoft Edge 团队合作。 你的反馈和想法可以帮助我们改进，因此我们希望你能加入我们。 单击下载以开始使用！
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-feature row items-center mv-3x home-feature-1 home-feature-row">
+                <div class="home-feature-image-col five columns">
+                    <div class="home-feature-image">
+                        <img alt="" src=https://edgetipscdn.microsoft.com/insider-site/images/home-panel-02.0b0c5f77.png>
+                    </div>
+                </div>
+                <div class="home-feature-desc-col seven columns">
+                    <div class="home-feature-desc">
+                        <h2 class="h3 mb-1x spacenator">为大众打造更好的互联网空间</h2>
+                        <p class="sh3">我们在新版 Microsoft Edge 的开发过程中采用了 Chromium 开源项目，以此来为我们的客户提供更好的网站兼容性，并为所有的网站开发人员降低网站的碎片化程度。 我们将继续为 Chromium 项目做出积极贡献。 到目前为止，我们已经兑现了 1,700 多项承诺，并期待继续积极参与社区互动，为大众打造更好的互联网空间。 如需详细了解<a href="https://chromium-review.googlesource.com/q/author:*.microsoft.com+AND+status:merged" target="_blank">我们的贡献</a>，请参阅 GitHub 上的 <a href="https://github.com/microsoftedge/msedgeexplainers" target="_blank">Microsoft Edge “Explainers”</a>，并查看我们的<a href="https://thirdpartysource.microsoft.com/" target="_blank">源代码发布</a>。</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="home-feature row items-center mv-3x home-feature-1 home-feature-row">
+                <div class="home-feature-image-col five columns">
+                    <div class="home-feature-image">
+                        <img alt="" src=https://edgetipscdn.microsoft.com/insider-site/images/home-panel-03.a937cdae.png>
+                    </div>
+                </div>
+                <div class="home-feature-desc-col seven columns">
+                    <div class="home-feature-desc">
+                        <h2 class="h3 mb-1x spacenator">查看 Microsoft Edge Insider Channels</h2>
+                        <p class="sh3">我们提供三个预览渠道：Beta、Dev 和 Canary。 Microsoft Edge Insider Channels 适用于所有受支持的 Windows、Windows Server 以及 macOS 版本。 Beta 渠道可以提供最稳定的预览版体验，每 6 周更新一次。 Dev 渠道每周更新一次，稳定性略逊于 Beta，但优于 Canary。 对于想要在相对稳定的版本内获取最新更新的人员，Dev 是一个不错的选择。  如果你想要查看我们昨天的工作并获取每日更新，那么 Canary 可能是你的理想预览渠道。 安装预览渠道不需要卸载 Microsoft Edge 的已发布版本，你可以同时安装多个版本。 若要详细了解不同的渠道并开始使用，请转到 <a href="download">下载页</a>。 </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="home-feature row items-center mv-3x home-feature-1 home-feature-row">
+                <div class="home-feature-image-col five columns">
+                    <div class="home-feature-image">
+                        <img alt="" src=https://edgetipscdn.microsoft.com/insider-site/images/home-panel-04.7ea71f0e.png>
+                    </div>
+                </div>
+                <div class="home-feature-desc-col seven columns">
+                    <div class="home-feature-desc">
+                        <h2 class="h3 mb-1x spacenator">我们乐于倾听！</h2>
+                        <p class="sh3">Microsoft Edge 团队希望倾听你的声音。 在使用预览渠道时，请务必通过工具栏上的“发送反馈”<strong></strong>按钮来分享你的反馈。 你还可以访问我们的 <a href="https://go.microsoft.com/fwlink/?linkid=2047761" target="_blank">Microsoft Edge 预览体验成员论坛</a>或在 Twitter 上关注 <a href="https://twitter.com/msedgedev" target="_blank">@MSEdgeDev</a>。 我们会定期分享来自预览体验成员社区的热门反馈总结，以便你可以了解最受期待的功能、最新出现的问题以及你的反馈对产品产生的影响。 衷心希望你加入社区。如果尚未加入，我们期待倾听你的想法！</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+</main>
+
+<div id="notify-popup" class="app-popup popup popup-noscroll" data-popup-position="none" data-popup-blur="main,.uhf">
+
+    <button class="app-popup-close popup-close" data-popup-focus="true" aria-label="close"></button>
+
+    <div class="app-popup-layout">
+
+        <div class="app-popup-graphic app-popup-graphic-tilt">
+            <div class="app-popup-graphic-image" style="background-image:url('https://edgetipscdn.microsoft.com/insider-site/images/dialog-notify.4f9d500d.png');"></div>
+        </div>
+
+        <div class="app-popup-content">
+                
+            <form class="notify-form app-form" method="dialog">      
+
+                <header>
+                    <h3 class="mb-1x">We can't wait for you to try it</h3>
+                    <p class="sh3">Sign up to be the first to know when Microsoft Edge Insider builds become available on the platforms you select below.</p>
+                </header>
+
+                <fieldset>
+                    <div class="row flush">
+                        <input class="textbox six columns" maxlength="200" placeholder="First name *" type="text" name="firstname" id="firstname" required aria-label="first name">
+                        <input class="textbox six columns" maxlength="200" placeholder="Last name *" type="text" name="lastname" id="lastname" required aria-label="last name">
+                    </div>
+
+                    <div class="row flush stack-early">
+                        <input class="textbox six columns" maxlength="200" placeholder="someone@example.com *" type="text" name="email" id="email" required aria-label="email">
+                        <div class="dropdown six columns">
+                            <select id="emailCountry" aria-label="country">
+                                <option value="af" >Afghanistan</option>
+                                <option value="ax" >Åland Islands</option>
+                                <option value="al" >Albania</option>
+                                <option value="dz" >Algeria</option>
+                                <option value="as" >American Samoa</option>
+                                <option value="ad" >Andorra</option>
+                                <option value="ao" >Angola</option>
+                                <option value="ai" >Anguilla</option>
+                                <option value="aq" >Antarctica</option>
+                                <option value="ag" >Antigua and Barbuda</option>
+                                <option value="ar" >Argentina</option>
+                                <option value="am" >Armenia</option>
+                                <option value="aw" >Aruba</option>
+                                <option value="au" >Australia</option>
+                                <option value="at" >Austria</option>
+                                <option value="az" >Azerbaijan</option>
+                                <option value="bs" >Bahamas</option>
+                                <option value="bh" >Bahrain</option>
+                                <option value="bd" >Bangladesh</option>
+                                <option value="bb" >Barbados</option>
+                                <option value="by" >Belarus</option>
+                                <option value="be" >Belgium</option>
+                                <option value="bz" >Belize</option>
+                                <option value="bj" >Benin</option>
+                                <option value="bm" >Bermuda</option>
+                                <option value="bt" >Bhutan</option>
+                                <option value="bo" >Bolivia</option>
+                                <option value="bq" >Bonaire</option>
+                                <option value="ba" >Bosnia and Herzegovina</option>
+                                <option value="bw" >Botswana</option>
+                                <option value="bv" >Bouvet Island</option>
+                                <option value="br" >Brazil</option>
+                                <option value="io" >British Indian Ocean Territory</option>
+                                <option value="vg" >British Virgin Islands</option>
+                                <option value="bn" >Brunei</option>
+                                <option value="bg" >Bulgaria</option>
+                                <option value="bf" >Burkina Faso</option>
+                                <option value="bi" >Burundi</option>
+                                <option value="cv" >Cabo Verde</option>
+                                <option value="kh" >Cambodia</option>
+                                <option value="cm" >Cameroon</option>
+                                <option value="ca" >Canada</option>
+                                <option value="ky" >Cayman Islands</option>
+                                <option value="cf" >Central African Republic</option>
+                                <option value="td" >Chad</option>
+                                <option value="cl" >Chile</option>
+                                <option value="cn" >China</option>
+                                <option value="cx" >Christmas Island</option>
+                                <option value="cc" >Cocos (Keeling) Islands</option>
+                                <option value="co" >Colombia</option>
+                                <option value="km" >Comoros</option>
+                                <option value="cg" >Congo</option>
+                                <option value="cd" >Congo (DRC)</option>
+                                <option value="ck" >Cook Islands</option>
+                                <option value="cr" >Costa Rica</option>
+                                <option value="ci" >Côte d’Ivoire</option>
+                                <option value="hr" >Croatia</option>
+                                <option value="cu" >Cuba</option>
+                                <option value="cw" >Curaçao</option>
+                                <option value="cy" >Cyprus</option>
+                                <option value="cz" >Czechia</option>
+                                <option value="dk" >Denmark</option>
+                                <option value="dj" >Djibouti</option>
+                                <option value="dm" >Dominica</option>
+                                <option value="do" >Dominican Republic</option>
+                                <option value="ec" >Ecuador</option>
+                                <option value="eg" >Egypt</option>
+                                <option value="sv" >El Salvador</option>
+                                <option value="gq" >Equatorial Guinea</option>
+                                <option value="er" >Eritrea</option>
+                                <option value="ee" >Estonia</option>
+                                <option value="sz" >eSwatini</option>
+                                <option value="et" >Ethiopia</option>
+                                <option value="fk" >Falkland Islands</option>
+                                <option value="fo" >Faroe Islands</option>
+                                <option value="fj" >Fiji</option>
+                                <option value="fi" >Finland</option>
+                                <option value="fr" >France</option>
+                                <option value="gf" >French Guiana</option>
+                                <option value="pf" >French Polynesia</option>
+                                <option value="tf" >French Southern Territories</option>
+                                <option value="ga" >Gabon</option>
+                                <option value="gm" >Gambia</option>
+                                <option value="ge" >Georgia</option>
+                                <option value="de" >Germany</option>
+                                <option value="gh" >Ghana</option>
+                                <option value="gi" >Gibraltar</option>
+                                <option value="gr" >Greece</option>
+                                <option value="gl" >Greenland</option>
+                                <option value="gd" >Grenada</option>
+                                <option value="gp" >Guadeloupe</option>
+                                <option value="gu" >Guam</option>
+                                <option value="gt" >Guatemala</option>
+                                <option value="gg" >Guernsey</option>
+                                <option value="gn" >Guinea</option>
+                                <option value="gw" >Guinea-Bissau</option>
+                                <option value="gy" >Guyana</option>
+                                <option value="ht" >Haiti</option>
+                                <option value="hm" >Heard Island and McDonald Islands</option>
+                                <option value="hn" >Honduras</option>
+                                <option value="hk" >Hong Kong SAR</option>
+                                <option value="hu" >Hungary</option>
+                                <option value="is" >Iceland</option>
+                                <option value="in" >India</option>
+                                <option value="id" >Indonesia</option>
+                                <option value="ir" >Iran</option>
+                                <option value="iq" >Iraq</option>
+                                <option value="ie" >Ireland</option>
+                                <option value="im" >Isle of Man</option>
+                                <option value="il" >Israel</option>
+                                <option value="it" >Italy</option>
+                                <option value="jm" >Jamaica</option>
+                                <option value="xj" >Jan Mayen</option>
+                                <option value="jp" >Japan</option>
+                                <option value="je" >Jersey</option>
+                                <option value="jo" >Jordan</option>
+                                <option value="kz" >Kazakhstan</option>
+                                <option value="ke" >Kenya</option>
+                                <option value="ki" >Kiribati</option>
+                                <option value="kr" >Korea</option>
+                                <option value="xk" >Kosovo</option>
+                                <option value="kw" >Kuwait</option>
+                                <option value="kg" >Kyrgyzstan</option>
+                                <option value="la" >Laos</option>
+                                <option value="lv" >Latvia</option>
+                                <option value="lb" >Lebanon</option>
+                                <option value="ls" >Lesotho</option>
+                                <option value="lr" >Liberia</option>
+                                <option value="ly" >Libya</option>
+                                <option value="li" >Liechtenstein</option>
+                                <option value="lt" >Lithuania</option>
+                                <option value="lu" >Luxembourg</option>
+                                <option value="mo" >Macao SAR</option>
+                                <option value="mk" >Macedonia, FYRO</option>
+                                <option value="mg" >Madagascar</option>
+                                <option value="mw" >Malawi</option>
+                                <option value="my" >Malaysia</option>
+                                <option value="mv" >Maldives</option>
+                                <option value="ml" >Mali</option>
+                                <option value="mt" >Malta</option>
+                                <option value="mh" >Marshall Islands</option>
+                                <option value="mq" >Martinique</option>
+                                <option value="mr" >Mauritania</option>
+                                <option value="mu" >Mauritius</option>
+                                <option value="yt" >Mayotte</option>
+                                <option value="mx" >Mexico</option>
+                                <option value="fm" >Micronesia</option>
+                                <option value="md" >Moldova</option>
+                                <option value="mc" >Monaco</option>
+                                <option value="mn" >Mongolia</option>
+                                <option value="me" >Montenegro</option>
+                                <option value="ms" >Montserrat</option>
+                                <option value="ma" >Morocco</option>
+                                <option value="mz" >Mozambique</option>
+                                <option value="mm" >Myanmar</option>
+                                <option value="na" >Namibia</option>
+                                <option value="nr" >Nauru</option>
+                                <option value="np" >Nepal</option>
+                                <option value="nl" >Netherlands</option>
+                                <option value="nc" >New Caledonia</option>
+                                <option value="nz" >New Zealand</option>
+                                <option value="ni" >Nicaragua</option>
+                                <option value="ne" >Niger</option>
+                                <option value="ng" >Nigeria</option>
+                                <option value="nu" >Niue</option>
+                                <option value="nf" >Norfolk Island</option>
+                                <option value="kp" >North Korea</option>
+                                <option value="mp" >Northern Mariana Islands</option>
+                                <option value="no" >Norway</option>
+                                <option value="om" >Oman</option>
+                                <option value="pk" >Pakistan</option>
+                                <option value="pw" >Palau</option>
+                                <option value="ps" >Palestinian Authority</option>
+                                <option value="pa" >Panama</option>
+                                <option value="pg" >Papua New Guinea</option>
+                                <option value="py" >Paraguay</option>
+                                <option value="pe" >Peru</option>
+                                <option value="ph" >Philippines</option>
+                                <option value="pn" >Pitcairn Islands</option>
+                                <option value="pl" >Poland</option>
+                                <option value="pt" >Portugal</option>
+                                <option value="pr" >Puerto Rico</option>
+                                <option value="qa" >Qatar</option>
+                                <option value="re" >Réunion</option>
+                                <option value="ro" >Romania</option>
+                                <option value="ru" >Russia</option>
+                                <option value="rw" >Rwanda</option>
+                                <option value="xs" >Saba</option>
+                                <option value="bl" >Saint Barthélemy</option>
+                                <option value="kn" >Saint Kitts and Nevis</option>
+                                <option value="lc" >Saint Lucia</option>
+                                <option value="mf" >Saint Martin</option>
+                                <option value="pm" >Saint Pierre and Miquelon</option>
+                                <option value="vc" >Saint Vincent and the Grenadines</option>
+                                <option value="ws" >Samoa</option>
+                                <option value="sm" >San Marino</option>
+                                <option value="st" >São Tomé and Príncipe</option>
+                                <option value="sa" >Saudi Arabia</option>
+                                <option value="sn" >Senegal</option>
+                                <option value="rs" >Serbia</option>
+                                <option value="sc" >Seychelles</option>
+                                <option value="sl" >Sierra Leone</option>
+                                <option value="sg" >Singapore</option>
+                                <option value="xe" >Sint Eustatius</option>
+                                <option value="sx" >Sint Maarten</option>
+                                <option value="sk" >Slovakia</option>
+                                <option value="si" >Slovenia</option>
+                                <option value="sb" >Solomon Islands</option>
+                                <option value="so" >Somalia</option>
+                                <option value="za" >South Africa</option>
+                                <option value="gs" >South Georgia and South Sandwich Islands</option>
+                                <option value="ss" >South Sudan</option>
+                                <option value="es" >Spain</option>
+                                <option value="lk" >Sri Lanka</option>
+                                <option value="sh" >St Helena, Ascension, Tristan da Cunha</option>
+                                <option value="sd" >Sudan</option>
+                                <option value="sr" >Suriname</option>
+                                <option value="sj" >Svalbard</option>
+                                <option value="se" >Sweden</option>
+                                <option value="ch" >Switzerland</option>
+                                <option value="sy" >Syria</option>
+                                <option value="tw" >Taiwan</option>
+                                <option value="tj" >Tajikistan</option>
+                                <option value="tz" >Tanzania</option>
+                                <option value="th" >Thailand</option>
+                                <option value="tl" >Timor-Leste</option>
+                                <option value="tg" >Togo</option>
+                                <option value="tk" >Tokelau</option>
+                                <option value="to" >Tonga</option>
+                                <option value="tt" >Trinidad and Tobago</option>
+                                <option value="tn" >Tunisia</option>
+                                <option value="tr" >Turkey</option>
+                                <option value="tm" >Turkmenistan</option>
+                                <option value="tc" >Turks and Caicos Islands</option>
+                                <option value="tv" >Tuvalu</option>
+                                <option value="um" >U.S. Outlying Islands</option>
+                                <option value="vi" >U.S. Virgin Islands</option>
+                                <option value="ug" >Uganda</option>
+                                <option value="ua" >Ukraine</option>
+                                <option value="ae" >United Arab Emirates</option>
+                                <option value="gb" >United Kingdom</option>
+                                <option value="us" selected>United States</option>
+                                <option value="uy" >Uruguay</option>
+                                <option value="uz" >Uzbekistan</option>
+                                <option value="vu" >Vanuatu</option>
+                                <option value="va" >Vatican City</option>
+                                <option value="ve" >Venezuela</option>
+                                <option value="vn" >Vietnam</option>
+                                <option value="wf" >Wallis and Futuna</option>
+                                <option value="ye" >Yemen</option>
+                                <option value="zm" >Zambia</option>
+                                <option value="zw" >Zimbabwe</option>
+                            </select>
+                        </div>
+                    </div>
+                </fieldset>
+            
+                <fieldset class="flex-grow">
+                    <legend>Send me notifications about:</legend>
+                    <div class="row flush">
+                        <div class="checkbox-inline-group">
+                        </div>
+                    </div>
+                </fieldset>                    
+
+                <fieldset>
+                    <div class="row flush">
+                        <div class="app-disclaimer-checkbox checkbox mb-1x">
+                            <input id="notify-form-disclaimer-accept" type="checkbox">
+                            <label for="notify-form-disclaimer-accept">
+                                <span id="notify-form-disclaimer-opt-text" class="fs-sm fg-gray-medium mt-none inline-block">
+                                    I would also like information, tips, and offers about Microsoft Edge. <a target="_blank" href="http://go.microsoft.com/fwlink/?LinkId=521839">Privacy Statement</a>.
+                                </span>
+                            </label>
+                        </div>
+                    </div>   
+
+                    <div class="row flush">
+                        <button type="button" class="notify-signup-submit button" data-bi-id="email-signup-button">
+                            Keep me posted
+                        </button>
+                    </div>
+
+                    <div class="row flush">
+                        <span id="notify-signup-error" class="inline-block error-fg pl-0_5x"></span>
+                    </div>
+                </fieldset>
+            </form>
+
+            <div class="app-popup-confirm">
+                <div class="app-popup-confirm-content">
+                    <h3>Thank you!</h3>
+                    <p class="fs-xl measure mb-2x notify-confirm-message">
+                        We'll be in touch soon. <span class="notify-confirm-message-home">In the meantime, learn more about
+                        available platforms and channels on the <a href="/download">download</a> page.</span>
+                    </p>
+                    <button class="button popup-close">Close</button>
+                </div>
+            </div>            
+        </div>
+    </div>
+</div><div id="eula-popup"  class="app-popup popup" data-popup-noscroll="true"
+    data-popup-blur="main,.uhf" role="dialog" aria-labelledby="titleLabel" aria-modal="true">
+    <button class="app-popup-close popup-close" data-popup-focus="true" aria-label="close"></button>
+    <div class="app-popup-layout">
+        <div class="app-popup-graphic">
+            <div class="eula-image app-popup-graphic-image"
+                style="background-image:url('https://edgetipscdn.microsoft.com/insider-site/images/dialog-notify.4f9d500d.png');"></div>
+        </div>
+        <div class="app-popup-content">
+            <div class="eula-layout flex flex-column justify-between">
+                <div class="eula-header flex-fix">
+                    <h1 class="h4 eula-title flex-fix" id="titleLabel"></h1>
+                    <p class="eula-legal sh2 flex-fix mt-1x mb-3x">首先，请阅读以下法律内容...</p>
+                </div>
+                <div class="eula-reader flex-grow reading" dir="ltr">
+                    <div class="eula-standard">
+                    <div>
+                    
+                    <p>MICROSOFT SOFTWARE LICENSE TERMS</p>
+                    
+                    <p>MICROSOFT EDGE</p>
+                    
+                    <div>
+                    
+                    <hr />
+                    
+                    </div>
+                    
+                    <p>After installation, these terms are also viewable in Microsoft Edge at edge://terms.</p>
+                    <p>Source code for portions of Microsoft Edge is available free of charge from <a href="https://thirdpartysource.microsoft.com">https://thirdpartysource.microsoft.com</a> under the third party open source license terms provided at <a href="https://aka.ms/thirdpartynotices">https://aka.ms/thirdpartynotices</a> and in Microsoft Edge at edge://credits after installation. Or to obtain this source code you may send a check or money order for US $5.00, including the Edge version number, to:</p>
+                    <p>
+                    Source Code Compliance Team<br />
+                    Microsoft Corporation<br />
+                    One Microsoft Way<br />
+                    Redmond, WA 98052<br />
+                    USA<br />
+                    </p>
+                    
+                    <p>These license terms are an agreement between you and
+                    Microsoft Corporation (or one of its affiliates). They apply to this software published
+                    by Microsoft and any software updates (“Software”) (except to the extent such Software
+                    or updates are accompanied by new or additional
+                    terms, in which case those different terms apply prospectively and do not alter
+                    your or Microsoft’s rights relating to pre-updated Software). IF YOU COMPLY WITH THESE LICENSE TERMS, YOU
+                    HAVE THE RIGHTS BELOW. BY DOWNLOADING OR USING
+                    THE SOFTWARE, YOU ACCEPT THESE TERMS. IF YOU DO NOT ACCEPT THEM, YOU HAVE NO
+                    RIGHT TO AND MUST NOT DOWNLOAD OR USE THE SOFTWARE.  </p>
+                    
+                    <h1><b>1.    </b><b>MICROSOFT EDGE FOR WINDOWS DEVICES </b></h1>
+                    
+                    <h1><b>1.1.       </b><b>Windows License Terms</b>. Your installation and use of the Software on any Windows platform shall be governed by the license terms for your Microsoft Windows Operating System software (“Windows License Terms”) on which you are using the Software, and those terms are incorporated by reference. If the Software is downloaded from Microsoft and labeled preview, insider, beta or pre-release, or is otherwise indicated as not being a final retail version of the Software, the applicable terms in Section 1.2 also apply to your use of the Software. Section 1.3 applies to your use of other services that may be made available for use through your use of the Software.</h1>
+                    
+                    <h1><b>1.1.1.      
+                    </b><b>Updates</b>.
+                    Notwithstanding above Section 1.1 as applied to Windows 7, 8, and 8.1, the terms of the applicable Windows License Terms, or any Windows update settings you have configured, the Software periodically checks for updates, and downloads and installs them for you. You may obtain updates only from Microsoft or authorized sources, and Microsoft may need to update your system to provide you with those updates. By accepting this agreement, you agree to receive these types of automatic updates without any additional notice.
+                    
+                    </h1>
+                    
+                    <h1><b>1.2.       </b><b>Previews</b>.
+                    Microsoft may make preview, insider, beta or other pre-release versions of the Software (“Previews”) available to you. You may use Previews only up to the Software’s expiration date (if any) and so long as you comply with the applicable Windows License Terms. Previews are experimental, which means that Previews may not operate correctly and may be substantially different from the commercially released version. In some instances, Previews may even inadvertently damage your device rendering it inoperable or cause occasional crashes, data loss or apps to stop working or be deleted. To recover, you may have to reinstall your apps, the operating system or re-flash your device. In some instances, you may not be able to go back to your prior version of the Software. Because Previews may contain more errors or inaccuracies, you should back-up your device before installing any Previews. We recommend installing Previews on non-production devices that are not business critical because you are more likely to experience crashes, setting and policy changes, loss of data or apps, feature and functionality changes, cause other apps to stop working, be updated, or removed from your device automatically without notice and other potential issues. We highly recommend that you do not install the Previews on any systems you don’t directly control or that you share with others. Notwithstanding anything to the contrary in this agreement, Previews are nontransferable and provided “AS IS.” By installing Previews on your device, you may void or impact your device warranty and may not be entitled to support from the manufacturer of your device or network operator, if applicable. Microsoft may not provide support services for Previews. If you provide Microsoft comments, suggestions or other feedback about the Preview (“Submission”), you grant Microsoft and its partners rights to use the Submission in any way and for any purpose. You will not give a Submission that is subject to a license that requires Microsoft to license its Software or documentation to third parties because Microsoft includes your Submission in them. These rights survive this agreement. Microsoft may change or discontinue the Previews, or terminate your access to the Previews, at any time without notice and for any reason whatsoever. You may stop using the Previews at any time by un-installing and deleting all copies of any Previews.
+                    </h1>
+                    
+                    <h1><b>1.2.1.      
+                    </b><b>Data
+                    Collection for Previews</b>.
+                    Previews may not have included, reduced, or different security, privacy, accessibility, availability and relatability standards relative to commercially provided services and software. For Previews covered under Section 1.2, privacy and feature settings may not work as intended, and the Previews may not work with other Windows privacy settings, including the diagnostic data settings for Windows 10. Data collected from your use of the Previews, including diagnostic, technical, error reports, crash dumps and other related data from your devices running Previews may be used, stored, processed and analyzed to keep Windows and the Previews up to date, secure, and operating properly. It also helps us improve Microsoft products and services and may be used for any other purpose described in the Microsoft Privacy Statement. If you disable data collection through controls available in the Previews, we may continue to collect diagnostic information about the download, the installation and removal of the Previews and “basic” data as described in the Windows Diagnostics section of the Microsoft Privacy Statement. The <strong>Microsoft Privacy Statement</strong> (<a href="https://go.microsoft.com/fwlink/?LinkId=521839" target="_blank">https://go.microsoft.com/fwlink/?LinkId=521839</a>), and this paragraph,
+                            applies to Previews under Section 1.2.
+                    
+                    </h1>
+                    
+                    <h1><b>1.3.       </b><b>Other Services</b>.The Software may include features that provide an access point to, or rely on, other services, websites, links, content, material, integrations or applications, including as provided by independent third parties (“Other Services”). Your use of Other Services or of Software features that rely on Other Services may be governed by separate terms and subject to separate privacy policies.  You can view these separate terms and policies through the Other Services’ websites or settings, as applicable. The Other Services may not be available in all regions.  You may not use tokens the Software uses to call into a Microsoft Azure service separate from the Software.
+                        </h1>
+                    <h1><b>2.    </b><b>MICROSOFT EDGE FOR NON-WINDOWS DEVICES</b></h1>
+                    
+                    <div>
+                    
+                            <hr />
+                    
+                    </div>
+                    <p>
+                        <strong>
+                    
+                                IF YOU LIVE IN (OR ARE A BUSINESS WITH A PRINCIPAL PLACE OF BUSINESS IN) THE UNITED STATES, PLEASE READ THE “BINDING ARBITRATION AND CLASS ACTION WAIVER” SECTION 2.14 BELOW. IT AFFECTS HOW DISPUTES ARE RESOLVED.
+                    
+                        </strong>
+                    </p>
+                        <div>
+                    
+                            <hr />
+                    
+                    </div>
+                    
+                    <h1><b>2.1.       </b><b>Installation and Use Rights</b>. For installation and use of the Software on any
+                    non-Windows platform, including but not limited to macOS and Linux, you may
+                    install and use one copy of the Software on any device running such non-Windows
+                    platform. </h1>
+                    
+                    <h3>2.2.      
+                    Third Party Software. The Software may include third
+                    party software that is licensed to you under this agreement or under their own
+                    terms or under open source licenses with source code availability options.
+                    License terms, notices, and acknowledgements, if any, for the third party
+                    software may be accessible online at <a href="https://aka.ms/thirdpartynotices">https://aka.ms/thirdpartynotices</a>
+                    or in an accompanying notices file. Even if such software is governed by other
+                    agreements, the disclaimer, limitations on, and exclusions of damages below
+                    also apply to the extent allowed by applicable law.</h3>
+                    
+                    <h3>2.3.      
+                    Previews. Microsoft may make preview, insider, beta or other pre-release versions of the Software (“Previews”) available to you. You may use Previews only up to the software’s expiration date (if any) and so long as you comply with these license terms. Previews are experimental, which means that Previews may not operate correctly and may be substantially different from the commercially released version. In some instances, Previews may even inadvertently damage your device rendering it inoperable or cause occasional crashes, data loss or apps to stop working or be deleted. To recover, you may have to reinstall your apps, the operating system or re-flash your device. In some instances, you may not be able to go back to your prior version of the Software. Because Previews may contain more errors or inaccuracies, you should back-up your device before installing any Previews. We recommend installing Previews on non-production devices that are not business critical because you are more likely to experience crashes, setting and policy changes, loss of data or apps, feature and functionality changes, cause other apps to stop working, be updated, or removed from your device automatically without notice and other potential issues. We highly recommend that you do not install the Previews on any systems you don’t directly control or that you share with others. Notwithstanding anything to the contrary in this agreement, Previews are nontransferable and provided “AS IS.” By installing Previews on your device, you may void or impact your device warranty and may not be entitled to support from the manufacturer of your device or network operator, if applicable. Microsoft may not provide support services for Previews. Microsoft may change or discontinue the Previews, or terminate your access to the Previews, at any time without notice and for any reason whatsoever. You may stop using the Previews at any time by un-installing and deleting all copies of any Previews.  </h3>
+                    
+                    <h1><b>2.3.1.      
+                    </b><b>Data
+                    Collection for Previews</b>
+                        . Previews may not have included, reduced, or different security, privacy, accessibility, availability and relatability standards relative to commercially provided services and software. For Previews covered under Section 2.3, privacy and feature settings may not work as intended, and the Previews may not work with other operating system privacy settings. Data collected from your use of Previews, including diagnostic, technical, error reports, crash dumps and other related data from your devices running Previews may be used, stored, processed and analyzed to keep the Previews up to date, secure, and operating properly. It also helps us improve Microsoft products and services and may be used for any other purpose described in the Microsoft Privacy Statement. If you disable data collection through controls available in the Previews, we may continue to collect diagnostic information about the download, the installation and any removal of the Previews and “basic” data as described in the Windows Diagnostics section of the Microsoft Privacy Statement. The <strong>Microsoft Privacy Statement</strong> (<a href="https://go.microsoft.com/fwlink/?LinkId=521839" target="_blank">https://go.microsoft.com/fwlink/?LinkId=521839</a>), and this paragraph,
+                        applies to Previews under Section 2.3.
+                    
+                    </h1>
+                    
+                    <h1><b>2.4.       </b><b>Other Services</b>. The Software may include features that provide an access point to, or rely on, other services, websites, links, content, material, integrations or applications, including as provided by independent third parties (“Other Services”). Your use of Other Services or of Software features that rely on Other Services may be governed by separate terms and subject to separate privacy policies.  You can view these separate terms and policies through the Other Services’ websites or settings, as applicable. The Other Services may not be available in all regions. </h1>
+                    
+                    <h1><b>2.5.       </b><b>Communications with You</b>. Microsoft may use your contact information (i) to communicate with you about your use of the Software, and (ii) to provide you with additional information, about the Software and other Microsoft products or services. This contact may be by email, SMS, instant message, web chat, phone, in the user interface, or other means, and may include offers. You can always choose whether you wish to receive promotional email, SMS messages, telephone calls and postal mail from Microsoft. </h1>
+                    
+                    <h1><b>2.6.       </b><b>Feedback</b>. If you provide Microsoft comments, suggestions or other feedback about the Software to Microsoft (“Submission”), you grant Microsoft and its partners rights to use the Submission in any way and for any purpose. You will not give Microsoft a Submission that is subject to a license that requires Microsoft to license its Software or documentation to third parties because Microsoft includes your feedback in them. These rights survive this agreement.  </h1>
+                    
+                    <h1><b>2.7.       
+                    </b><b>Data Collection</b>. The Software may collect information about you and your use of the Software and send that to Microsoft. By accepting this agreement and using the Software you agree that Microsoft may collect, use, and disclose the information as described in the <strong>Microsoft Privacy Statement</strong> at <a href="https://go.microsoft.com/fwlink/?LinkId=521839">https://go.microsoft.com/fwlink/?LinkId=521839</a>, and as may be described in the user interface associated with the Software features. </h1>
+                    
+                    <h1><b>2.8.       
+                    </b><b>Scope of License.</b> The Software is licensed, not sold. This agreement
+                    gives you only some rights to use the Software.  Microsoft reserves all other
+                    rights. Unless applicable law gives you more rights despite this limitation,
+                    you will not (and have no right to):</h1>
+                    
+                    <p>(a)  
+                    work around any
+                    technical limitations in the Software that only allow you to use it in certain
+                    ways;</p>
+                    
+                    <p>(b)  
+                    reverse engineer, decompile, disassemble, decrypt or otherwise attempt to derive the source code of the Software, except and only to the extent that the foregoing restriction is (i) permitted by applicable law; (ii) required by third party licensing terms governing the use of certain open-source components that may be included with the Software; or (iii) required to debug changes to any libraries licensed under the GNU Lesser General Public License which are included with and linked to by the Software.</p>
+                    
+                    <p>(c)  
+                    remove,
+                    minimize, block, or modify any notices of Microsoft or its suppliers in the Software;</p>
+                    
+                    <p>(d)  
+                    when using
+                    Internet-based features, you may not use those features in any way that could
+                    interfere with anyone else’s use of them or to try to gain access to or use any
+                    service, data, account, or network, in an unauthorized manner;</p>
+                    
+                    <p>(e)  
+                    use the Software
+                    in any way that is against the law or to create or propagate malware; or</p>
+                    
+                    <p>(f)   
+                    share, publish,
+                    distribute, or lend the Software, provide the Software as a stand-alone hosted
+                    solution for others to use, or transfer the Software or this agreement to any
+                    third party.</p>
+                    
+                    <p>(g)   
+                    use tokens the Software uses to call into a Microsoft Azure service separate from the Software.</p>
+                    
+                    <h1><b>2.9.       
+                    </b><strong>Documentation
+                    </strong><strong>. If documentation is provided with the Software, you may
+                    copy and use the documentation for personal reference purposes.</strong></h1>
+                    
+                    <h1><b>2.10.    </b><b>H.264/AVC and
+                    MPEG-4 Visual Standards and VC-1 Video Standards</b>. The Software may include H.264/AVC, MPEG-4 Visual, and/or VC-1 codec technology. MPEG LA, L.L.C. requires this notice:</h1>
+                    
+                    <h1>THIS
+                    PRODUCT IS LICENSED UNDER THE H.264/AVC, THE VC-1, AND THE MPEG-4 PART 2 VISUAL
+                    PATENT PORTFOLIO LICENSES FOR THE PERSONAL AND NON-COMMERCIAL USE OF A CONSUMER
+                    TO (i) ENCODE VIDEO IN COMPLIANCE WITH THE ABOVE STANDARDS (“VIDEO STANDARDS”)
+                    OR (ii) DECODE AVC, VC-1, AND MPEG-4 PART 2 VIDEO THAT WAS ENCODED BY A
+                    CONSUMER ENGAGED IN A PERSONAL AND NON-COMMERCIAL ACTIVITY OR WAS OBTAINED FROM
+                    A VIDEO PROVIDER LICENSED TO PROVIDE SUCH VIDEO. NO LICENSE IS GRANTED OR SHALL
+                    BE IMPLIED FOR ANY OTHER USE. ADDITIONAL INFORMATION MAY BE OBTAINED FROM MPEG
+                    LA, L.L.C. SEE <a href="https://aka.ms/mpegla">https://aka.ms/mpegla</a>.</h1>
+                    
+                    <h1><b>2.11.    
+                    </b><b>Export Restrictions.</b> You must comply with all domestic and international
+                    export laws and regulations that apply to the Software, which include
+                    restrictions on destinations, end users, and end use. For further information
+                    on export restrictions, visit <a href="https://aka.ms/exporting">https://aka.ms/exporting</a>.</h1>
+                    
+                    <h1><b>2.12.     </b><b>Support Services.</b> Microsoft is not obligated under this agreement to provide any support
+                    services for the Software. Any support provided is “as is”, “with all faults”,
+                    and without warranty of any kind.</h1>
+                    
+                    <h1><b>2.13.     </b><b>Updates.</b> The
+                    Software may periodically check for updates, and download and install them for
+                    you. You may obtain updates only from Microsoft or authorized sources.
+                    Microsoft may need to update your system to provide you with updates. You agree
+                    to receive these automatic updates without any additional notice. Updates may
+                    not include or support all existing Software features, services, or peripheral
+                    devices. </h1>
+                    
+                    <h1>If you and Microsoft have a dispute, you and Microsoft
+                    agree to try for 60 days to resolve it informally. If you and Microsoft can’t,
+                    you and Microsoft agree to <b>binding individual arbitration before the
+                    American Arbitration Associatio</b>n under the Federal Arbitration Act (“FAA”),
+                    and <b>not to sue in court in front of a judge or jury</b>. Instead, a neutral
+                    arbitrator will decide. <b>Class action lawsuits, class-wide arbitrations,
+                    private attorney-general actions,</b> and any other proceeding where someone
+                    acts in a representative capacity <b>are not allowed</b>; nor is combining
+                    individual proceedings without the consent of all parties. The complete
+                    Arbitration Agreement contains more terms and is at <a href="https://aka.ms/arb-agreement-1">https://aka.ms/arb-agreement-1</a>. You and Microsoft agree to these terms.</h1>
+                    
+                    <h1><b>2.15.     </b><b>Entire Agreement.</b> This agreement, and any other terms Microsoft may provide for
+                    supplements, updates, or third-party applications, is the entire agreement for
+                    the Software.</h1>
+                    
+                    <h1><b>2.16.     </b><b>Applicable Law and lace to resolve disputes</b>. If you acquired the Software in the United States or
+                    Canada, the laws of the state or province where you live (or, if a business,
+                    where your principal place of business is located) govern the interpretation of
+                    this agreement, claims for its breach, and all other claims (including consumer
+                    protection, unfair competition, and tort claims), regardless of conflict of
+                    laws principles, except that the FAA governs everything related to arbitration.
+                    If you acquired the Software in any other country, its laws apply, except that
+                    the FAA governs everything related to arbitration. If U.S. federal jurisdiction
+                    exists, you and Microsoft consent to exclusive jurisdiction and venue in the
+                    federal court in King County, Washington for all disputes heard in court
+                    (excluding arbitration). If not, you and Microsoft consent to exclusive
+                    jurisdiction and venue in the Superior Court of King County, Washington for all
+                    disputes heard in court (excluding arbitration).</h1>
+                    
+                    <h1><b>2.17.     </b><b>Consumer Rights; Regional Variations.</b> This agreement describes certain legal rights. You
+                    may have other rights, including consumer rights, under the laws of your state,
+                    province, or country. Separate and apart from your relationship with Microsoft,
+                    you may also have rights with respect to the party from which you acquired the Software.
+                    This agreement does not change those other rights if the laws of your state,
+                    province, or country do not permit it to do so. For example, if you acquired
+                    the Software in one of the below regions, or mandatory country law applies,
+                    then the following provisions apply to you:</h1>
+                    
+                    <h1><b>(a)       
+                    </b><b>Australia.</b> You have statutory guarantees under the Australian
+                    Consumer Law and nothing in this agreement is intended to affect those rights.</h1>
+                    
+                    <h1><b>(b)       
+                    </b><b>Canada. </b>If you acquired this Software in Canada, you may stop receiving updates by disconnecting your device from the Internet (if and when you re-connect to the Internet, however, the Software will resume checking for and installing updates), or uninstalling the Software. The product documentation, if any, may also specify how to turn off updates for your specific device or Software.</h1>
+                    
+                    <h1><b>(c)        
+                    </b><b>Germany and Austria</b>.</h1>
+                    
+                    <p>i.            
+                    Warranty. The properly licensed Software will
+                    perform substantially as described in any Microsoft materials that accompany
+                    the Software. However, Microsoft gives no contractual guarantee in relation to
+                    the licensed Software.</p>
+                    
+                    <p>ii.          
+                    Limitation of Liability. In case of intentional conduct,
+                    gross negligence, claims based on the Product Liability Act, as well as, in
+                    case of death or personal or physical injury, Microsoft is liable according to
+                    the statutory law.</p>
+                    
+                    <h1>Subject
+                    to the foregoing clause ii., Microsoft will only be liable for slight
+                    negligence if Microsoft is in breach of such material contractual obligations,
+                    the fulfillment of which facilitate the due performance of this agreement, the
+                    breach of which would endanger the purpose of this agreement and the compliance
+                    with which a party may constantly trust in (so-called "cardinal
+                    obligations"). In other cases of slight negligence, Microsoft will not be
+                    liable for slight negligence.</h1>
+                    
+                    <h1><b>2.18.     </b><strong>DISCLAIMER OF WARRANTY. THE SOFTWARE IS LICENSED “AS IS,” “WITH ALL FAULTS,” AND “AS AVAILABLE.” YOU BEAR THE RISK OF USING IT. MICROSOFT GIVES NO EXPRESS WARRANTIES, GUARANTEES, OR CONDITIONS. YOU MAY HAVE ADDITIONAL CONSUMER RIGHTS OR STATUTORY GUARANTEES UNDER YOUR LOCAL LAWS THAT THIS AGREEMENT CANNOT CHANGE. TO THE EXTENT PERMITTED UNDER YOUR LOCAL LAWS, MICROSOFT EXCLUDES ALL IMPLIED WARRANTIES, INCLUDING MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT.</strong></h1>
+                    
+                    <h1><strong>2.19.    LIMITATION ON AND EXCLUSION OF REMEDIES AND DAMAGES. IF YOU HAVE ANY BASIS FOR RECOVERING DAMAGES DESPITE THE PRECEDING DISCLAIMER OF WARRANTY, YOU CAN RECOVER FROM MICROSOFT AND MICROSOFT’S AFFILIATES OR SUPPLIERS ONLY DIRECT DAMAGES UP TO THE AMOUNT YOU PAID FOR THE SOFTWARE OR $5.00, WHICHEVER IS GREATER. YOU CANNOT RECOVER ANY OTHER DAMAGES OR LOSSES, INCLUDING CONSEQUENTIAL, LOST PROFITS, SPECIAL, INDIRECT, PUNITIVE OR INCIDENTAL DAMAGES. TO THE MAXIMUM EXTENT PERMITTED BY LAW, THESE LIMITATIONS AND EXCLUSIONS APPLY TO ANYTHING OR ANY CLAIMS RELATED TO THE SOFTWARE.</strong></h1>
+                    
+                    <h1><strong>It also applies even if this remedy does not fully compensate you for any losses or fails of its essential purpose or if Microsoft knew or should have known about the possibility of the damages. The above limitation or exclusion may not apply to you because your state, province, or country may not allow the exclusion or limitation of incidental, consequential, or other damages.</strong></h1>
+                    
+                    </div>                    </div>
+                    <div class="eula-supplemental">
+                    <p style="font-size: 1em; font-weight: 700; margin-bottom: 0.5em;">
+                        MICROSOFT SOFTWARE SUPPLEMENTAL LICENSE AGREEMENT
+                        <br />
+                        MICROSOFT EDGE
+                    </p>
+                    <p>
+                        <strong>PLEASE NOTE:</strong>
+                        Refer to your license terms for Microsoft Edge software (the “software”) to identify the entity
+                        licensing this supplement to you and for support information. You may use a copy of this
+                        supplement with each validly licensed copy of the software. You may not use the supplement if
+                        you do not have a license for the software. The license terms for the software apply to your use
+                        of this supplement.
+                    </p>                    </div>
+                </div>
+                <div class="align-right mt-1x">
+                    <a target="_blank"
+                        href="https://go.microsoft.com/fwlink/?LinkId=521839">隐私声明</a>
+                </div>
+                <div class="eula-accept flex-fix pt-2x">
+                    <div class="flex items-start justify-between phone-flex-column">
+                        <div style="max-width: 100%;">
+                            <div class="eula-checkbox checkbox mr-2x phone-mb-1x phone-mr-0x">
+                                <input id="eula-accept-checkbox" type="checkbox"
+                                    checked>
+                                <label for="eula-accept-checkbox">
+                                    <span class="fs-sm mt-neg0_25x block lh-1_35 wrap inline-block">
+                                        <span id="consent-text"></span>
+                                        <a id="consent-link" target="_blank"
+                                            href="https://go.microsoft.com/fwlink/?linkid=2113565">
+                                            了解更多
+                                        </a>
+                                    </span>
+                                </label>
+                            </div>
+                        </div>
+                        <a role="button" class="eula-button button flex-fix" download href="#" data-focus-first="true">
+                            接受并下载
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="app-popup-confirm">
+                <div class="app-popup-confirm-content">
+                    <h3>谢谢！</h3>
+                    <p class="fs-lg mb-2x">很快将会开始下载。</p>
+                    <button class="button popup-close app-popup-confirm-close">关闭</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    
+            <div id="footerArea" class="uhf"  data-m='{"cN":"footerArea","cT":"Area_coreuiArea","id":"a2Body","sN":2,"aN":"Body"}'>
+                <div id="footerRegion"     data-region-key="footerregion" data-m='{"cN":"footerRegion","cT":"Region_coreui-region","id":"r1a2","sN":1,"aN":"a2"}' >
+
+    <div  id="footerUniversalFooter" data-m='{"cN":"footerUniversalFooter","cT":"Module_coreui-universalfooter","id":"m1r1a2","sN":1,"aN":"r1a2"}'  data-module-id="Category|footerRegion|coreui-region|footerUniversalFooter|coreui-universalfooter">
+        
+
+
+
+<footer id="uhf-footer" class="c-uhff context-uhf"  data-uhf-mscc-rq="false" data-footer-footprint="/MSEdgeInsider/MSEdgeInsiderFooter, fromService: True" data-m='{"cN":"Uhf footer_cont","cT":"Container","id":"c1m1r1a2","sN":1,"aN":"m1r1a2"}'>
+        <nav class="c-uhff-nav" aria-label="页脚资源链接" data-m='{"cN":"Footer nav_cont","cT":"Container","id":"c1c1m1r1a2","sN":1,"aN":"c1m1r1a2"}'>
+			
+                <div class="c-uhff-nav-row">
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn1_cont","cT":"Container","id":"c1c1c1m1r1a2","sN":1,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">新增内容</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/microsoft-365" data-m='{"cN":"Whatsnew_Microsoft365_nav","id":"n1c1c1c1m1r1a2","sN":1,"aN":"c1c1c1m1r1a2"}'>Microsoft 365</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/zh-cn/surface/devices/surface-pro-6" data-m='{"cN":"Footer_WhatsNew_NewSurfacePro6_nav","id":"n2c1c1c1m1r1a2","sN":2,"aN":"c1c1c1m1r1a2"}'>Surface Pro 6</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/zh-cn/surface/devices/surface-laptop-2" data-m='{"cN":"Footer_WhatsNew_SurfaceLaptop2_nav","id":"n3c1c1c1m1r1a2","sN":3,"aN":"c1c1c1m1r1a2"}'>Surface Laptop 2</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/zh-cn/surface/devices/surface-go" data-m='{"cN":"Footer_WhatsNew_SurfaceGo_nav","id":"n4c1c1c1m1r1a2","sN":4,"aN":"c1c1c1m1r1a2"}'>Surface Go</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/zh-cn/windows/windows-10-apps" data-m='{"cN":"Footer_WhatsNew_Windows_10_apps_nav","id":"n5c1c1c1m1r1a2","sN":5,"aN":"c1c1c1m1r1a2"}'>Windows 10 应用程序</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn2_cont","cT":"Container","id":"c2c1c1m1r1a2","sN":2,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">Microsoft Store</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://account.microsoft.com/" data-m='{"cN":"Footer_StoreandSupport_AccountProfile_nav","id":"n1c2c1c1m1r1a2","sN":1,"aN":"c2c1c1m1r1a2"}'>帐户个人资料</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/zh-cn/download" data-m='{"cN":"Footer_StoreandSupport_DownloadCenter_nav","id":"n2c2c1c1m1r1a2","sN":2,"aN":"c2c1c1m1r1a2"}'>下载中心</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://account.microsoft.com/orders" data-m='{"cN":"Footer_StoreandSupport_OrderTracking_nav","id":"n3c2c1c1m1r1a2","sN":3,"aN":"c2c1c1m1r1a2"}'>订单跟踪</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn3_cont","cT":"Container","id":"c3c1c1m1r1a2","sN":3,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">教育</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/zh-cn/education" data-m='{"cN":"Footer_Education_MicrosoftInEducation_nav","id":"n1c3c1c1m1r1a2","sN":1,"aN":"c3c1c1m1r1a2"}'>Microsoft 教育领域</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/zh-cn/education/products/office/default.aspx" data-m='{"cN":"Footer_Education_OfficeForStudents_nav","id":"n2c3c1c1m1r1a2","sN":2,"aN":"c3c1c1m1r1a2"}'>适合学生的 Office</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://products.office.com/zh-cn/academic/compare-office-365-education-plans" data-m='{"cN":"Footer_Education_Office365ForSchools_nav","id":"n3c3c1c1m1r1a2","sN":3,"aN":"c3c1c1m1r1a2"}'>适用于学校的 Office 365</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://azure.microsoft.com/zh-cn/community/education/" data-m='{"cN":"Footer_MicrosoftAzureInEducation_nav","id":"n4c3c1c1m1r1a2","sN":4,"aN":"c3c1c1m1r1a2"}'>Microsoft Azure 教育领域</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                </div>
+                <div class="c-uhff-nav-row">
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn4_cont","cT":"Container","id":"c4c1c1m1r1a2","sN":4,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">企业</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://azure.microsoft.com/" data-m='{"cN":"Footer_Enterprise_MicrosoftAzure_nav","id":"n1c4c1c1m1r1a2","sN":1,"aN":"c4c1c1m1r1a2"}'>Azure</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=808093" data-m='{"cN":"Footer_Enterprise_MicrosoftAppSource_nav","id":"n2c4c1c1m1r1a2","sN":2,"aN":"c4c1c1m1r1a2"}'>AppSource</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/enterprise/automotive" data-m='{"cN":"Footer_Enterprise_Automotive_nav","id":"n3c4c1c1m1r1a2","sN":3,"aN":"c4c1c1m1r1a2"}'>汽车</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/enterprise/government" data-m='{"cN":"Footer_Enterprise_Government_nav","id":"n4c4c1c1m1r1a2","sN":4,"aN":"c4c1c1m1r1a2"}'>政府机构</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/enterprise/health" data-m='{"cN":"Footer_Enterprise_Health_nav","id":"n5c4c1c1m1r1a2","sN":5,"aN":"c4c1c1m1r1a2"}'>医疗保健</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/enterprise/manufacturing" data-m='{"cN":"Footer_Enterprise_Manufacturing_nav","id":"n6c4c1c1m1r1a2","sN":6,"aN":"c4c1c1m1r1a2"}'>制造业</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/enterprise/financial-services/banking-and-capital-markets" data-m='{"cN":"Footer_Enterprise_FinanciaServices_nav","id":"n7c4c1c1m1r1a2","sN":7,"aN":"c4c1c1m1r1a2"}'>金融服务</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/enterprise/retail-consumer-goods" data-m='{"cN":"Footer_Enterprise_Retail_nav","id":"n8c4c1c1m1r1a2","sN":8,"aN":"c4c1c1m1r1a2"}'>零售业</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn5_cont","cT":"Container","id":"c5c1c1m1r1a2","sN":5,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">开发人员</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://visualstudio.microsoft.com/" data-m='{"cN":"Footer_Developer_MicrosoftVisualStudio_nav","id":"n1c5c1c1m1r1a2","sN":1,"aN":"c5c1c1m1r1a2"}'>Microsoft Visual Studio</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://developer.microsoft.com/zh-cn/windows" data-m='{"cN":"Footer_Developer_WindowsDevCenter_nav","id":"n2c5c1c1m1r1a2","sN":2,"aN":"c5c1c1m1r1a2"}'>Windows 开发人员中心</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://msdn.microsoft.com/zh-cn" data-m='{"cN":"Footer_Developer_MicrosoftDeveloperNetwork_nav","id":"n3c5c1c1m1r1a2","sN":3,"aN":"c5c1c1m1r1a2"}'>开发人员网络</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://technet.microsoft.com/zh-cn" data-m='{"cN":"Footer_Developer_TechNet_nav","id":"n4c5c1c1m1r1a2","sN":4,"aN":"c5c1c1m1r1a2"}'>TechNet</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://developer.microsoft.com/zh-cn/store/register" data-m='{"cN":"Footer_Developer_MicrosoftDeveloperProgram_nav","id":"n5c5c1c1m1r1a2","sN":5,"aN":"c5c1c1m1r1a2"}'>Microsoft 开发人员计划</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://channel9.msdn.com/" data-m='{"cN":"Footer_Developer_Channel9_nav","id":"n6c5c1c1m1r1a2","sN":6,"aN":"c5c1c1m1r1a2"}'>第9频道</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://developer.microsoft.com/zh-cn/office" data-m='{"cN":"Footer_Developer_OfficeDevCenter_nav","id":"n7c5c1c1m1r1a2","sN":7,"aN":"c5c1c1m1r1a2"}'>Office 开发人员中心</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                        <div class="c-uhff-nav-group" data-m='{"cN":"footerNavColumn6_cont","cT":"Container","id":"c6c1c1m1r1a2","sN":6,"aN":"c1c1m1r1a2"}'>
+                            <div class="c-heading-4">公司</div>
+                            <ul class="c-list f-bare">
+                                        <li>
+                                            <a class="c-uhff-link" href="https://careers.microsoft.com/" data-m='{"cN":"Footer_Company_Careers_nav","id":"n1c6c1c1m1r1a2","sN":1,"aN":"c6c1c1m1r1a2"}'>招贤纳士</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/zh-cn/about" data-m='{"cN":"Footer_Company_AboutMicrosoft_nav","id":"n2c6c1c1m1r1a2","sN":2,"aN":"c6c1c1m1r1a2"}'>关于 Microsoft</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://news.microsoft.com/zh-cn" data-m='{"cN":"Footer_Company_CompanyNews_nav","id":"n3c6c1c1m1r1a2","sN":3,"aN":"c6c1c1m1r1a2"}'>公司新闻</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://privacy.microsoft.com/zh-cn" data-m='{"cN":"Footer_Company_PrivacyAtMicrosoft_nav","id":"n4c6c1c1m1r1a2","sN":4,"aN":"c6c1c1m1r1a2"}'>Microsoft 隐私</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/investor/default.aspx" data-m='{"cN":"Footer_Company_Investors_nav","id":"n5c6c1c1m1r1a2","sN":5,"aN":"c6c1c1m1r1a2"}'>投资人</a>
+                                        </li>
+                                        <li>
+                                            <a class="c-uhff-link" href="https://www.microsoft.com/zh-cn/security/default.aspx" data-m='{"cN":"Footer_Company_Security_nav","id":"n6c6c1c1m1r1a2","sN":6,"aN":"c6c1c1m1r1a2"}'>安全性</a>
+                                        </li>
+
+                            </ul>
+                            
+                        </div>
+                </div>
+        </nav>
+    <div class="c-uhff-base">
+                <a id="locale-picker-link" aria-label="内容语言选择器。当前设置为 中文(中国)" class="c-uhff-link c-uhff-lang-selector c-glyph glyph-world" href="https://www.microsoft.com/en-us/locale.aspx" data-m='{"cN":"locale_picker(CN)_nav","id":"n7c1c1m1r1a2","sN":7,"aN":"c1c1m1r1a2"}'>中文(中国)</a>
+
+        <nav aria-label="Microsoft 企业链接">
+            <ul class="c-list f-bare" data-m='{"cN":"Corp links_cont","cT":"Container","id":"c8c1c1m1r1a2","sN":8,"aN":"c1c1m1r1a2"}'>
+                                <li>
+                    <a class="c-uhff-link" href="https://support.microsoft.com/zh-cn/contactus" data-mscc-ic="false" data-m='{"cN":"Footer_ContactUs_nav","id":"n1c8c1c1m1r1a2","sN":1,"aN":"c8c1c1m1r1a2"}'>与 Microsoft 联系</a>
+                </li>
+                <li>
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkId=521839" data-mscc-ic="false" data-m='{"cN":"Footer_PrivacyandCookies_nav","id":"n2c8c1c1m1r1a2","sN":2,"aN":"c8c1c1m1r1a2"}'>隐私与 Cookie</a>
+                </li>
+                <li>
+                    <a class="c-uhff-link" href="https://go.microsoft.com/fwlink/?LinkID=206977" data-mscc-ic="false" data-m='{"cN":"Footer_TermsOfUse_nav","id":"n3c8c1c1m1r1a2","sN":3,"aN":"c8c1c1m1r1a2"}'>使用条款</a>
+                </li>
+                <li>
+                    <a class="c-uhff-link" href="https://www.microsoft.com/trademarks" data-mscc-ic="false" data-m='{"cN":"Footer_Trademarks_nav","id":"n4c8c1c1m1r1a2","sN":4,"aN":"c8c1c1m1r1a2"}'>商标</a>
+                </li>
+                <li>
+                    <a class="c-uhff-link" href="https://choice.microsoft.com/" data-mscc-ic="false" data-m='{"cN":"Footer_AboutourAds_nav","id":"n5c8c1c1m1r1a2","sN":5,"aN":"c8c1c1m1r1a2"}'>关于我们的广告</a>
+                </li>
+                <li>
+                    <a class="c-uhff-link" href="http://www.beian.miit.gov.cn/" data-mscc-ic="false" data-m='{"cN":"Footer_Special_nav","id":"n6c8c1c1m1r1a2","sN":6,"aN":"c8c1c1m1r1a2"}'>京ICP备09042378号-6</a>
+                </li>
+                <li>
+                    <a class="c-uhff-link" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=11010802023178" data-mscc-ic="false" data-m='{"cN":"Footer_Special_nav","id":"n7c8c1c1m1r1a2","sN":7,"aN":"c8c1c1m1r1a2"}'>京公网安备 11010802023178</a>
+                </li>
+
+                <li>&#169; Microsoft 2020</li>
+                
+            </ul>
+        </nav>
+    </div>
+    
+</footer>
+
+
+
+
+    </div>
+        </div>
+
+    </div>
+
+    
+
+    <input id="csrf" type="hidden" name="_csrf" value="7HkGgzQj-NLxQfQ1UkzkGcdPWYhwfHg06pvg">
+
+    <script type="text/javascript">
+    var sdkInstance="appInsightsSDK";window[sdkInstance]="appInsights";var aiName=window[sdkInstance],aisdk=window[aiName]||function(e){function n(e){i[e]=function(){var n=arguments;i.queue.push(function(){i[e].apply(i,n)})}}var i={config:e};i.initialize=!0;var a=document,t=window;setTimeout(function(){var n=a.createElement("script");n.src=e.url||"https://az416426.vo.msecnd.net/next/ai.2.min.js",a.getElementsByTagName("script")[0].parentNode.appendChild(n)});try{i.cookie=a.cookie}catch(e){}i.queue=[],i.version=2;for(var r=["Event","PageView","Exception","Trace","DependencyData","Metric","PageViewPerformance"];r.length;)n("track"+r.pop());n("startTrackPage"),n("stopTrackPage");var o="Track"+r[0];if(n("start"+o),n("stop"+o),!(!0===e.disableExceptionTracking||e.extensionConfig&&e.extensionConfig.ApplicationInsightsAnalytics&&!0===e.extensionConfig.ApplicationInsightsAnalytics.disableExceptionTracking)){n("_"+(r="onerror"));var s=t[r];t[r]=function(e,n,a,t,o){var c=s&&s(e,n,a,t,o);return!0!==c&&i["_"+r]({message:e,url:n,lineNumber:a,columnNumber:t,error:o}),c},e.autoExceptionInstrumented=!0}return i}
+    (
+        {instrumentationKey:"81e6f5ed-b9c7-4c64-b946-59d5314e0fd1"}
+    );
+    window[aiName]=aisdk,aisdk.queue&&0===aisdk.queue.length&&aisdk.trackPageView({});
+    </script>
+
+    <script src="https://az725175.vo.msecnd.net/scripts/jsll-4.js" type="text/javascript"></script>
+    <script src="https://edgetipscdn.microsoft.com/insider-site/scripts/libs.ea601db3.js"></script>
+    <script src="https://edgetipscdn.microsoft.com/insider-site/scripts/app.3a21af5a.js"></script>
+
+
+    <script>
+        MicrosoftEdgePreview.homePage({"aria":{"isNewVisit":true,"visitId":"942dfdb5-c970-506f-9eeb-6e7923392dbe","osPlatform":"other","selectedPlatform":"win10","pageName":"Home"},"consentCheckDefault":true});
+    </script>
+
+    
+        <script src="https://www.microsoft.com/onerfstatics/marketingsites-eus-prod/shell/_scrf/js/themes=default/54-af9f9f/c0-247156/de-099401/e1-a50eee/e7-954872/d8-97d509/f0-251fe2/46-be1318/77-04a268/11-240c7b/63-077520/a4-34de62/1b-c96630/db-bc0148/dc-7e9864/78-4c7d22/e1-c35781/f0-23b2e3/cd-23d3b0/6d-1e7ed0/b7-cadaa7/ca-40b7b0/4e-ee3a55/3e-f5c39b/c3-6454d7/f9-7592d3/92-10345d/79-499886/7e-cda2d3/db-f3b1fd/93-283c2d/e0-3c9860/91-97a04f/1f-100dea/33-abe4df/4d-6e4c52?ver=2.0&iife=1"></script><script src="https://mem.gfx.ms/meversion?partner=MSEdgeInsider&market=zh-cn&uhf=1" defer></script>
+    
+
+</body>
+</html>
