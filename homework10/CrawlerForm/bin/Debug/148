@@ -1,0 +1,374 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="之前一直是requests库做爬虫，这次尝试下使用selenium做爬虫，效率不高，但是却没有限制，文章是分别结合大牛的selenium爬虫以及excel追加写入操作而成，还有待优化，打算爬取更多信息" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>JS+Selenium+excel追加写入，使用python成功爬取京东任何商品~ - ClarenceSun - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/book/bundle-book.min.css?v=Yr9TGmN8ri6FBY9Rkzqw6l-UX-n2toh8YHB85y4FqJ0" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/book/bundle-book-mobile.min.css?v=9mAu4TwtRDzYz0p44sAVkFWE9nZCxO_rGCjvQ8nF6I0" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/ClarenceSun/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/ClarenceSun/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/ClarenceSun/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 594842;
+        var currentBlogApp = 'ClarenceSun';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'BOOK';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <script type="text/javascript">
+	try {
+		if (screen.availWidth > 1200) {
+			document.getElementById("MainCss").href = '/skins/book/bundle-book-2.min.css';
+		}
+	} catch (e) { }
+</script>
+
+<div id="header">
+<div id="HeaderTitle">
+<div id="Title">
+<a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/ClarenceSun/">ClarenceSun</a>
+
+</div>
+<div id="subTitle">
+
+</div>
+</div>
+</div>
+
+
+<div id="main">
+	<div id="post_detail">
+    <div class="post">
+        <h2>
+            
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/ClarenceSun/p/12782756.html">JS+Selenium+excel追加写入，使用python成功爬取京东任何商品~</a>
+
+        </h2>
+        
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p>之前一直是requests库做爬虫，这次尝试下使用selenium做爬虫，效率不高，但是却没有限制，文章是分别结合大牛的selenium爬虫以及excel追加写入操作而成，还有待优化，打算爬取更多信息后进行词云分析</p>
+<div class="cnblogs_code">
+<pre><span style="color: #800000;">'''
+</span><span style="color: #000000;">爬取京东商品信息:
+    请求url:
+        https:</span><span style="color: #008000;">//</span><span style="color: #008000;">www.jd.com/</span>
+<span style="color: #000000;">    提取商品信息:
+        </span><span style="color: #800080;">1</span><span style="color: #000000;">.商品详情页
+        </span><span style="color: #800080;">2</span><span style="color: #000000;">.商品名称
+        </span><span style="color: #800080;">3</span><span style="color: #000000;">.商品价格
+        </span><span style="color: #800080;">4</span><span style="color: #000000;">.评价人数
+        </span><span style="color: #800080;">5</span><span style="color: #000000;">.商品商家
+</span><span style="color: #800000;">'''
+</span># coding=UTF-<span style="color: #800080;">8</span>
+<span style="color: #0000ff;">from</span><span style="color: #000000;"> selenium import webdriver
+</span><span style="color: #0000ff;">from</span><span style="color: #000000;"> selenium.webdriver.common.keys import Keys
+import time
+import xlrd
+import xlwt
+</span><span style="color: #0000ff;">from</span><span style="color: #000000;"> xlutils.copy import copy
+
+
+def write_excel_xls(path, sheet_name, value):
+    index </span>=<span style="color: #000000;"> len(value)  # 获取需要写入数据的行数
+    workbook </span>=<span style="color: #000000;"> xlwt.Workbook()  # 新建一个工作簿
+    sheet </span>=<span style="color: #000000;"> workbook.add_sheet(sheet_name)  # 在工作簿中新建一个表格
+    </span><span style="color: #0000ff;">for</span> i <span style="color: #0000ff;">in</span> range(<span style="color: #800080;">0</span><span style="color: #000000;">, index):
+        </span><span style="color: #0000ff;">for</span> j <span style="color: #0000ff;">in</span> range(<span style="color: #800080;">0</span><span style="color: #000000;">, len(value[i])):
+            sheet.write(i, j, value[i][j])  # 像表格中写入数据（对应的行和列）
+    workbook.save(path)  # 保存工作簿
+    print(</span><span style="color: #800000;">"</span><span style="color: #800000;">xls格式表格写入数据成功！</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+
+
+def write_excel_xls_append(path, value):
+    index </span>=<span style="color: #000000;"> len(value)  # 获取需要写入数据的行数
+    workbook </span>=<span style="color: #000000;"> xlrd.open_workbook(path)  # 打开工作簿
+    sheets </span>=<span style="color: #000000;"> workbook.sheet_names()  # 获取工作簿中的所有表格
+    worksheet </span>= workbook.sheet_by_name(sheets[<span style="color: #800080;">0</span><span style="color: #000000;">])  # 获取工作簿中所有表格中的的第一个表格
+    rows_old </span>=<span style="color: #000000;"> worksheet.nrows  # 获取表格中已存在的数据的行数
+    new_workbook </span>=<span style="color: #000000;"> copy(workbook)  # 将xlrd对象拷贝转化为xlwt对象
+    new_worksheet </span>= new_workbook.get_sheet(<span style="color: #800080;">0</span><span style="color: #000000;">)  # 获取转化后工作簿中的第一个表格
+    </span><span style="color: #0000ff;">for</span> i <span style="color: #0000ff;">in</span> range(<span style="color: #800080;">0</span><span style="color: #000000;">, index):
+        </span><span style="color: #0000ff;">for</span> j <span style="color: #0000ff;">in</span> range(<span style="color: #800080;">0</span><span style="color: #000000;">, len(value[i])):
+            new_worksheet.write(i </span>+ rows_old, j, value[i][j])  # 追加写入数据，注意是从i+<span style="color: #000000;">rows_old行开始写入
+    new_workbook.save(path)  # 保存工作簿
+    print(</span><span style="color: #800000;">"</span><span style="color: #800000;">xls格式表格【追加】写入数据成功！</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+
+
+def read_excel_xls(path):
+    workbook </span>=<span style="color: #000000;"> xlrd.open_workbook(path)  # 打开工作簿
+    sheets </span>=<span style="color: #000000;"> workbook.sheet_names()  # 获取工作簿中的所有表格
+    worksheet </span>= workbook.sheet_by_name(sheets[<span style="color: #800080;">0</span><span style="color: #000000;">])  # 获取工作簿中所有表格中的的第一个表格
+    </span><span style="color: #0000ff;">for</span> i <span style="color: #0000ff;">in</span> range(<span style="color: #800080;">0</span><span style="color: #000000;">, worksheet.nrows):
+        </span><span style="color: #0000ff;">for</span> j <span style="color: #0000ff;">in</span> range(<span style="color: #800080;">0</span><span style="color: #000000;">, worksheet.ncols):
+            print(worksheet.cell_value(i, j), </span><span style="color: #800000;">"</span><span style="color: #800000;">\t</span><span style="color: #800000;">"</span>, end=<span style="color: #800000;">""</span><span style="color: #000000;">)  # 逐行逐列读取数据
+        print()
+
+
+def get_good(driver):
+    value </span>=<span style="color: #000000;"> []
+    # 通过JS控制滚轮滑动获取所有商品信息
+    js_code </span>= <span style="color: #800000;">'''
+</span>            window.scrollTo(<span style="color: #800080;">0</span>,<span style="color: #800080;">5000</span><span style="color: #000000;">);
+        </span><span style="color: #800000;">'''
+</span><span style="color: #000000;">    driver.execute_script(js_code)  # 执行js代码
+
+    # 等待数据加载
+    time.sleep(</span><span style="color: #800080;">2</span><span style="color: #000000;">)
+
+    # </span><span style="color: #800080;">3</span><span style="color: #000000;">、查找所有商品div
+    # good_div </span>= driver.find_element_by_id(<span style="color: #800000;">'</span><span style="color: #800000;">J_goodsList</span><span style="color: #800000;">'</span><span style="color: #000000;">)
+    good_list </span>= driver.find_elements_by_class_name(<span style="color: #800000;">'</span><span style="color: #800000;">gl-item</span><span style="color: #800000;">'</span><span style="color: #000000;">)
+    n </span>= <span style="color: #800080;">1</span>
+    <span style="color: #0000ff;">for</span> good <span style="color: #0000ff;">in</span><span style="color: #000000;"> good_list:
+        # 根据属性选择器查找
+        # 商品链接
+        good_url </span>=<span style="color: #000000;"> good.find_element_by_css_selector(
+            </span><span style="color: #800000;">'</span><span style="color: #800000;">.p-img a</span><span style="color: #800000;">'</span>).get_attribute(<span style="color: #800000;">'</span><span style="color: #800000;">href</span><span style="color: #800000;">'</span><span style="color: #000000;">)
+
+        # 商品名称
+        good_name </span>=<span style="color: #000000;"> good.find_element_by_css_selector(
+            </span><span style="color: #800000;">'</span><span style="color: #800000;">.p-name em</span><span style="color: #800000;">'</span>).text.replace(<span style="color: #800000;">"</span><span style="color: #800000;">\n</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span><span style="color: #800000;">--</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+
+        # 商品价格
+        good_price </span>=<span style="color: #000000;"> good.find_element_by_class_name(
+            </span><span style="color: #800000;">'</span><span style="color: #800000;">p-price</span><span style="color: #800000;">'</span>).text.replace(<span style="color: #800000;">"</span><span style="color: #800000;">\n</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span><span style="color: #800000;">:</span><span style="color: #800000;">"</span><span style="color: #000000;">)
+
+        # 评价人数
+        good_commit </span>=<span style="color: #000000;"> good.find_element_by_class_name(
+            </span><span style="color: #800000;">'</span><span style="color: #800000;">p-commit</span><span style="color: #800000;">'</span>).text.replace(<span style="color: #800000;">"</span><span style="color: #800000;">\n</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span> <span style="color: #800000;">"</span><span style="color: #000000;">)
+
+        # good_content </span>= f<span style="color: #800000;">'''
+</span><span style="color: #000000;">        #                 商品链接: {good_url}
+        #                 商品名称: {good_name}
+        #                 商品价格: {good_price}
+        #                 评价人数: {good_commit}
+        #                 \n
+        #                 </span><span style="color: #800000;">'''
+</span><span style="color: #000000;">        # print(good_content)
+        # with open(</span><span style="color: #800000;">'</span><span style="color: #800000;">jd.txt</span><span style="color: #800000;">'</span>, <span style="color: #800000;">'</span><span style="color: #800000;">a</span><span style="color: #800000;">'</span>, encoding=<span style="color: #800000;">'</span><span style="color: #800000;">utf-8</span><span style="color: #800000;">'</span>) <span style="color: #0000ff;">as</span><span style="color: #000000;"> f:
+        #     f.write(good_content)
+        value1 </span>=<span style="color: #000000;"> [good_url, good_name, good_price, good_commit]
+        value.append(value1)
+
+    </span><span style="color: #0000ff;">return</span><span style="color: #000000;"> value
+
+
+</span><span style="color: #0000ff;">if</span> __name__ == <span style="color: #800000;">'</span><span style="color: #800000;">__main__</span><span style="color: #800000;">'</span><span style="color: #000000;">:
+    good_name </span>= input(<span style="color: #800000;">'</span><span style="color: #800000;">请输入爬取商品信息:</span><span style="color: #800000;">'</span><span style="color: #000000;">).strip()
+    num </span>= <span style="color: #0000ff;">int</span>(input(<span style="color: #800000;">'</span><span style="color: #800000;">请输入要爬取的页数：</span><span style="color: #800000;">'</span><span style="color: #000000;">))
+    driver </span>=<span style="color: #000000;"> webdriver.Chrome()
+    driver.implicitly_wait(</span><span style="color: #800080;">10</span><span style="color: #000000;">)
+    # # </span><span style="color: #800080;">1</span><span style="color: #000000;">、往京东主页发送请求
+    driver.</span><span style="color: #0000ff;">get</span>(<span style="color: #800000;">'</span><span style="color: #800000;">https://www.jd.com/</span><span style="color: #800000;">'</span><span style="color: #000000;">)
+    #
+    # # </span><span style="color: #800080;">2</span><span style="color: #000000;">、输入商品名称，并回车搜索
+    input_tag </span>= driver.find_element_by_id(<span style="color: #800000;">'</span><span style="color: #800000;">key</span><span style="color: #800000;">'</span><span style="color: #000000;">)
+    input_tag.send_keys(good_name)
+    input_tag.send_keys(Keys.ENTER)
+    time.sleep(</span><span style="color: #800080;">2</span><span style="color: #000000;">)
+    # 评论数排行
+    driver.find_element_by_link_text(</span><span style="color: #800000;">'</span><span style="color: #800000;">评论数</span><span style="color: #800000;">'</span><span style="color: #000000;">).click()
+    time.sleep(</span><span style="color: #800080;">2</span><span style="color: #000000;">)
+    book_name_xls </span>= good_name + <span style="color: #800000;">'</span><span style="color: #800000;">.xls</span><span style="color: #800000;">'</span><span style="color: #000000;">
+    sheet_name_xls </span>=<span style="color: #000000;"> good_name
+    value_title </span>= [[<span style="color: #800000;">"</span><span style="color: #800000;">商品链接</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span><span style="color: #800000;">商品名称</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span><span style="color: #800000;">商品价格</span><span style="color: #800000;">"</span>, <span style="color: #800000;">"</span><span style="color: #800000;">评价人数</span><span style="color: #800000;">"</span><span style="color: #000000;">], ]
+    write_excel_xls(book_name_xls, sheet_name_xls, value_title)
+    </span><span style="color: #0000ff;">for</span> i <span style="color: #0000ff;">in</span> range(<span style="color: #800080;">0</span><span style="color: #000000;">, num):
+        value </span>=<span style="color: #000000;"> get_good(driver)
+        write_excel_xls_append(book_name_xls, value)
+        next_tag </span>= driver.find_element_by_class_name(<span style="color: #800000;">'</span><span style="color: #800000;">pn-next</span><span style="color: #800000;">'</span><span style="color: #000000;">)
+        next_tag.click()
+        time.sleep(</span><span style="color: #800080;">2</span><span style="color: #000000;">)
+        read_excel_xls(book_name_xls)
+    driver.close()</span></pre>
+</div>
+<p>&nbsp;</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+        <p class="postfoot">
+            posted on 
+<span id="post-date">2020-04-26 22:19</span>&nbsp;
+<a href="https://www.cnblogs.com/ClarenceSun/">ClarenceSun</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12782756" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12782756);return false;">收藏</a>
+        </p>
+    </div>
+</div>
+
+
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 594842, cb_blogApp = 'ClarenceSun', cb_blogUserGuid = 'e1e0a531-4e1a-47e6-d0ba-08d7d7b4fe7b';
+    var cb_entryId = 12782756, cb_entryCreatedDate = '2020-04-26 22:19', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+
+	<p id="footer">
+	Powered by: 
+	<br />
+	
+	
+<a href="https://www.cnblogs.com/" id="Footer1_Hyperlink3" style="font-size: 12px; font-family: Verdana">博客园</a>
+	<br />
+	Copyright &copy; 2020 ClarenceSun
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+</p>
+
+
+</div>
+<div id="rightmenu">
+	
+		<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+		
+<h3>导航</h3>
+<ul>
+			<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+			<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/ClarenceSun/">
+首页</a>
+</li>
+			<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+			<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/ClarenceSun">
+联系</a></li>
+			<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/ClarenceSun/rss/">
+订阅</a>
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/ClarenceSun/rss/">
+    <img src="/skins/book/images/xml.gif" alt="订阅" />
+</a></li>
+			<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		
+<h3>统计</h3>
+<ul>
+    <li>随笔 - 
+2</li>
+    <li>文章 - 
+0</li>
+    <li>评论 - 
+0</li>
+    <li>
+        引用 - 
+0
+    </li>
+</ul>
+
+
+		
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+		<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+	
+</div>
+			
+			
+			
+			
+			 
+
+	
+
+
+    
+</body>
+</html>

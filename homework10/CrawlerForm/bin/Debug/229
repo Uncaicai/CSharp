@@ -1,0 +1,1436 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="never" />
+    <meta property="og:description" content="一、计算机网络的形成和发展 1．计算机网络的形成 （1）面向终端的远程联机系统 面向终端的远程联机系统是实现了以单个计算机为中心的联机系统，是一种典型的计算机与数据通信相结合的产物。 1946年世界第" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>【山外笔记-四级计算机网络】第1章 网络技术基础 - 山外Sundal - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/codinglife/bundle-codinglife.min.css?v=hlpQ1CJDwwJXDxv2HNauUmW3NjyWzoMaw1uER19SLT0" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/codinglife/bundle-codinglife-mobile.min.css?v=XjHfryC9ctsatIZz1dHn7TsRIqmwz9c3aj_6SCfHSDM" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/davidesun/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/davidesun/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/davidesun/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 564891;
+        var currentBlogApp = 'davidesun';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'CodingLife';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/davidesun/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/davidesun/">山外Sundal的博客</a>
+</h1>
+<h2>
+代码改变世界，学习改变代码。
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/davidesun/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%B1%B1%E5%A4%96Sundal">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/davidesun/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+20&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+2</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/davidesun/p/12782735.html">【山外笔记-四级计算机网络】第1章 网络技术基础</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <h4 id="一、计算机网络的形成和发展">一、计算机网络的形成和发展</h4>
+<h5 id="1．计算机网络的形成">1．计算机网络的形成</h5>
+<p>（1）面向终端的远程联机系统</p>
+<ul>
+<li>
+<p>面向终端的远程联机系统是实现了以单个计算机为中心的联机系统，是一种典型的计算机与数据通信相结合的产物。</p>
+</li>
+<li>
+<p>1946年世界第一台电子数字计算机ENIAC在美国诞生。</p>
+</li>
+</ul>
+<p>（2）远程通信线路组建的广域网</p>
+<ul>
+<li>ARPANET，通常称为ARPA网，通过有线、无线与卫星通信线路，使网络覆盖从美国本土到欧洲的广阔地域。</li>
+</ul>
+<p>（3）局域网</p>
+<ul>
+<li>20世纪70年代初，为了实现局部范围内的多台计算机共同完成科学计算与资源共享，开始进行局域计算机网络的研究。</li>
+</ul>
+<h5 id="2．计算机网络的发展阶段">2．计算机网络的发展阶段</h5>
+<p>（1）第一阶段：20世纪50年代，将独立发展的计算机技术与通信技术结合。</p>
+<p>（2）第二阶段：20世纪60年代，美国的ARPANET与分组交换技术开始。</p>
+<p>（3）第三阶段：20世纪70年代中期，ISO推动OSI参考模型与网络协议。</p>
+<p>（4）第四阶段从20世纪90年代开始至今。</p>
+<ul>
+<li>
+<p>这个阶段最有挑战性的是互联网（Internet）、高速通信网络、无线网络与网络安全技术。</p>
+</li>
+<li>
+<p>互联网作为国际性的网际网与大型信息系统，发挥着越来越重要的作用。</p>
+</li>
+<li>
+<p>宽带城域网技术为社会信息化提供技术支持。</p>
+</li>
+<li>
+<p>网络安全技术为网络应用提供安全保障。</p>
+</li>
+<li>
+<p>基于P2P的网络应用正成为互联网产业与信息服务业的新增长点。</p>
+</li>
+</ul>
+<h5 id="3．网络体系结构与协议标准化">3．网络体系结构与协议标准化</h5>
+<p>（1）OSI参考模型</p>
+<ul>
+<li>国际标准化组织ISO正式制定了开放系统互联（Open System Interconnection，OSI）参考模型。</li>
+</ul>
+<p>（2）TCP/IP协议</p>
+<ul>
+<li>ARPANET所有主机都完成了向TCP/IP协议的转换。TCP/IP协议成为业内公认的标准。</li>
+</ul>
+<p>（3）局域网技术</p>
+<ul>
+<li>局域网技术从最初的以太网（Ethernet）、令牌总线（Token Bus）和令牌环（Token Ring）三足鼎立，逐步发展到以太网一枝独秀的局面。</li>
+</ul>
+<p>（4）简单网络管理协议SNMP</p>
+<h5 id="4．互联网应用与高速网络技术发展">4．互联网应用与高速网络技术发展</h5>
+<p>（1）互联网高速发展</p>
+<p>一些互联网应用的出现也为互联网的发展注入活力，这些网络应用主要包括：</p>
+<ul>
+<li>
+<p>① 基于文本的应用，例如远程登录Telnet、电子邮件E-mail、文件传输服务FTP、电子公告牌BBS与网络新闻组Usenet等；</p>
+</li>
+<li>
+<p>② Web与多种多媒体应用，例如网络会议、网络电话、网络电视，以及电子商务、电子政务、远程教育、远程医疗等；</p>
+</li>
+<li>
+<p>③ 20世纪末开始流行的应用，例如搜索引擎、P2P文件共享、即时通信、博客、播客、网络游戏、网络广告等。</p>
+</li>
+</ul>
+<p>（2）信息高速公路建设</p>
+<ul>
+<li>
+<p>以高速局域网和ATM为代表的高速网络技术发展迅速。</p>
+</li>
+<li>
+<p>高速网络技术发展主要表现在：宽带综合业务数据网B—ISDN、异步传输模式ATM、高速局域网、交换局域网、虚拟局域网与无线网络。</p>
+</li>
+</ul>
+<p>（3）基于Web技术的互联网应用的发展</p>
+<ul>
+<li>
+<p>Web技术的出现，使互联网从最初主要由计算机专家和大学生使用，变为一种广泛使用的信息交互工具。</p>
+</li>
+<li>
+<p>Web服务是最方便与最受用户欢迎的互联网服务，广泛应用于电子商务、远程教育、远程医疗与信息服务等领域。</p>
+</li>
+<li>
+<p>搜索引擎是一种运行在Web上的应用软件系统，可以接受用户提出的信息检索需求，并在有限时间内为用户提供与需求最相关的信息。</p>
+</li>
+</ul>
+<p>（4）基于P2P技术的网络应用的发展</p>
+<ul>
+<li>对等（Peer-to-Peer，P2P）网络以“非中心化”方式使更多的用户同时身兼客户机与服务器的双重身份，被评价为“改变互联网的新一代网络技术”。</li>
+</ul>
+<p>（5）网络安全技术的发展</p>
+<ul>
+<li>计算机网络必须具有足够的安全机制，以防止信息被非法窃取、破坏与损失。</li>
+</ul>
+<h5 id="5．宽带城域网的发展">5．宽带城域网的发展</h5>
+<p>（1）信息高速公路建设的高潮</p>
+<p>（2）城域网的概念和技术</p>
+<ul>
+<li>
+<p>20世纪80年代后期，人们提出了城域网（Metropolitan Area Network，MAN）的概念，将城域网的业务定位在城市范围内大量局域网的互联。</p>
+</li>
+<li>
+<p>城域网泛指网络运营商在城市范围内提供各种信息服务业务的所有网络。</p>
+</li>
+<li>
+<p>将传统意义上的城域网扩展到宽带城域网，是一个能提供高传输速率和保证服务质量的网络系统。</p>
+</li>
+</ul>
+<p>（3）宽带城域网带来的变化主要表现在：</p>
+<ul>
+<li>
+<p>① 传统的局域网、城域网与广域网在技术上的界限越来越模糊。</p>
+</li>
+<li>
+<p>② 传统的电信通信网技术与计算机网络技术的界限越来越模糊。</p>
+</li>
+<li>
+<p>③ 传统的电信服务业务与互联网应用的界限越来越模糊。</p>
+</li>
+<li>
+<p>④ 计算机网络、电信通信网与广播电视网的技术与业务界限越来越模糊。</p>
+</li>
+</ul>
+<p>（4）宽带城域网的组成</p>
+<ul>
+<li>
+<p>宽带城域网应该包括核心交换网与接入网。</p>
+</li>
+<li>
+<p>用户接入网的主要有三类：计算机网络、电信通信网与广播电视网。</p>
+</li>
+<li>
+<p>互联网用户接入方式：地面有线通信系统、无线通信和移动通信网、卫星通信网、有限电视网和地面广播电视网。</p>
+</li>
+<li>
+<p>三种类型的接入网都在朝着数字技术的方向发展，最终将导致计算机网络、电信通信网与广播电视网的“三网融合”。</p>
+</li>
+<li>
+<p>数字技术可以将各种信息都变成数字信号来处理、存储与传输。</p>
+</li>
+</ul>
+<h5 id="6．无线网络的发展">6．无线网络的发展</h5>
+<p><strong>（1）无线局域网WLAN</strong></p>
+<ul>
+<li>
+<p>① 无线局域网（Wireless LAN，WLAN）以微波、激光与红外线等无线电波作为传输介质，部分或全部代替传统局域网中的同轴电缆、双绞线与光纤，实现移动网络中的结点之间的无线通信。</p>
+</li>
+<li>
+<p>② 无线局域网主要有四个应用领域：传统局域网的扩充，建筑物之间的互联，漫游访问与特殊网络。</p>
+</li>
+<li>
+<p>③ 无线局域网使用无线传输介质，按传输技术可以分为红外线局域网、扩频局域网和窄带微波局域网三类。</p>
+</li>
+</ul>
+<p><strong>（2）无线自组网Ad hoc</strong></p>
+<ul>
+<li>
+<p>① 无线自组网（Ad hoc）是一种自组织、对等式、多跳的无线移动网络。</p>
+</li>
+<li>
+<p>② 无线自组网技术的发展趋势有两个方向：</p>
+<ul>
+<li>
+<p>向军事和特定行业发展的无线传感器网络；</p>
+</li>
+<li>
+<p>向民用的接入网领域发展的无线网状网。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><strong>（3）无线传感器网WSN</strong></p>
+<ul>
+<li>
+<p>无线传感器网（Wireless Sensor Network，WSN）由部署在监测区域内大量的、廉价的微型传感器结点组成，通过无线通信方式形成的一个多跳、自组织的 Ad hoc。</p>
+</li>
+<li>
+<p>无线传感器网的目的是协作感知、采集和处理网络覆盖区域中感知对象的信息，并发送给观察者。</p>
+</li>
+<li>
+<p>无线传感器网的三个要素是传感器、感知对象和观察者。</p>
+</li>
+<li>
+<p>无线传感器网将Ad hoc技术与传感器技术相结合，改变人与自然界的交互方式。</p>
+</li>
+<li>
+<p>无线传感器的特点主要表现在：</p>
+<ul>
+<li>
+<p>无线传感器的规模大小与它的应用目的直接相关。</p>
+</li>
+<li>
+<p>无线传感器结点自动形成自组织、多跳的无线网络。</p>
+</li>
+<li>
+<p>WSN的拓扑结构可能因结点失效或加入结点而动态变化。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/8183172-f07c870cb042452b?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图1-2 无线传感器网的基本结构"></p>
+<p><strong>（4）无线网状网 WMN</strong></p>
+<ul>
+<li>
+<p>无线网状网（Wireless Mesh Network，WMN）是在Ad hoc的基础上发展起来，并且继承了WLAN的部分特征。</p>
+</li>
+<li>
+<p>无线网状网是一种基于多跳路由、对等结构、高容量的新型网络结构，具有动态扩展、自组网、自配置、自修复等特征。</p>
+</li>
+<li>
+<p>无线网状网作为对WLAN、WiMax技术的补充，成为解决无线接入“最后一公里”问题的新的技术方案。</p>
+</li>
+<li>
+<p>无线网状网由无线路由器（Wireless Router，WR）构成骨干网，用于提供大范围的信号覆盖与结点连接，普通结点只能通过无线路由器来接入互联网。</p>
+</li>
+</ul>
+<p><strong>（5）蓝牙技术</strong></p>
+<ul>
+<li>蓝牙技术是无线自组网技术的一种应用，具有自组织能力，可以实现便携式计算机、打印机、PDA与耳机等便携式设备的互联，可以方便地构成个人网络。</li>
+</ul>
+<h5 id="7．操作系统的发展">7．操作系统的发展</h5>
+<p><strong>（1）操作系统的概念</strong></p>
+<ul>
+<li>
+<p>操作系统（Operating System，OS）多数是具备网络功能的操作系统，用于管理网络通信与共享网络资源，协调网络环境中多个网络结点中的任务，并向用户提供统一的、有效的网络接口的软件集合。</p>
+</li>
+<li>
+<p>目前，流行的操作系统都属于基于文件服务的操作系统。</p>
+</li>
+</ul>
+<p><strong>（2）操作系统的发展阶段</strong></p>
+<ul>
+<li>
+<p>① 第一阶段，对等结构操作系统，所有联网结点地位平等，联网结点的资源可以相互共享；</p>
+</li>
+<li>
+<p>② 第二阶段，非对等结构操作系统，由两个部分构成：服务器端软件与工作站端软件；</p>
+</li>
+<li>
+<p>③ 第三阶段，基于文件服务的操作系统，由为两个部分构成：文件服务器与工作站软件。</p>
+</li>
+</ul>
+<p><strong>（3）Windows操作系统</strong></p>
+<ul>
+<li>Microsoft公司推出的Windows操作系统是一种典型的带有网络功能的操作系统，包括不同系列和不同版本的各种Windows操作系统。</li>
+</ul>
+<p><strong>（4）Unix操作系统</strong></p>
+<ul>
+<li>
+<p>① Unix 广泛应用于大型机、中型机、小型机、工作站与微型机上，特别是工作站。</p>
+</li>
+<li>
+<p>② TCP/IP 作为Unix的核心部分，使Unix与TCP/IP共同得到了普及与发展。</p>
+</li>
+<li>
+<p>③ Unix 是针对小型机环境开发的操作系统，采用的是集中式、分时、多用户的系统结构。</p>
+</li>
+</ul>
+<p><strong>（5）Linux操作系统</strong></p>
+<ul>
+<li>
+<p>① Linux操作系统内核代码效仿Unix，几乎所有Unix工具与外壳都可以运行在Linux上。</p>
+</li>
+<li>
+<p>② Linux系统的出发点在于核心程序的开发，而不是对用户系统的支持，是一个完全免费的操作系统。</p>
+</li>
+<li>
+<p>③ Linux系统适合作为Internet服务平台，价格低、源代码开放、安装配置简单。</p>
+</li>
+</ul>
+<h5 id="8．我国互联网的发展">8．我国互联网的发展</h5>
+<p>我国目前仍处于互联网应用高速发展的阶段。</p>
+<h4 id="二、计算机网络的基本概念">二、计算机网络的基本概念</h4>
+<h5 id="1．计算机网络的定义">1．计算机网络的定义</h5>
+<p>资源共享观点将计算机网络定义为以能够相互共享资源的方式互联起来的自治计算机系统的集合。</p>
+<p>（1）建立计算机网络的主要目的是实现计算机资源的共享。</p>
+<p>（2）互联的计算机是分布在不同地理位置的多台独立的“自治计算机”。</p>
+<p>（3）联网计算机之间的通信必须遵循共同的网络协议。</p>
+<h5 id="2．计算机网络的分类">2．计算机网络的分类</h5>
+<p>（1）局域网（Local Area Network，LAN）</p>
+<ul>
+<li>
+<p>① 局域网用于将有限范围内的各种计算机、终端与外部设备互联成网。</p>
+<ul>
+<li>
+<p>从介质访问控制方法的角度来看，局域网可分为共享介质局域网与交换式局域网；</p>
+</li>
+<li>
+<p>从传输介质类型的角度来看，局域网可分为有线局域网与无线局域网。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>② 局域网的技术特点：</p>
+<ul>
+<li>
+<p>局域网覆盖有限的地理范围，适用于机关、校园、企业等有限范围内的计算机、终端与各类信息处理设备联网的需求；</p>
+</li>
+<li>
+<p>局域网提供高数据传输速率（10Mbps～10Gbps）、低误码率的数据传输环境；</p>
+</li>
+<li>
+<p>局域网通常属于一个单位所有，易于建立、维护与扩展；</p>
+</li>
+<li>
+<p>局域网可用于个人计算机组网、大规模计算机集群的后端网络、存储区域网络、高速办公网络、企业与学校的主干网络。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>（2）城域网（Metropolitan Area Network，MAN）</p>
+<ul>
+<li>
+<p>城市地区网络通常简称为城域网，是介于广域网与局域网之间的一种高速网络。</p>
+</li>
+<li>
+<p>城域网的设计目标是满足几十公里范围内的大量机关、校园、企业的多个局域网的互联需求，以实现大量用户之间的数据、语音、图形与视频等多种信息传输。</p>
+</li>
+</ul>
+<p>（3）广域网（Wide Area Network，WAN）</p>
+<ul>
+<li>
+<p>广域网又称为远程网，覆盖的地理范围从几十公里到几千公里。</p>
+</li>
+<li>
+<p>广域网覆盖一个国家、地区，或横跨几个洲，可以形成国际性的远程计算机网络。</p>
+</li>
+<li>
+<p>计算机通过局域网联入广域网，局域网与广域网、广域网与广域网的互联通过路由器实现。</p>
+</li>
+<li>
+<p>城域网通过路由器与光纤接入作为国家级或区域主干网的广域网。</p>
+</li>
+<li>
+<p>多个广域网互联形成覆盖全世界的互联网网络。</p>
+</li>
+</ul>
+<p>（4）个人区域网（Personnel Area Network，PAN）</p>
+<ul>
+<li>
+<p>个人区域网覆盖的地理范围最小（通常为10 m以内），用于连接计算机、平板电脑、智能手机、打印机等数字终端设备。</p>
+</li>
+<li>
+<p>个人区域网主要使用无线通信技术实现联网设备之间的通信，是无线个人区域网。</p>
+</li>
+</ul>
+<h5 id="3．计算机网络的拓扑结构">3．计算机网络的拓扑结构</h5>
+<p>（1）网络拓扑的定义</p>
+<ul>
+<li>网络拓扑研究构成大型互联网的基本单元网络的结构，通过网络结点与通信线路之间的几何关系来表示网络结构，反映网络中各个实体之间的结构关系，主要是指通信子网的拓扑构型。</li>
+</ul>
+<p>（2）网络拓扑的分类</p>
+<ul>
+<li>
+<p>① 广播信道通信子网的拓扑；</p>
+</li>
+<li>
+<p>② 点对点线路的通信子网的拓扑。</p>
+<ul>
+<li>
+<p>在采用点对点线路的通信子网中，每条物理线路连接两个结点。</p>
+</li>
+<li>
+<p>对于采用点对点线路的通信子网，基本拓扑构型包括4种：星型、环型、树型与网状型。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/8183172-d1c138450bb3aa49?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="img"></p>
+<p>（3）点对点线路的通信子网的拓扑</p>
+<ul>
+<li>
+<p>① 星型拓扑</p>
+<ul>
+<li>
+<p>结点通过点对点线路与中心结点连接。</p>
+</li>
+<li>
+<p>中心结点控制整个网络的通信，任何两个结点之间的通信都要通过中心结点。</p>
+</li>
+<li>
+<p>星型拓扑构型结构简单，易于实现，便于管理。</p>
+</li>
+<li>
+<p>中心结点是整个网络的可靠性瓶颈，中心结点故障会造成整个网络瘫痪。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>② 环型拓扑</p>
+<ul>
+<li>
+<p>在环型拓扑构型中，结点通过点对点线路连接成闭合环路。</p>
+</li>
+<li>
+<p>环中数据将沿一个方向逐站传送。</p>
+</li>
+<li>
+<p>环型拓扑结构简单，传输延时确定，但是环中每条通信线路都会成为网络可靠性的瓶颈。</p>
+</li>
+<li>
+<p>环中任何结点出现线路故障，都可能造成网络瘫痪。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>③ 树型拓扑</p>
+<ul>
+<li>
+<p>在树型拓扑构型中，结点按层次进行连接，数据主要在上、下层结点之间交换。</p>
+</li>
+<li>
+<p>相邻及同层结点之间通常不进行数据交换或数据交换量小。</p>
+</li>
+<li>
+<p>树型拓扑可以看成是星型拓扑的一种扩展，适用于汇集数据的应用需求。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>④ 网状拓扑</p>
+<ul>
+<li>
+<p>在网状拓扑构型中，结点之间的连接是任意的，没有规律可循。</p>
+</li>
+<li>
+<p>网状拓扑构型又称为无规则型。</p>
+</li>
+<li>
+<p>网状拓扑的主要优点是系统可靠性高。</p>
+</li>
+<li>
+<p>网状拓扑的结构复杂，必须采用路由选择与流量控制方法。</p>
+</li>
+<li>
+<p>目前实际存在与使用的广域网结构，基本都采用网状拓扑构型。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="4．描述计算机网络传输特性的参数">4．描述计算机网络传输特性的参数</h5>
+<p><strong>（1）数据传输速率</strong></p>
+<ul>
+<li>
+<p>① 数据传输速率的定义</p>
+<ul>
+<li>
+<p>❶ 数据传输速率是每秒钟传输构成数据的二进制比特数，单位为比特/秒（bit/second），记作bps。</p>
+</li>
+<li>
+<p>❷ 对于二进制数据，数据传输速率为：<code>S = 1/T</code></p>
+</li>
+<li>
+<p>❸ T 为发送每个比特所需的时间。</p>
+</li>
+<li>
+<p>❹ 常用的数据传输速率单位有 kbps、Mbps、Gbps、Tbps。</p>
+</li>
+<li>
+<p>❺ 1Tbps = 10<sup>3</sup> Gbps = 10<sup>6</sup> Mbps = 10<sup>9</sup> Kbps =10<sup>12</sup> bps</p>
+</li>
+</ul>
+</li>
+<li>
+<p>② 数据传输速率与带宽</p>
+<ul>
+<li>
+<p>❶ “带宽”表示信道的数据传输速率。</p>
+</li>
+<li>
+<p>❷ 奈奎斯特准则（Nyquist）</p>
+<ul>
+<li>
+<p>奈奎斯特准则是具有理想低通矩形特性的信道在无噪声情况下的最高速率与带宽关系的公式。</p>
+</li>
+<li>
+<p>对于二进制数据信号的最大数据传输速率R<sub>max</sub>与通信信道带宽B（B=f，单位Hz）的关系：R<sub>max</sub> = 2 * f</p>
+</li>
+</ul>
+</li>
+<li>
+<p>❸ 香农（Shannon）定律</p>
+<ul>
+<li>
+<p>在有随机热噪声的信道上传输数据信号时，数据传输速率Rmax与信道带宽B、信号与噪声功率比S/N关系为：R<sub>max</sub> = B * log<sub>2</sub>(1+S/N)</p>
+</li>
+<li>
+<p>Rmax单位为bps，带宽B单位为Hz，S/N是信号与噪声功率比（简称信噪比）。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>（2）误码率的定义</p>
+<ul>
+<li>
+<p>① 误码率是指二进制码元在数据传输系统中被传错的概率，在数值上近似等于：P<sub>e</sub> = N<sub>e</sub>/N ，其中，N为传输的二进制码元总数，N<sub>e</sub>为被传错的码元数。</p>
+</li>
+<li>
+<p>② 误码率是衡量数据传输系统在正常工作状态下的传输可靠性的参数。</p>
+</li>
+<li>
+<p>③ 在数据传输速率确定后，误码率越低，传输系统设备越复杂、造价越高。</p>
+</li>
+<li>
+<p>④ 对于实际的数据传输系统，如果传输的不是二进制码元，需要折合成二进制码元来计算。</p>
+</li>
+<li>
+<p>⑤ 由于差错的出现具有随机性，被测量的传输二进制码元数越大，才会越接近于真正的误码率。</p>
+</li>
+</ul>
+<h4 id="三、分组交换与包交换">三、分组交换与包交换</h4>
+<h5 id="1．线路交换">1．线路交换</h5>
+<p>（1）线路交换（Circuit Exchanging）方式：两台计算机通过在通信子网中建立一条实际的物理线路连接来进行数据交换。</p>
+<p><img src="https://upload-images.jianshu.io/upload_images/8183172-08411071f7d5abb6?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图1-4给出线路交换的工作原理"></p>
+<p>（2）线路交换的通信过程</p>
+<ul>
+<li>
+<p>① 线路建立阶段：如果主机A要向主机B传输数据，需要在主机A与主机B之间建立一条线路连接。</p>
+<ul>
+<li>
+<p>❶ 首先，主机A向通信子网中的交换机A发送“呼叫请求包”，其中含有建立线路连接的源主机地址与目的主机地址。</p>
+</li>
+<li>
+<p>❷ 结点A根据路由选择算法进行路径选择，如果选择下一个交换机为B，则向交换机B发送“呼叫请求包”。</p>
+</li>
+<li>
+<p>❸ 当交换机B接到呼叫请求后，根据路由选择算法进行路径选择，如果选择下一个交换机为C，则向交换机C发送“呼叫请求包”。</p>
+</li>
+<li>
+<p>❹ 当交换机C接到呼叫请求后，根据路由选择算法进行路径选择，如果选择下一个交换机为D，则向交换机D发送“呼叫请求包”。</p>
+</li>
+<li>
+<p>❺ 当交换机D接到呼叫请求后，向直接连接的主机B发送“呼叫请求包”。</p>
+</li>
+<li>
+<p>❻ 如果主机B接受主机A的呼叫连接请求，则通过已建立的物理线路连接（交换机D、C、B、A）向主机A发送“呼叫应答包”。</p>
+</li>
+<li>
+<p>❼ 至此，从主机A经过交换机A、B、C、D到主机B的一条专用的物理线路连接建立，该连接只用于主机A与主机B之间的数据交换。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>② 数据传输阶段：当主机A与主机B通过通信子网的物理线路连接建立后，主机A与主机B就可以通过该连接来实时、双向地交换数据。</p>
+</li>
+<li>
+<p>③ 线路释放阶段：在数据传输完成后，就要进入线路释放阶段。</p>
+<ul>
+<li>
+<p>❶ 主机A向主机B发出“释放请求包”。</p>
+</li>
+<li>
+<p>❷ 主机B同意结束传输和释放线路后，则向交换机D发送“释放应答包”，按交换机C、B、A的顺序依次释放物理连接，最后主机A释放物理连接。</p>
+</li>
+<li>
+<p>❸ 至此，本次通信结束。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>（3）线路交换方式的优缺点</p>
+<ul>
+<li>
+<p>① 线路交换方式的优点：通信的实时性强，适用于交互式会话类通信。</p>
+</li>
+<li>
+<p>② 线路交换方式的缺点：不适应突发性通信，系统效率低；不具备存储数据能力，不能平滑通信量；不具备差错控制能力，无法发现与纠正传输中的差错。</p>
+</li>
+</ul>
+<h5 id="2．存储转发交换">2．存储转发交换</h5>
+<p>（1）存储转发交换方式（Store．And-Forward Exchanging）</p>
+<ul>
+<li>存储转发交换方式可以分为报文交换（Message Exchanging）与报文分组交换（Packet Exchanging）两类。</li>
+</ul>
+<p>（2）存储转发交换方式的通信过程</p>
+<ul>
+<li>
+<p>传输前不需要在源主机与目的主机之间预先建立“线路连接”。</p>
+</li>
+<li>
+<p>源主机发送数据中包含目的地址、源地址与控制信息，按照一定格式组成一个数据单元（报文或报文分组），并进入通信子网；</p>
+</li>
+<li>
+<p>通信子网中的结点是通信控制处理机，负责完成数据单元的接收、差错校验、存储、路由选择和转发功能。</p>
+</li>
+<li>
+<p>传输的数据单元相应分为两类：报文（Message）与报文分组（Packet）。</p>
+<ul>
+<li>
+<p>报文：如果在发送数据时不限制数据长度，只当作一个逻辑单元，则可以在数据中加上目的地址、源地址与控制信息，并按照一定格式打包后组成一个报文。</p>
+</li>
+<li>
+<p>报文分组：如果限制数据的最大长度，源结点需要将一个长报文分为多个分组，由目的结点将多个分组按顺序重新组织成报文。报文分组通常也被称为分组。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/8183172-42a86648e79c15c2?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图1-5 报文和报文分组结构的区别"></p>
+<p>（3）分组交换</p>
+<ul>
+<li>
+<p>① 分组交换成是当前计算机网络中的基本交换技术。</p>
+</li>
+<li>
+<p>② 通信子网中的路由器可以存储分组，多个分组可以共享通信信道，线路的利用率高。</p>
+</li>
+<li>
+<p>③ 路由器具有路由选择功能，可以动态选择分组通过通信子网的最佳路径，也可以平滑通信量，因此可以提高系统效率。</p>
+</li>
+<li>
+<p>④ 分组在通过通信子网中的每个路由器时，都需要进行差错检查与纠错处理，可以提高系统可靠性。</p>
+</li>
+<li>
+<p>⑤ 路由器可以对不同通信速率的线路进行速率转换，也可以对不同的数据代码格式进行变换。</p>
+</li>
+</ul>
+<h5 id="3．数据报方式与虚电路方式">3．数据报方式与虚电路方式</h5>
+<p>分组交换技术可以分为两类：数据报（Datagram，DG）与虚电路（Virtual Circuit，VC）。</p>
+<p>（1）数据报方式</p>
+<ul>
+<li>
+<p>① 数据报是报文分组存储转发的一种形式。</p>
+<ul>
+<li>
+<p>❶ 在数据报方式中，分组传输前不需要在源主机与目的主机之间预先建立“线路连接”。</p>
+</li>
+<li>
+<p>❷ 源主机发送的每个分组都可以独立选择一条传输路径。</p>
+</li>
+<li>
+<p>❸ 每个分组在通信子网中可能通过不同路径到达目的主机。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/8183172-aa21cee5e762b2c0?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图1-6 数据报方式的工作原理"></p>
+<ul>
+<li>
+<p>② 数据报方式的工作过程</p>
+<ul>
+<li>
+<p>❶ 源主机（主机A）将报文分成多个分组，依次发送到直接相连的通信控制处理机A（即结点A）。</p>
+</li>
+<li>
+<p>❷ 当结点A每次接收到一个分组时，都要对该分组进行差错检测，以保证主机A与结点A之间的数据传输正确；</p>
+</li>
+<li>
+<p>❸ 结点A接收到分组以后，需要为每个分组进行路由选择，不同分组通过子网的路径可能是不同的。</p>
+</li>
+<li>
+<p>❹ 当结点A向结点C发送分组p1时，结点C要对p1进行差错检测。如果p1传输正确，结点C向结点A发送确认信息ACK；结点A接收到结点C的ACK信息后，确认p1已经正确传输，这时节点A可以废弃p1的副本。</p>
+</li>
+<li>
+<p>❺ 分组p1通过通信子网中多个结点的存储转发，最终正确到达目的结点（主机B）。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>③ 数据报方式的特点：</p>
+<ul>
+<li>
+<p>❶ 同一报文的不同分组可以经过不同的传输路径通过通信子网。</p>
+</li>
+<li>
+<p>❷ 同一报文的不同分组到达目的的结点时可能出现乱序、重复与丢失现象。</p>
+</li>
+<li>
+<p>❸每个分组在传输过程中都必须带有目的地址与源地址。</p>
+</li>
+<li>
+<p>❹ 数据报方式的传输延迟较大，适用于突发性通信、不适用于长报文、会话式通信。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>（2）虚电路方式</p>
+<ul>
+<li>① 虚电路方式在发送分组之前，发送方和接收方需要建立一条逻辑连接的虚电路。</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/8183172-93b513b15b0ce0c2?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图1-7 虚电路方式的工作原理"></p>
+<ul>
+<li>
+<p>② 虚电路方式的工作过程</p>
+<ul>
+<li>
+<p>❶ 虚电路建立阶段：</p>
+<ul>
+<li>
+<p>源结点（结点A）使用路由选择算法确定下一个结点（结点B），然后向结点B发送“呼叫请求分组”；</p>
+</li>
+<li>
+<p>同时结点B也使用路由选择算法确定下一个结点。</p>
+</li>
+<li>
+<p>以此类推，“呼叫请求分组”经过一条路径（A、B、C、D）结点（结点D）向结点A发送“呼叫接收分组”。</p>
+</li>
+<li>
+<p>至此虚电路建立。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>❷ 数据传输阶段：通过已建立的虚电路以存储转发方式顺序传输分组。</p>
+</li>
+<li>
+<p>❸ 虚电路拆除阶段：在数据传输结束之后，进入虚电路拆除阶段，按照D、C、B、A的顺序依次拆除虚电路。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>③ 虚电路方式的特点：</p>
+<ul>
+<li>
+<p>在每次传输分组之前，在源结点与目的结点之间建立一条逻辑连接，而不是需要去建立一条真实的物理链路。</p>
+</li>
+<li>
+<p>一次通信的所有分组都通过虚电路顺序传输，分组中不必携带目的地址、源地址等信息。</p>
+</li>
+<li>
+<p>分组到达目的结点时不会出现乱序、重复与丢失现象。</p>
+</li>
+<li>
+<p>在分组通过虚电路上的每个结点时，结点只需要进行差错检测，而不需要进行路由选择。</p>
+</li>
+<li>
+<p>通信子网中的每个结点可以与任何结点建立多条虚电路连接。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>④ 虚电路方式与线路交换方式的区别：</p>
+<ul>
+<li>
+<p>虚电路是在传输分组之前建立的逻辑连接，称为“虚电路”，这种电路不是专用的。</p>
+</li>
+<li>
+<p>每个结点可以同时与多个结点之间建立虚电路，每条虚电路支持这两个结点之间的数据传输。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h4 id="四、网络体系结构与网络协议">四、网络体系结构与网络协议</h4>
+<h5 id="1．网络体系结构的概念">1．网络体系结构的概念</h5>
+<p>（1）网络协议（Protoco1）</p>
+<ul>
+<li>
+<p>网络协议是计算机网络为了在结点之间进行网络数据交换而制定的规则、约定与标准。</p>
+</li>
+<li>
+<p>网络协议由3个要素组成：</p>
+<ul>
+<li>
+<p>语法：用户数据与控制信息的结构和格式。</p>
+</li>
+<li>
+<p>语义：需要发送何种控制信息，以及完成的动作与所作的响应。</p>
+</li>
+<li>
+<p>时序：对事件实现顺序的详细说明。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>（2）网络体系结构（Network Architecture）</p>
+<ul>
+<li>
+<p>网络体系结构是网络层次结构模型和各层协议的集合，是对计算机网络功能的精确定义。</p>
+</li>
+<li>
+<p>网络体系结构是抽象的，网络实现是具体的，包括能运行的一些硬件和软件。</p>
+</li>
+<li>
+<p>计算机网络体系结构采用层次结构的好处：</p>
+<ul>
+<li>
+<p>各层之间相互独立。高层并不需要知道低层如何实现，只需知道该层通过接口提供的服务。</p>
+</li>
+<li>
+<p>灵活性好。当任何一层发生变化时，只要该层的接口保持不变，则该层以上或以下各层均不受影响。当不需要某层提供的服务时，甚至可以取消该层。</p>
+</li>
+<li>
+<p>各层都可以采用最合适的技术来实现，各层实现技术的改变不影响其他层。</p>
+</li>
+<li>
+<p>易于实现和维护。整个系统已被分解为若干个易于处理的部分，容易实现和维护。</p>
+</li>
+<li>
+<p>有利于促进标准化。由于每层的功能和所提供的服务都已有精确的说明。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="2．isoosi参考模型">2．ISO/OSI参考模型</h5>
+<p>（1）OSI参考模型的基本概念</p>
+<ul>
+<li>
+<p>ISO制定了开放系统互联（OSI）参考模型，作为国际认可的标准模型。</p>
+</li>
+<li>
+<p>OSI参考模型详细规定了每层的功能，以实现开放系统环境中的互联性（interconnection）、互操作性（interoperation）和应用的可移植性（portability）。</p>
+</li>
+<li>
+<p>OSI参考模型采用三级抽象：体系结构（Architecture）、服务定义（Service Definition）和协议说明（Protocol Specification）。</p>
+<ul>
+<li>
+<p>OSI体系结构定义了开放系统的层次结构、层次之间的相互关系，以及各层所包括的可能的服务。</p>
+</li>
+<li>
+<p>OSI服务定义详细说明了各层提供的服务。</p>
+<ul>
+<li>
+<p>某层的服务就是该层及以下各层的一种能力，通过接口提供给更高一层。</p>
+</li>
+<li>
+<p>各层提供的服务与这些服务如何实现无关。</p>
+</li>
+<li>
+<p>各种服务定义还定义了各层之间的接口和各层使用的原语，但是不涉及接口是怎样实现的。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>OSI协议说明精确定义了控制信息的发送，以及控制信息的解释过程。协议说明具有最严格的约束。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>OSI参考模型并没有提供一个可以实现的方法，只是描述了一些概念，用来协调进程之间通信标准的制定。</p>
+</li>
+</ul>
+<p>（2）ISO划分整个通信功能的基本原则</p>
+<ul>
+<li>
+<p>① 网络中的各个结点都具有相同的层次。</p>
+</li>
+<li>
+<p>② 不同结点的同等层都具有相同的功能。</p>
+</li>
+<li>
+<p>③ 同一结点内部的相邻层之间通过接口来通信。</p>
+</li>
+<li>
+<p>④ 每层使用其下层提供的服务，并向其上层提供服务。</p>
+</li>
+<li>
+<p>⑤ 不同结点的同等层根据协议来实现对等层之间的通信。</p>
+</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/8183172-db8aaf7ac9cae103?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图1-8 OSI参考模型结构"></p>
+<p>（3）OSI参考模型中的各层的主要功能：</p>
+<ul>
+<li>
+<p>① 物理层（Physical Layer）</p>
+<ul>
+<li>
+<p>物理层位于OSI参考模型的最低层。</p>
+</li>
+<li>
+<p>物理层的主要功能是利用物理传输介质，为数据链路层提供物理连接，以便透明地传输比特流。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>② 数据链路层（Data Link Layer）</p>
+<ul>
+<li>
+<p>在物理层提供的比特流传输服务的基础上，在通信的实体之间建立数据链路连接。</p>
+</li>
+<li>
+<p>在数据链路上传输以帧作为单位的数据，采用差错控制与流量控制方法，将有差错的物理线路变成无差错的数据链路。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>③ 网络层（Network Layer）</p>
+<ul>
+<li>
+<p>网络层通过路由选择算法为分组通过通信子网选择最适当的路径。</p>
+</li>
+<li>
+<p>网络层需要实现路由选择、拥塞控制与网络互联等功能。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>④ 传输层（Transport Layer）</p>
+<ul>
+<li>
+<p>传输层的主要任务是向用户提供可靠的端到端（End-to-End）服务，以便透明地传输报文。</p>
+</li>
+<li>
+<p>传输层向高层屏蔽低层的数据通信细节，是网络体系结构中的关键层之一。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>⑤ 会话层（Session Layer）：主要用于组织两个会话进程之间的通信，并且对数据交换进行管理。</p>
+</li>
+<li>
+<p>⑥ 表示层（Presentation Layer）</p>
+<p>表示层处理在不同通信系统中交换的信息的表示方式，包括数据格式变换、数据加密与解密、数据压缩与恢复等功能。</p>
+</li>
+<li>
+<p>⑦ 应用层（Application Layer）</p>
+<ul>
+<li>
+<p>应用层是OSI参考模型的最高层。</p>
+</li>
+<li>
+<p>应用层提供应用进程所需的信息交换和远程操作，以及通过代理（Agent）完成一些信息交换所需的功能。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="3．tcpip参考模型与协议">3．TCP/IP参考模型与协议</h5>
+<p>（1）TCP/IP参考模型与协议的发展</p>
+<ul>
+<li>
+<p>① TCP/IP协议是目前最流行的商业化协议，并被公认为工业标准或“事实上的标准”。</p>
+</li>
+<li>
+<p>② 在TCP/IP协议出现之后，才出现了TCP/IP参考模型，也先于OSI参考模型出现。</p>
+</li>
+<li>
+<p>③ TCP/IP协议具有以下几个特点：</p>
+<ul>
+<li>
+<p>开放的协议标准，可以免费使用，并且独立于特定的计算机硬件与操作系统。</p>
+</li>
+<li>
+<p>独立于特定的网络硬件，可以运行在局域网、广域网，更适合在互联网中使用。</p>
+</li>
+<li>
+<p>统一的网络地址分配方案，使每个TCP/IP设备在网络中都具有唯一的地址。</p>
+</li>
+<li>
+<p>标准化的高层协议，可以提供多种可靠的用户服务。</p>
+</li>
+</ul>
+</li>
+</ul>
+<p>（2）TCP/IP参考模型与层次结构</p>
+<ul>
+<li>① 层次结构模型包括两方面：一是层次结构的定义，二是各层功能的描述。</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/8183172-0f7cf4f51161d94f?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图1-9 TCP/IP参考模型与OSI参考模型"></p>
+<ul>
+<li>
+<p>② TCP/IP参考模型可以分为4个层次：应用层、传输层、互联层与主机-网络层。</p>
+<ul>
+<li>
+<p>应用层（Application Layer）与OSI模型的应用层对应。</p>
+</li>
+<li>
+<p>传输层（Transport Layer）与OSI模型的传输层对应。</p>
+</li>
+<li>
+<p>互联层（Internet Layer）与OSI模型的网络层对应，负责将源主机生成的分组发送到目的主机。</p>
+</li>
+<li>
+<p>主机-网络层（Host-to-Network Layer）与OSI模型的数据链路层及物理层对应。</p>
+</li>
+<li>
+<p>在TCP/IP参考模型中，OSI模型的表示层、会话层没有对应的层次。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>③ 互联层的功能：</p>
+<ul>
+<li>
+<p>处理来自传输层的分组发送请求。在接收到分组发送请求之后，将分组装入IP数据报并填充报头，然后将数据报发送到相应的网络输出接口。</p>
+</li>
+<li>
+<p>处理接收到的数据报。在接收到来自其他主机的数据报之后，检查数据报的目的地址，如果需要转发，则为数据报选择发送路径并执行转发；如果目的地址为本结点的IP地址，则拆除报头并将分组交给传输层处理。</p>
+</li>
+<li>
+<p>处理互联的路径、流量与拥塞控制问题。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>④ 传输层协议</p>
+<ul>
+<li>
+<p>传输控制协议（Transport Control Protocol，TCP）</p>
+<ul>
+<li>
+<p>TCP协议是一种可靠的面向连接的协议。</p>
+</li>
+<li>
+<p>TCP协议能将一台主机的字节流（Byte Stream）无差错地传输到目的主机。</p>
+</li>
+<li>
+<p>TCP协议将应用层的字节流分成多个字节段（Byte Segment），然后将每个字节段依次交给互联层，以发送到目的主机。</p>
+</li>
+<li>
+<p>当互联层将接收到的字节段交给传输层时，传输层将多个字节段还原成字节流，以交给应用层。</p>
+</li>
+<li>
+<p>TCP协议还要完成流量控制功能，协调收发双方的发送与接收速度，以达到正确传输的目的。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>用户数据报协议（User Datagram Protocol，UDP）</p>
+<ul>
+<li>
+<p>UDP协议是一种不可靠的无连接协议。</p>
+</li>
+<li>
+<p>UDP协议常用于不要求分组顺序到达的应用，分组传输顺序检查与排序由应用层来完成。</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>⑤ TCP/IP的应用层协议主要包括：</p>
+<ul>
+<li>
+<p>网络终端协议Telnet：用于互联网中的远程登录功能。</p>
+</li>
+<li>
+<p>文件传输协议FTP：用于互联网中的交互式文件传输功能。</p>
+</li>
+<li>
+<p>电子邮件协议SMTP：用于互联网中的电子邮件发送功能。</p>
+</li>
+<li>
+<p>域名服务系统DNS：用于网络设备的名字到IP地址的映射。</p>
+</li>
+<li>
+<p>路由信息协议RIP：用于在路由设备之间交换路由信息。</p>
+</li>
+<li>
+<p>网络文件系统NFS：用于互联网中的不同主机的文件共享。</p>
+</li>
+<li>
+<p>超文本传输协议HTTP：用于互联网中的Web服务。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="4．osi参考模型与tcpip参考模型的比较">4．OSI参考模型与TCP/IP参考模型的比较</h5>
+<p>（1）相同点：OSI参考模型与TCP/IP参考模型都采用层次结构的概念，在传输层中定义了相似的功能。</p>
+<p>（2）OSI参考模型与协议其自身的缺陷：</p>
+<ul>
+<li>
+<p>① 会话层在大多数的应用中很少使用，表示层几乎是空的；</p>
+</li>
+<li>
+<p>② 在数据链路层与网络层中有很多子层插入，每个子层都有不同的功能；</p>
+</li>
+<li>
+<p>③ 将“服务”与“协议”的定义相结合，使得该参考模型变得格外复杂，实现起来非常困难；</p>
+</li>
+<li>
+<p>④ 寻址、流量控制与差错控制在每层中重复出现，降低系统效率；</p>
+</li>
+<li>
+<p>⑤ 关于数据安全性、加密与网络管理等方面的问题在OSI参考模型的设计初期被忽略；</p>
+</li>
+<li>
+<p>⑥ 很多“原语”在软件的一些高级语言中实现起来容易，但是严格按照层次模型编程的软件效率低。</p>
+</li>
+</ul>
+<p>（3）TCP/IP参考模型与协议也有自身的缺陷：</p>
+<ul>
+<li>
+<p>① 在服务、接口与协议的区别上不清楚。</p>
+</li>
+<li>
+<p>② 主机—网络层本身并不是实际的一层，TCP/IP定义了网络层与数据链路层的接口，而物理层与数据链路层的划分是必要和合理的，TCP/IP参考模型却没有做到这点。</p>
+</li>
+</ul>
+<h4 id="五、互联网应用的发展">五、互联网应用的发展</h4>
+<h5 id="1．基于web应用的发展">1．基于web应用的发展</h5>
+<p>（1）Web服务器是运行Web服务器软件（例如Microsoft IIS或Apache Server）的计算机。</p>
+<p>（2）Web服务中的信息以页面（Page）的形式来表示。</p>
+<p>（3）Web页面由各种文件组成，这些文件包含如何显示信息的说明，以及用户可以看到的最终结果。</p>
+<h5 id="2．搜索引擎技术的发展">2．搜索引擎技术的发展</h5>
+<p>搜索引擎作为运行在Web上的应用软件系统，已经成为继电子邮件之后的第二大Web应用。</p>
+<h5 id="3．播客技术的应用">3．播客技术的应用</h5>
+<p>（1）播客（Podcast）是基于互联网的数字广播技术之一，继承了传统广播的大众性，同时增加了收听节目的灵活性、听众选择节目与参与节目的主动性、互动性。</p>
+<p>（2）播客可的分类：根据节目类型</p>
+<ul>
+<li>
+<p>① 传统广播节目的播客：播客节目的内容是经过编辑的电视节目播客版本，增加一些符合播客格式的特制内容。</p>
+</li>
+<li>
+<p>② 专业播客提供商：专业播客提供商作为信息服务业的新业态出现。</p>
+</li>
+<li>
+<p>③ 个人播客：使用麦克风、视频头与计算机将自己的生活感悟记录下来，作为个人音频版的日记传输到播客共享空间与网友共享。</p>
+</li>
+</ul>
+<p>（3）播客技术带来的变化</p>
+<ul>
+<li>
+<p>① 播客技术使传统的广播从单纯的语音向语音、视频结合的方式变化，增加制作者的表现手段，增强互动性，吸引更多的受众。</p>
+</li>
+<li>
+<p>② 播客技术改变传统广播的听众被动收听的方式，使听众成为主动的参与者。播客听众可以自己选定节目内容，增强听众的主动性与互动性。</p>
+</li>
+<li>
+<p>③ 播客技术改变传统广播的定时播出方式，播客听众可在任何时间通过网络选择自己感兴趣的节目。在传统的广播方式中，如果错过播音时间，就听不到某个节目。</p>
+</li>
+<li>
+<p>④ 播客技术使传统广播从广播电台的单一模式，变成个人也可以制作节目的局面。</p>
+</li>
+</ul>
+<h5 id="4．博客技术的应用">4．博客技术的应用</h5>
+<p>（1）博客的定义</p>
+<ul>
+<li>
+<p>① 博客（Blog）又称为网络日志（Weblog），是互联网上以文章形式的信息发表和共享。</p>
+</li>
+<li>
+<p>② 博客在技术上属于网络共享空间，在形式上属于个人互联网出版类的应用，是人们在互联网上思想交流的一种新方式。</p>
+</li>
+<li>
+<p>③ 博客服务网站为博客的使用者开辟一个共享空间，用户可以使用文字、图片、视频或链接等，建立自己的个性化的信息共享空间。</p>
+</li>
+</ul>
+<p>（2）博客的分类：根据使用者和内容的不同</p>
+<ul>
+<li>
+<p>① 个人博客：以个人的记事、表达、交流为主的博客，记录了个人真实生活日记，以及对某些问题的认识与感悟。</p>
+</li>
+<li>
+<p>② 博客社区：</p>
+<ul>
+<li>
+<p>由共同关心某类问题的人或团体组成的博客社区。</p>
+</li>
+<li>
+<p>以学术专题讨论为主形成的博客社区。</p>
+</li>
+<li>
+<p>以新闻时事的发表、转载与评论为主的博客社区。</p>
+</li>
+</ul>
+</li>
+</ul>
+<h5 id="5．网络电视的应用">5．网络电视的应用</h5>
+<p>（1）传统的数字电视是通过有线电视网传输，只能提供广播方式的服务，而不能提供点播方式的服务。</p>
+<p>（2）网络电视（IPTV）是通过宽带IP网络传输，可以实现与用户的互动点播，同时也可以方便地将传统的电视服务与Web、E-mail和其他互联网服务功能相结合。</p>
+<h5 id="6．p2p技术的应用">6．P2P技术的应用</h5>
+<p>（1）P2P技术网络</p>
+<ul>
+<li>
+<p>① P2P网络中计算机同时身兼服务提供者与使用者的双重身份。</p>
+</li>
+<li>
+<p>② 在P2P网络环境中，成千上万台彼此连接的计算机之间都处于一种对等的地位，每台计算机既可以作为网络服务的使用者，也可以向其他提出服务请求的客户机提供资源和服务。</p>
+</li>
+</ul>
+<p>（2）P2P网络的特点</p>
+<ul>
+<li>
+<p>① P2P网络是以扩大互联网资源的共享范围与深度，使信息共享达到最大化为目的而设计的一种“非集中式”的网络结点之间的结构。</p>
+<ul>
+<li>
+<p>在P2P网络中，所有结点既可以作为客户机，又可以作为服务器。</p>
+</li>
+<li>
+<p>结点之间在共享网络资源与服务上的地位是平等的。</p>
+</li>
+</ul>
+</li>
+<li>
+<p>② P2P网络是不依赖于互联网的DNS，能够适应网络拓扑的态变化，具有独立路由寻址能力的自治系统。</p>
+</li>
+<li>
+<p>③ P2P网络的“非集中式”共享网络资源与服务，与已有的“集中式”共享网络资源的结构是共存与互补的。</p>
+</li>
+</ul>
+<p>（3）典型的P2P应用</p>
+<ul>
+<li>
+<p>① P2P网络应用大致可以分为：文件共享类、多媒体传输类、即时通信类、数据存储类、协同工作类、P2P搜索类、P2P分布式计算类应用。</p>
+</li>
+<li>
+<p>② 在P2P网络中实现分布式数据存储是当前的研究热点。</p>
+</li>
+</ul>
+<p><img src="https://upload-images.jianshu.io/upload_images/8183172-c488144418732d05?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240" alt="图1-11 网络服务类型的发展与演变"></p>
+<h4 id="附录：">附录：</h4>
+<h5 id="1-参考资料">1. 参考资料</h5>
+<p>1.《全国计算机考试四级教程：计算机网络》2020版，高等教育出版社</p>
+<p>2.《2016年9月全国计算机等级考试《四级计算机网络》复习全书》圣才学习网，iReader</p>
+<p>3.《2016年9月全国计算机等级考试《网络工程师（四级）》复习全书》圣才学习网，iReader</p>
+<h5 id="2-特别说明">2. 特别说明</h5>
+<p>本文属于个人学习笔记，已列明参考资料出处，仅用于个人学习和笔记免费分享，不作为商用。如果原作者或出版人对本文有任何异议，请及时与我联系，会在第一时间进行处理！</p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-26 22:15</span>&nbsp;
+<a href="https://www.cnblogs.com/davidesun/">山外Sundal</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12782735" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12782735);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 564891, cb_blogApp = 'davidesun', cb_blogUserGuid = 'c69c2112-2ffa-478d-e2ce-08d7723e4a4c';
+    var cb_entryId = 12782735, cb_entryCreatedDate = '2020-04-26 22:15', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 山外Sundal
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

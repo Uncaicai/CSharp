@@ -1,0 +1,381 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="如果你想从头学习Jmeter，可以看看这个系列的文章哦 https://www.cnblogs.com/poloyy/category/1746599.html 测试计划的作用 测试计划描述了Jmet" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Jmeter系列（6）- test plan测试计划详细讲解 - 小菠萝测试笔记 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/poloyy/custom.css?v=mEtlXe/5nK6LTeWWgUa6Wyr0q8g=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/poloyy/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/poloyy/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/poloyy/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 567504;
+        var currentBlogApp = 'poloyy';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <!-- Loading 底层遮罩 -->
+<div id='loading'></div>
+    </div>
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/poloyy/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/poloyy/">阿菠萝阿瑶</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/poloyy/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E5%B0%8F%E8%8F%A0%E8%90%9D%E6%B5%8B%E8%AF%95%E7%AC%94%E8%AE%B0">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/poloyy/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+216&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+78</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/poloyy/p/12779353.html">Jmeter系列（6）- test plan测试计划详细讲解</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p><span style="font-size: 18pt; color: #d22c4a;"><strong>如果你想从头学习Jmeter，可以看看这个系列的文章哦</strong></span></p>
+<p><a href="https://www.cnblogs.com/poloyy/category/1746599.html">https://www.cnblogs.com/poloyy/category/1746599.html</a></p>
+<p>&nbsp;</p>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202004/1896874-20200426132012266-568870132.png" alt=""></p>
+<p>&nbsp;</p>
+<h2>测试计划的作用</h2>
+<ul>
+<li>测试计划描述了Jmeter在执行时，一系列的步骤</li>
+<li>一个完整的测试计划包含了一个或多个【线程组、逻辑控制器、采样器、监听器、定时器、断言和配置元素】</li>
+</ul>
+<p>&nbsp;</p>
+<h2>测试计划添加or删除元件</h2>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202004/1896874-20200426132704174-1329470436.png" alt=""></p>
+<ul>
+<li>通过右键点击树中的元件，选中要添加的元件</li>
+<li>也可以通过合并（merge）或打开（open）从文件中加载和添加元件</li>
+</ul>
+<p>&nbsp;</p>
+<h2>配置树中的元件</h2>
+<ul>
+<li>树中的每一个控件都能通过右边内容区显示</li>
+<li>树中的每一个控件都能在树中随意拖动</li>
+</ul>
+<p>&nbsp;</p>
+<h2>运行测试计划</h2>
+<p>可以通过ctrl+r运行测试计划</p>
+<p>通过右侧的数字：活动线程数/线程总数，这仅适用于本地运行的测试；使用客户端-服务器模式时，它们不包括在远程系统上启动的任何线程<span style="color: #d22c4a;"><strong>【分布式压测时，master机不会显示所有远程salve机的线程总数】</strong></span></p>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202004/1896874-20200426135000017-777407546.png" alt=""></p>
+<p>&nbsp;</p>
+<h3>特别注意</h3>
+<p>仅在<span style="color: #d22c4a;"><strong>调试</strong></span>测试计划时，才应该使用上面的GUI模式<span style="color: #d22c4a;"><strong>【界面模式】</strong></span>，如果实际运行<span style="color: #d22c4a;"><strong>负载测试</strong></span>的时候，应该使用CLI模式<span style="color: #d22c4a;"><strong>【命令行模式、无界面模式】</strong></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h2>暂停运行测试计划</h2>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202004/1896874-20200426141238109-361881862.png" alt=""></p>
+<p>两种暂停方式</p>
+<ul>
+<li>停止线程（ctrl + .）<span style="color: #d22c4a;"><strong>【硬中断】</strong></span></li>
+<li>关闭线程（ctrl + ,）<span style="color: #d22c4a;"><strong>【软中断】</strong></span></li>
+</ul>
+<p>&nbsp;</p>
+<h3>stop threads</h3>
+<ul>
+<li>许多采样器（Samplers）都是可中断的，这意味着可以提前终止活动采样</li>
+<li>stop命令将检查所有线程是否已在默认超时（即5000 ms = 5秒）内停止</li>
+<li>如果有线程还没被停止，则会发送一条信息；此时可以再发送一次stop命令，但如果还是失败的话，就得退出Jmeter来清理</li>
+</ul>
+<p>&nbsp;</p>
+<h3><span style="color: #d22c4a;">特别注意</span></h3>
+<p>上述说的默认超时可以通过Jmeter属性来改变&nbsp;<span class="cnblogs_code">jmeterengine.threadstop.wait</span>&nbsp;<strong>【jmeter安装目录 / bin / jmeter.properties】</strong></p>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202004/1896874-20200426141246883-33813167.png" alt=""></p>
+<p>&nbsp;</p>
+<h3>shutdown threads</h3>
+<ul>
+<li>线程会在当前运行任务结束后停止，<span style="color: #d22c4a;"><strong>不会中断</strong></span>活动线程正在执行的任务</li>
+<li>会出现一个【正在停止测试】的窗口（如下图），直到所有线程都停止了才会关闭</li>
+<li>如果停止时间太久，也可以直接发stop命令</li>
+</ul>
+<p><img src="https://img2020.cnblogs.com/blog/1896874/202004/1896874-20200426141455471-928434893.png" alt=""></p>
+<p>&nbsp;</p>
+<h3><span style="color: #d22c4a;">注意点</span></h3>
+<p>在Linux CLI模式下，是没有快捷键来停止线程运行的，所以Jmeter CLi模式下会监听特定端口上的命令（默认端口4445，可以通过&nbsp;<span class="cnblogs_code">jmeterengine.nongui.port</span>&nbsp;修改）</p>
+<p>如果4445端口被占用了（比如，另一个Jmeter实例用了），Jmeter会自动选择备用端口；</p>
+<p>Jmeter将尝试监听下一个更高的端口，直到到达Jmeter属性&nbsp;<span class="cnblogs_code">jmeterengine.nongui.maxport</span>&nbsp;为止，该属性默认为4455</p>
+<p>&nbsp;</p>
+<h2>在CTI模式下，如何停止线程执行</h2>
+<p>在bin目录下，运行脚本</p>
+<ol>
+<li>stoptest.cmd / stoptest.sh <span style="color: #d22c4a;"><strong>【硬中断】</strong></span></li>
+<li>shutdown.cmd / shutdown.sh <span style="color: #d22c4a;"><strong>【软中断】</strong></span></li>
+</ol>
+<p><span style="color: #d22c4a;"><strong>注意，</strong></span>只有在同一个host下运行的脚本，Jmeter才会接受</p>
+<p>&nbsp;</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-26 21:38</span>&nbsp;
+<a href="https://www.cnblogs.com/poloyy/">小菠萝测试笔记</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12779353" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12779353);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 567504, cb_blogApp = 'poloyy', cb_blogUserGuid = 'bfd58f0a-1e58-4ac0-e56e-08d77884eb28';
+    var cb_entryId = 12779353, cb_entryCreatedDate = '2020-04-26 21:38', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 小菠萝测试笔记
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <!-- 滚动进度 -->
+<div id="bottomProgressBar"></div>
+
+<!-- 音乐播放器 -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.css">
+<script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.0/dist/APlayer.min.js"></script>
+<div id="aplayer" class="aplayer" data-id="329641066" data-lrctype="0" data-server="netease" data-type="playlist" data-fixed="true" data-listfolded="true"></div>
+<script src="https://unpkg.com/meting@1.2/dist/Meting.min.js"></script>
+
+<!-- 右下角菜单 -->
+<div id="rightMenu"></div>
+
+<!-- 底部加了小鱼<・)))><<~ -->
+  <div id="jsi-flying-fish-container" class="container"></div>
+  <script src='https://blog-static.cnblogs.com/files/elkyo/fish.js'></script>
+  <style>
+  @media only screen and (max-width: 767px){
+  #sidebar_search_box input[type=text]{width:calc(100% - 24px)}
+  }
+  </style>
+ <!--点击冒点-->
+  <canvas width="1777" height="841" style="position: fixed; left: 0px; top: 0px; z-index: 2147483647; pointer-events: none;"></canvas><script src="https://blog-static.cnblogs.com/files/elkyo/mouse-click.js"></script>
+
+<script type="text/javascript">
+/*加一只小猫咪*/
+$("#main").append('<div id="little_cat" class="back-to-top cd-top faa-float animated cd-is-visible" style="top: -999px;height:100% !important;"></div>')
+
+$(function() {
+var path = window.location.pathname
+var flag = path.search("/p/") !=-1
+$("#aplayer").show()
+if(flag == true){
+$('.main-header').css("background",'url("https://files.cnblogs.com/files/poloyy/beijing.bmp") center -580px no-repeat rgb(34, 34, 34) !important')
+}
+
+function scroll(){
+	//获取图片的当前大小
+		var wSize = $(this).offsetWidth;
+		var hSize = $(this).offsetHeight;
+console.log(wSize )
+console.log(hSize )
+		//滚轮上下滚动值
+		var UpDown = event.wheelDelta;
+console.log(UpDown )
+		//大于0滚轮向上滚动,小于0滚轮向下滚动
+		if(UpDown>0){
+			document.getElementById("imgId").style.width = wSize+=5;
+			document.getElementById("imgId").style.width = hSize+=5;
+		}else{
+			document.getElementById("imgId").style.width = wSize-=5;
+			document.getElementById("imgId").style.width = hSize-=5;
+		}
+}
+        //scroll 事件适用于所有可滚动的元素和 window 对象（浏览器窗口）。
+        $(window).scroll(function() {
+            var scroHei = $(window).scrollTop();//滚动的高度
+            if (scroHei > 500) {
+               $('.back-to-top').css('top','-200px');
+            }else{                                                
+                $('.back-to-top').css('top','-999px');
+            }
+        })
+        /*点击返回顶部*/
+        $('.back-to-top').click(function() {
+            $('body,html').animate({
+                scrollTop: 0
+            }, 400);
+        })
+    })
+</script>
+    </div>
+</body>
+</html>

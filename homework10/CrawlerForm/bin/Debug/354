@@ -1,0 +1,553 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="摘要 在之前的几篇文章中，我们从如何实现最简单的HTTP服务器，到如何对路由进行改进，到如何增加中间件。总的来讲，我们已经把Web服务器相关的内容大概梳理了一遍了。在这一篇文章中，我们将从最简单的一个" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Golang Web入门（4）：如何设计API - 红鸡菌 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/codinglife/bundle-codinglife.min.css?v=hlpQ1CJDwwJXDxv2HNauUmW3NjyWzoMaw1uER19SLT0" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/codinglife/bundle-codinglife-mobile.min.css?v=XjHfryC9ctsatIZz1dHn7TsRIqmwz9c3aj_6SCfHSDM" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/hongjijun/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/hongjijun/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/hongjijun/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 593609;
+        var currentBlogApp = 'hongjijun';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'CodingLife';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/hongjijun/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/hongjijun/">红鸡菌</a>
+</h1>
+<h2>
+用一点点的进步积累成亿点点的进步吧！
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/hongjijun/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E7%BA%A2%E9%B8%A1%E8%8F%8C">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/hongjijun/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+8&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+4</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/hongjijun/p/12779745.html">Golang Web入门（4）：如何设计API</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <h2 id="摘要">摘要</h2>
+<p>在之前的几篇文章中，我们从如何实现最简单的HTTP服务器，到如何对路由进行改进，到如何增加中间件。总的来讲，我们已经把Web服务器相关的内容大概梳理了一遍了。在这一篇文章中，我们将从最简单的一个main函数开始，慢慢重构，来研究如何把API设计的更加规范和具有扩展性。</p>
+<h2 id="1-构建一个web应用">1 构建一个Web应用</h2>
+<p>我们从最简单的开始，利用<code>gin</code>框架实现一个小应用。</p>
+<p>在这这篇文章中，我先不使用<code>MySQL</code>和<code>Redis</code>，缓存和持久化相关的内容我将在以后的文章中提到。在这个系列中，我们主要还是聊聊与Web有关的内容。</p>
+<pre><code>package main
+
+import (
+	&quot;github.com/gin-gonic/gin&quot;
+	&quot;net/http&quot;
+)
+
+type Result struct {
+	Success bool
+	Msg string
+}
+func Login (ctx *gin.Context)  {
+	username := ctx.PostForm(&quot;username&quot;)
+	password := ctx.PostForm(&quot;password&quot;)
+	//这里判断用户名密码的正确性
+	r := Result{false, &quot;请求失败&quot;}
+	if username != &quot;&quot; &amp;&amp; password != &quot;&quot; {
+		r = Result{true, &quot;请求成功&quot;}
+	}
+	ctx.JSON(http.StatusOK, r)
+}
+
+func main() {
+	router := gin.New()
+	router.Use(gin.Logger(), gin.Recovery())
+	router.POST(&quot;/login&quot;, Login)
+	router.Run(&quot;:8000&quot;)
+}
+</code></pre>
+<p>这是一个简单到不能再简单的登录接口了。请求之后的返回的结果如下：</p>
+<pre><code>{
+    &quot;Success&quot;: true,
+    &quot;Msg&quot;: &quot;请求成功&quot;
+}
+</code></pre>
+<p>在这个<code>Handler</code>中的逻辑是这样的：获取<code>POST</code>请求中的<code>body</code>参数，得到了用户传到后台的用户名和密码。</p>
+<p>然后应该在数据库中进行比对，<strong>在这里省略了这一步骤</strong>。</p>
+<p>我们创建了一个结构体，作为<strong>返回的JSON结构</strong>。</p>
+<p>最后调用了<code>gin</code>的JSON方法返回数据。这里的第一个参数是<strong>HTTP状态码</strong>，第二个参数是需要<strong>返回的数据</strong>。我们来看看这个JSON方法：</p>
+<pre><code>// JSON serializes the given struct as JSON into the response body.
+// It also sets the Content-Type as &quot;application/json&quot;.
+func (c *Context) JSON(code int, obj interface{}) {
+	c.Render(code, render.JSON{Data: obj})
+}
+</code></pre>
+<p>意思是，会把返回的数据序列化为JSON类型，并且把<code>Content-Type</code>设置为<code>application/json</code>。</p>
+<pre><code class="language-!">注意，如果这里你的结构体字段第一个字母是小写，返回的json数据将为空。原因是这样的，这里调用了别的包的序列化方法，如果是小写的字段，在别的包无法访问，也就会造成返回数据为空的情况。
+</code></pre>
+<p>但是你有没有发现，把全部业务逻辑都丢到<code>main</code>函数的做法简直太不优雅了！所有的业务逻辑都耦合在一起，没有做到“<strong>一个函数实现一个功能</strong>”的目标。</p>
+<p>好，下面我们开始<strong>重构</strong>。</p>
+<h2 id="2-handler">2 Handler</h2>
+<p>既然所有的函数都在<code>main</code>函数中，我们不如先把<code>Handler</code>转移出来，单独作为一个包。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1998080/202004/1998080-20200426152335197-681642564.png" alt=""></p>
+<p>这时候我们来看看<code>main</code>函数：</p>
+<pre><code>package main
+
+import (
+	&quot;github.com/gin-gonic/gin&quot;
+	&quot;hongjijun.com/helloworldGo/api/v1&quot;
+)
+
+func main() {
+	router := gin.New()
+	router.Use(gin.Logger(), gin.Recovery())
+	router.POST(&quot;/login&quot;, v1.Login)
+	router.Run(&quot;:8080&quot;)
+}
+</code></pre>
+<p>是不是感觉已经好很多了。</p>
+<p>在<code>main</code>函数中，主要就是注册路由，而其余的<code>Handler</code>，则保存在其他的包中。</p>
+<p>我们继续看看我们的<code>Handler</code>：</p>
+<pre><code>package v1
+
+import (
+	&quot;github.com/gin-gonic/gin&quot;
+	&quot;net/http&quot;
+)
+
+type Result struct {
+	Success bool
+	Msg string
+}
+
+func Login(ctx *gin.Context)  {
+	username := ctx.PostForm(&quot;username&quot;)
+	password := ctx.PostForm(&quot;password&quot;)
+	//这里判断用户名密码的正确性
+	r := Result{false, &quot;请求失败&quot;}
+	if username != &quot;&quot; &amp;&amp; password != &quot;&quot; {
+		r = Result{true, &quot;请求成功&quot;}
+	}
+	ctx.JSON(http.StatusOK, r)
+}
+</code></pre>
+<p>在这里我们发现这个包的代码还是不够<strong>整洁</strong>。</p>
+<p>为什么呢，因为我们把返回结果也放到了这个包中。而返回结果，他应该是通用的。</p>
+<p><strong>既然是通用的，那我们就应该把它抽象出来。</strong></p>
+<h2 id="3-response">3 Response</h2>
+<p>我们来看看此时包的结构：</p>
+<p><img src="https://img2020.cnblogs.com/blog/1998080/202004/1998080-20200426152352061-475393519.png" alt=""></p>
+<p>我们新建了一个名为<code>common</code>的目录。在这个目录中我们将存放一些项目的公共资源。</p>
+<p>来看看我们抽象出的response：</p>
+<pre><code>package response
+
+import (
+	&quot;github.com/gin-gonic/gin&quot;
+	&quot;net/http&quot;
+)
+
+type Result struct {
+	Success bool
+	Code int
+	Msg string
+	Data interface{}
+}
+
+func response(success bool, code int, msg string, data interface{}, ctx *gin.Context)  {
+	r := Result{success, code, msg, data}
+	ctx.JSON(http.StatusOK, r)
+}
+
+func successResponse(data interface{}, ctx *gin.Context)  {
+	response(true, 0, &quot;请求成功&quot;, data, ctx)
+}
+
+func failResponse(code int, msg string, ctx *gin.Context)  {
+	response(false, code, msg, nil, ctx)
+}
+
+func SuccessResultWithEmptyData(ctx *gin.Context)  {
+	successResponse(nil, ctx)
+}
+
+func SuccessResult(data interface{}, ctx *gin.Context)  {
+	successResponse(data, ctx)
+}
+
+func FailResultWithDefaultMsg(code int, ctx *gin.Context)  {
+	failResponse(code, &quot;请求失败&quot;, ctx)
+}
+
+func FailResult(code int, msg string, ctx *gin.Context)  {
+	failResponse(code, msg, ctx)
+}
+</code></pre>
+<p>简单来讲，就是设置了<strong>请求成功</strong>和<strong>请求错误</strong>的返回结果。在请求成功的返回结果中，有<strong>不返回数据</strong>的空结果以及<strong>返回了一些查询数据</strong>的结果。在失败的结果中，有<strong>默认</strong>的结果，和<strong>带具体信息</strong>的结果。</p>
+<p>这些需要按照实际的情况来处理，这里只是做个示范。</p>
+<p>注意，因为在返回的结果中，成功的结果<code>success</code>为<code>true</code>，<code>code</code>为<code>0</code>，而失败的结果<code>success</code>为<code>false</code>，<code>code</code>需要按照项目的规划来设定，所以作者在这里<strong>又做了一层抽象</strong>，设置了<code>successResponse</code>和<code>failResponse函数</code>。</p>
+<p>而这两个函数都会调用<code>gin</code>上下文中的<code>JSON</code>方法，所以将这里的返回再次抽象，抽象出了<code>response</code>函数。</p>
+<pre><code class="language-!">注意，在这个response包中，只有返回结果的几个函数：SuccessResultWithEmptyData、SuccessResult、FailResultWithDefaultMsg、FailResult是给外部函数调用的，其他的函数是内部调用的。所以注意函数名第一个字母的大小写，来设置公有还是私有。
+</code></pre>
+<p>如图：</p>
+<p><img src="https://img2020.cnblogs.com/blog/1998080/202004/1998080-20200426152407005-761412039.png" alt=""></p>
+<p><strong>其余的任何函数，在外部都是无法调用的。</strong></p>
+<p>此时，我们再来看看<strong>Handler</strong>：</p>
+<pre><code>package v1
+
+import (
+	&quot;github.com/gin-gonic/gin&quot;
+	&quot;hongjijun.com/helloworldGo/common&quot;
+)
+
+
+func Login(ctx *gin.Context)  {
+	username := ctx.PostForm(&quot;username&quot;)
+	password := ctx.PostForm(&quot;password&quot;)
+	//这里判断用户名密码的正确性
+	if username != &quot;&quot; &amp;&amp; password != &quot;&quot;{
+		response.SuccessResultWithEmptyData(ctx)
+	}
+}
+</code></pre>
+<p>此时，无论在哪个Handler中，我们<strong>只需要</strong>调用response.Xxx，就能返回数据了。</p>
+<p>到了这里，Handler部分基本上讲完了。但是作者在这里还没有实现对错误结果的抽象，你可以自己试试看。</p>
+<h2 id="4-服务启动">4 服务启动</h2>
+<p>现在我们的main函数虽然比起之前简洁了不少：</p>
+<pre><code>func main() {
+	router := gin.New()
+	router.Use(gin.Logger(), gin.Recovery())
+	router.POST(&quot;/login&quot;, v1.Login)
+	router.Run(&quot;:8080&quot;)
+}
+</code></pre>
+<p>但是，看起来整洁只是因为这里<strong>只有一个</strong>路由。</p>
+<p>想象一下如果我们有了很多个路由，那这里还是会变成一大串，所以我们要对这个<code>main</code>函数进行重构。</p>
+<p>我们直接新建一个名为<code>run.go</code>的文件（借鉴了Spring boot的结构）。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1998080/202004/1998080-20200426152425909-242447592.png" alt=""></p>
+<p>这个<code>run.go</code>的代码，就是原来<code>main</code>函数里面的代码：</p>
+<pre><code>package application
+
+import (
+	&quot;github.com/gin-gonic/gin&quot;
+	v1 &quot;hongjijun.com/helloworldGo/api/v1&quot;
+)
+
+func Run() {
+	router := gin.New()
+	router.Use(gin.Logger(), gin.Recovery())
+	router.POST(&quot;/login&quot;, v1.Login)
+	router.Run(&quot;:8080&quot;)
+}
+</code></pre>
+<p>因此，<code>main</code>函数变成了这样：</p>
+<pre><code>package main
+
+import (
+	&quot;hongjijun.com/helloworldGo/application&quot;
+)
+
+
+func main() {
+	application.Run()
+}
+</code></pre>
+<p>真的是越来越像Spring boot了（笑）</p>
+<p>这样子的话，我们的应用入口就显得很简洁了。但是在Run函数中，依旧没有解决我们说的当路由增加之后的复杂性，我们继续往下重构。</p>
+<h2 id="5-router">5 Router</h2>
+<p>我们来想一想，在<code>Run()</code>这个函数中，是为了启动服务。这里说的服务，不仅仅是指现在在操作的路由，还有其他的服务，比如数据库连接池，Redis等等。</p>
+<p>所以，我们应该把路由部分的服务抽象出来。</p>
+<p>我们之间来看看效果：</p>
+<pre><code>package application
+
+import (
+	&quot;hongjijun.com/helloworldGo/application/initial&quot;
+)
+
+func Run() {
+	router := initial.Router()
+	
+	// 这里还可以创建其他的服务
+	// ...
+	
+	router.Run(&quot;:8080&quot;)
+}
+
+</code></pre>
+<p>注意看，我们的路由处理，已经被挪到了其他位置了。在这个<code>Run()</code>函数中，我们只需要获取路由，然后执行，别的操作，<strong>不应该由这个函数来完成</strong>。</p>
+<p>然后我们再来看看<code>initial.Router()</code>这个函数。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1998080/202004/1998080-20200426152444069-598605232.png" alt=""></p>
+<p>注意看，我在<code>application</code>这个目录下，新建了一个叫<code>initial</code>的目录，这个<code>initial</code>目录和我们的<code>run.go</code>是同级的。</p>
+<p>我们来看看<code>router.go</code>：</p>
+<pre><code>package initial
+
+import (
+	&quot;github.com/gin-gonic/gin&quot;
+	&quot;hongjijun.com/helloworldGo/router&quot;
+)
+
+func Router() *gin.Engine{
+
+	//新建一个路由
+	router := gin.New()
+
+	//注册中间件
+	router.Use(gin.Logger(), gin.Recovery())
+
+	//设置一个分组，这里的分组是空的，是为了之后进行更细致的分组
+	api := router.Group(&quot;&quot;)
+
+	//加入用户管理类的路由
+	apirouter.InitMangerUserRouter(api)
+	// ...插入其他的路由
+	
+	//返回
+	return router
+}
+</code></pre>
+<p>很容易理解，在这个Router()方法中，定义了中间件，路由分组这些东西。</p>
+<p>这里先解释一下：</p>
+<p>我们先设置了一个空的路由分组，这个分组是作为<strong>根分组</strong>存在的。然后，我们把各个模块作为这个分组的<strong>子分组</strong>。举个例子：我们的项目中，有用户相关的模块，有订单相关的模块，那么这里的一个模块，就是一个分组，一个分组下面，有多个接口。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1998080/202004/1998080-20200426152458526-1127197385.png" alt=""></p>
+<p>所以，我们就可以组成这些路由：</p>
+<ul>
+<li>/manageUser/register</li>
+<li>/manageUser/login</li>
+<li>/order/add</li>
+<li>/order/delete</li>
+</ul>
+<p>所以，我们增加这样的目录：</p>
+<p><img src="https://img2020.cnblogs.com/blog/1998080/202004/1998080-20200426152507611-529972100.png" alt=""></p>
+<p>所有的分组，都放在<code>router</code>这个文件目录下。</p>
+<p>然后我们再看看<code>apirouter.InitMangerUserRouter(api)</code>这个方法，这个方法就是增加<code>/manageUser/*</code>的一些路由。这个方法存在于上文提到的<code>router</code>这个目录中：</p>
+<pre><code>package apirouter
+
+import (
+	&quot;github.com/gin-gonic/gin&quot;
+	v1 &quot;hongjijun.com/helloworldGo/api/v1&quot;
+)
+
+func InitMangerUserRouter(group *gin.RouterGroup) {
+	manageUserRouter := group.Group(&quot;manageUser&quot;)
+
+	manageUserRouter.POST(&quot;login&quot;, v1.Login)
+	// ...其他路由
+}
+</code></pre>
+<p>在这个注册路由分组的函数中，我们先把分组设置为<code>manageUser</code>，表示下面的路由都会拼接在<code>manageUser</code>后面。</p>
+<p>然后，我们在这里注册了<code>login</code>，并且，在这里还可以继续写属于<code>manageUser</code>这个模块的其他路由。</p>
+<h2 id="6-整体文件结构">6 整体文件结构</h2>
+<p><img src="https://img2020.cnblogs.com/blog/1998080/202004/1998080-20200426152522483-1901870437.png" alt=""></p>
+<ul>
+<li>api目录：所有的Handler</li>
+<li>application目录：应用所需的各种服务，如路由，持久化，缓存等等，然后由run.go统一启动</li>
+<li>common目录：公共资源，如抽象的返回结果等</li>
+<li>router目录：注册各种路由分组</li>
+<li>main.go：启动应用</li>
+</ul>
+<h2 id="7-写在最后">7 写在最后</h2>
+<p>首先，谢谢你能看到这里~</p>
+<p>在这一篇的文章中，我主要是总结了前面三篇文章的内容，构建了一个Web应用的Demo。这里面很多都是我自己对于Web应用结构的理解，不一定对，也不一定合适，主要是做一个示范，希望能够对你的学习起到一些启发启发作用。也希望你可以指出我的错误，我们一起进步~</p>
+<p>到了这里，《Golang Web入门》系列就结束了，谢谢你们的支持。之前你们的关注和点赞，都是对我特别大的鼓励。也非常感谢你们在发现了错误之后的留言，让我知道了自己理解有误的地方。（鞠躬~</p>
+<p>PS：如果有其他的问题，也可以在公众号找到作者。并且，所有文章第一时间会在公众号更新，欢迎来找作者玩~</p>
+<p><img src="https://img2020.cnblogs.com/blog/1998080/202004/1998080-20200426152537898-344894646.jpg" alt=""></p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-26 15:26</span>&nbsp;
+<a href="https://www.cnblogs.com/hongjijun/">红鸡菌</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12779745" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12779745);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 593609, cb_blogApp = 'hongjijun', cb_blogUserGuid = 'f4afc432-e439-446e-c9dc-08d7d7b4fe7b';
+    var cb_entryId = 12779745, cb_entryCreatedDate = '2020-04-26 15:26', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 红鸡菌
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

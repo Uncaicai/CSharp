@@ -1,0 +1,539 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>特务依昂 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/tuyang1129/custom.css?v=sbPOP5mjDvhiWlp4&#x2B;s1hD6JyZt0=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/tuyang1129/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/tuyang1129/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/tuyang1129/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 426004;
+        var currentBlogApp = 'tuyang1129';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/tuyang1129/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/tuyang1129/">特务依昂</a>
+</h1>
+<h2>
+世界是个球，前方总有路。
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/tuyang1129/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E7%89%B9%E5%8A%A1%E4%BE%9D%E6%98%82">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/tuyang1129/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+88&nbsp; </span>
+<span id="stats_article_count">文章 - 
+13&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+5</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/tuyang1129/archive/2020/04/09.html">2020年4月9日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12670014.html">
+[置顶]    并发——抽象队列同步器AQS的实现原理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 这段时间在研究 并发相关的内容，一段时间下来算是小有收获了。 是``Java AQS AQS``的作用，以及它是如何实现的。 二、正文 2.1 什么是AQS 全称抽象队列同步器（AbstractQuenedSynchronizer），它是一个可以用来实现线程同步的基础框架。当然，它不是我们            <a href="https://www.cnblogs.com/tuyang1129/p/12670014.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-09 22:14 特务依昂 阅读 (204) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12670014" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/tuyang1129/archive/2020/02/25.html">2020年2月25日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12362959.html">
+[置顶]    HashMap源码解读——深入理解HashMap高效的原因
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 的容器是面试中的必考点，最近为了准备春招，我开始阅读容器的源码。今天研究了一下 的源码，颇有心得，所以写篇博客分享一下 的实现原理。内容主要包括 的底层结构， 函数的原理，以及 的容量机制等内容。内容很多，但是这些内容彼此相辅相成，并不适合分开来叙述，所以将它们放在一起进行讲解。相信大家看            <a href="https://www.cnblogs.com/tuyang1129/p/12362959.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-02-25 17:58 特务依昂 阅读 (46) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12362959" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/tuyang1129/archive/2020/04/26.html">2020年4月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12781631.html">
+    深入分析Redis的主从复制机制
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 最近由于疫情影响，时间比较多，所以开始学习之前一直想学，但是却没时间学的 。这两天研究了一下 的持久化以及主从复制机制，现在已经很晚了，就不多废话了。这篇博客就来谈一谈 的主从复制机制。在这里需要提醒一下，主从复制依赖于 的快照持久化（ ），所以如果不了解持久化，请先去研究那一块的内容，可            <a href="https://www.cnblogs.com/tuyang1129/p/12781631.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 18:58 特务依昂 阅读 (81) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12781631" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12776526.html">
+    详细分析Redis的持久化操作——RDB与AOF
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 由于疫情的原因，学校还没有开学，这也就让我有了很多的时间。趁着时间比较多，我终于可以开始学习那些之前一直想学的技术了。最近这几天开始学习 ，买了本 ，看到了第四章，前三章都是讲一些 的基本使用以及命令，第四章才开始涉及到原理相关的内容。 的第四章涉及到了 的持久化、主从复制以及事务等内容，            <a href="https://www.cnblogs.com/tuyang1129/p/12776526.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 01:07 特务依昂 阅读 (214) 评论 (1)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12776526" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/tuyang1129/archive/2020/04/21.html">2020年4月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12743808.html">
+    春招面经——网易互娱服务端开发一面
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 刚刚面完网易互娱服务端开发（实习）一面，面完就想抽自己，怎么能这么菜。唉，先不多说，直接进入正题。 二、正文 1、面试官提问 1、自我介绍 答：唉，太菜了，没什么额外介绍的，直接背简历了(;&#180;༎ຶД༎ຶ`)。 2、介绍一下Java中的引用类型？ 答：强引用，软引用，弱引用，虚引用。然后简单            <a href="https://www.cnblogs.com/tuyang1129/p/12743808.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-21 12:52 特务依昂 阅读 (46) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12743808" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/tuyang1129/archive/2020/04/16.html">2020年4月16日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12713815.html">
+    并发——深入分析ThreadLocal的实现原理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 这篇博客来分析一下 的实现原理以及常见问题，由于现在时间比较晚了，我就不废话了，直接进入正题。 二、正文 2.1 ThreadLocal是什么 在讲实现原理之前，我先来简单的说一说 是什么。 被称作 线程局部变量 ，当我们定义了一个 变量，所有的线程共同使用这个变量，但是对于每一个线程来说            <a href="https://www.cnblogs.com/tuyang1129/p/12713815.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-16 16:38 特务依昂 阅读 (201) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12713815" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/tuyang1129/archive/2020/04/13.html">2020年4月13日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12692423.html">
+    并发——深入分析CountDownLatch的实现原理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 最近在研究 包下的一些的常用类，之前写了 、``ReentrantLock ArrayBlockingQueue LinkedBlockingQueue CountDownLatch CountDownLatch AQS AQS CountDownLatch AQS AQS``实现原理的分            <a href="https://www.cnblogs.com/tuyang1129/p/12692423.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-13 16:58 特务依昂 阅读 (190) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12692423" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12689122.html">
+    并发——深入分析ReentrantLock的实现原理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 之前花了点时间研究了一下并发包下的一个重要组件——抽象队列同步器 ，在并发包中，很多的类都是基于它实现的，包括 中常用的锁 。知晓了 的实现原理，那理解 的实现就非常简单了，因为它的锁功能的实现就是由 实现的，而它的工作仅仅是重写了一些 中的相关方法，并使用其中的模板方法进行加锁解锁。今天            <a href="https://www.cnblogs.com/tuyang1129/p/12689122.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-13 04:15 特务依昂 阅读 (17) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12689122" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/tuyang1129/archive/2020/04/12.html">2020年4月12日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12683541.html">
+    阻塞队列——LinkedBlockingQueue源码分析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 这几天准备研究一下 中阻塞队列的实现。 中的阻塞队列有七种，我准备逐一研究它们的源码，然后每一个阻塞队列写一篇分析博客，这是其中的第二篇。这篇博客就来说一说阻塞队列中比较常用的一种—— 。 之前写了一篇分析 源码的博客，感兴趣的可以看一看： &quot;阻塞队列——ArrayBlockingQueu            <a href="https://www.cnblogs.com/tuyang1129/p/12683541.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-12 03:37 特务依昂 阅读 (14) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12683541" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12683373.html">
+    阻塞队列——ArrayBlockingQueue源码分析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 这几天准备研究一下 中阻塞队列的实现。 中的阻塞队列有七种，我准备逐一研究它们的源码，然后每一个阻塞队列写一篇分析博客，这是其中的第一篇。这篇博客就来说一说阻塞队列中我认为应该是最简单的一种—— 。 二、正文 2.1 什么是阻塞队列 在正式分析前，先简单介绍一下什么是阻塞队列。在说阻塞队列            <a href="https://www.cnblogs.com/tuyang1129/p/12683373.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-12 00:50 特务依昂 阅读 (14) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12683373" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/tuyang1129/archive/2020/04/09.html">2020年4月9日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12670014.html">
+    并发——抽象队列同步器AQS的实现原理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 这段时间在研究 并发相关的内容，一段时间下来算是小有收获了。 是``Java AQS AQS``的作用，以及它是如何实现的。 二、正文 2.1 什么是AQS 全称抽象队列同步器（AbstractQuenedSynchronizer），它是一个可以用来实现线程同步的基础框架。当然，它不是我们            <a href="https://www.cnblogs.com/tuyang1129/p/12670014.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-09 22:14 特务依昂 阅读 (204) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12670014" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/tuyang1129/archive/2020/04/05.html">2020年4月5日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/tuyang1129/p/12635692.html">
+    MySQL中的索引为什么使用B+树实现
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、前言 这几天在研究 相关的内容，而 中比较重要的一个内容就是索引。对 索引有了解的应该都知道，B+树是 索引实现的一个主要的数据结构。今天这篇博客就来简单介绍一下B树、B+树以及 索引使用这种数据结构实现的原因。 二、正文 2.1 B树 关于B树的操作细节我这里就不详细介绍了，这里主要介绍一下B            <a href="https://www.cnblogs.com/tuyang1129/p/12635692.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-05 03:30 特务依昂 阅读 (43) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12635692" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/tuyang1129/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 特务依昂
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

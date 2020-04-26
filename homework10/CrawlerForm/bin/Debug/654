@@ -1,0 +1,497 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Supper_litt - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/coffee/bundle-coffee.min.css?v=pdMIVgsH8kXt-vOWnlL0N20TlHt3UyP9HzGgocfsP4s" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/Supperlitt/custom.css?v=fps3tCiIdIcDHcwxNewq3nTjy1A=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/coffee/bundle-coffee-mobile.min.css?v=na9bpAY4yh7uEWCcrXj3vfJM3VBse8YtU6-5fUUQPz0" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/Supperlitt/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/Supperlitt/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/Supperlitt/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 195171;
+        var currentBlogApp = 'Supperlitt';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'coffee';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/Supperlitt/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/Supperlitt/">Supper litt</a>
+</h1>
+<h2>
+不想成为大神的屌丝，不是好屌丝。主攻C#相关开源代码。<br><br>  可是，越接近神，越发现自己渺小！<br><br>
+   To Be a Unicorn
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="navigator">
+			
+<ul id="navList">
+	<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+	<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/Supperlitt/">
+首页</a>
+</li>
+	<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+	<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/Supper_litt">
+联系</a></li>
+	<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+	<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/Supperlitt/rss/">
+订阅</a>
+	
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/Supperlitt/rss/">
+    <img src="/skins/coffee/images/xml.gif" alt="订阅" />
+</a></li>
+</ul>
+
+
+
+			<div class="blogStats">
+				
+				<!--done-->
+随笔- 
+44&nbsp;
+文章- 
+0&nbsp;
+评论- 
+74&nbsp;
+
+
+
+				
+			</div><!--end: blogStats -->
+		</div><!--end: navigator 博客导航栏 -->
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Supperlitt/archive/2020/04/26.html">2020年4月26日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/12773936.html">
+    andorid jar/库源码解析之retrofit2
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录：andorid jar/库源码解析 Retrofit2： 作用： 通过封装okhttp库，来进行web通讯，并且使用动态代理的方式，来调用接口地址，通过回调赋值结果。 栗子： 定义一个接口，用于访问使用。 public interface IServiceApi { @FormUrlEncod            <a href="https://www.cnblogs.com/Supperlitt/p/12773936.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 22:14 Supper_litt 阅读 (3) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12773936" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/12774322.html">
+    andorid jar/库源码解析之okio
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录：andorid jar/库源码解析 Okio： 作用： 说白了，就是一个IO库，基于java原生io。来进行操作，内部做了优化，简洁，高效。所以受到了一部分人的喜欢和使用 栗子： 读写文件。 private void ReadFile() { try { InputStream in = ne            <a href="https://www.cnblogs.com/Supperlitt/p/12774322.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 08:59 Supper_litt 阅读 (20) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12774322" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Supperlitt/archive/2020/04/25.html">2020年4月25日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/12772798.html">
+    andorid jar/库源码解析之okhttp3
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录：andorid jar/库源码解析 Okhttp3： 作用： 用于网络编程（http,https）的快速开发。 栗子： // okHttpClient定义成全局静态，或者单例，不然重复new可能导致连接数耗尽 OkHttpClient okHttpClient = new OkHttpClie            <a href="https://www.cnblogs.com/Supperlitt/p/12772798.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-25 13:48 Supper_litt 阅读 (17) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12772798" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Supperlitt/archive/2020/04/24.html">2020年4月24日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/12767877.html">
+    andorid jar/库源码解析之Butterknife
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录：andorid jar/库源码解析 Butterknife： 作用： 用于初始化界面控件，控件方法，通过注释进行绑定控件和控件方法 栗子： public class MainActivity extends AppCompatActivity { @BindView(R.id.btnTest1            <a href="https://www.cnblogs.com/Supperlitt/p/12767877.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 17:49 Supper_litt 阅读 (17) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12767877" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/12764629.html">
+    andorid jar/库源码解析之Dagger/Dagger2
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录：andorid jar/库源码解析 Dagger、Dagger2： 作用： 1、用于解耦Activity和业务逻辑 2、在使用业务的时候，不需要重复编写new代码。 3、当业务变化的时候，不需要对所有的UI，进行修改。 4、便于测试，和正式，替换指定Module即可。 栗子： 需要： 1、定义            <a href="https://www.cnblogs.com/Supperlitt/p/12764629.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-24 14:47 Supper_litt 阅读 (13) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12764629" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Supperlitt/archive/2020/04/23.html">2020年4月23日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/12762679.html">
+    andorid jar/库源码解析之EventBus
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：目录：andorid jar/库源码解析 EventBus： 作用： 用于不同Activity，Service等之间传递消息（数据）。 栗子： A页面：onCreate定义 EventBus.getDefault().register(this); onDestroy定义&#160;EventBus.getD            <a href="https://www.cnblogs.com/Supperlitt/p/12762679.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-23 18:32 Supper_litt 阅读 (20) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12762679" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/12761165.html">
+    andorid jar/库源码解析
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 本篇作为开篇，会大体上说明，需要解读源码的，类库，或者jar。 序 原本，类库和jar的系列准备写到逆向系列课程的，但是那个东西，在写了两篇，就没有后续了，现在也不知道从哪里开始了， 只能等后期想好了，再开篇单独写吧。 目录： EventBus、Dagger/Dagger2、okhttp3、O            <a href="https://www.cnblogs.com/Supperlitt/p/12761165.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-23 18:22 Supper_litt 阅读 (17) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12761165" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Supperlitt/archive/2020/03/15.html">2020年3月15日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/12496140.html">
+    认清自己-技术栈
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言： 不知道怎么的，想总结，和看看分析一下自己，以后的一个发展方向和查漏补缺吧。 真的，现在这个阶段，是比较迷惑的，有时候就是太懒了，很多东西，前一天决定了，结果拖了几天都没有实施。不知道干嘛去了。。 不知不觉，年级也大了，程序也写得很多了，以前的一些想法还没有一一落实。是的，很多灵感，如果没有实            <a href="https://www.cnblogs.com/Supperlitt/p/12496140.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-15 10:02 Supper_litt 阅读 (56) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12496140" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Supperlitt/archive/2019/12/05.html">2019年12月5日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/11986972.html">
+    开源一些C#不常用知识（附上DEMO）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：序：这其实是一个广告贴。 正文：开源一些不常用的C#DEMO，这个是专门写成DEMO的样子，来供大家查阅，当然可以提出意见啥的。或者一些需要加入的DEMO，作者可以添加上。 git地址：https://github.com/supperlitt/DemoSee 总结：没啥说的，时不时露个脸。。。 后            <a href="https://www.cnblogs.com/Supperlitt/p/11986972.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-12-05 08:46 Supper_litt 阅读 (63) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11986972" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/Supperlitt/archive/2019/07/11.html">2019年7月11日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/Supperlitt/p/11171799.html">
+    开源：C# 代码自动生成工具，支持站点前后台
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 写这个项目有很长一段时间了，期间也修修改改，写到最后，自己也没咋用（研究方向变化了）。 正文 具体项目开源了：https://github.com/supperlitt/WebAutoCodeOnline&#160;（这个应该不算一个广告文） 要说技术，感觉也没啥，就是写上一些自认为合适的模板，然后根据            <a href="https://www.cnblogs.com/Supperlitt/p/11171799.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-11 18:17 Supper_litt 阅读 (1506) 评论 (10)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11171799" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/Supperlitt/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 Supper_litt
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        <div style="text-align: center">
+<span>欢迎访问我的 <a target="_blank" href="http://47.105.169.104/">个人站点</a></span>
+</div>
+    </div>
+</body>
+</html>

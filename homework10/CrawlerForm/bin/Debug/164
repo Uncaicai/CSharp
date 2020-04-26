@@ -1,0 +1,1269 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>邹琼俊 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/simpleblue/bundle-simpleblue.min.css?v=MH15aYd6DmX-6TABpA2xkiKENy3GAhiM2dh5rOPH89I" />
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/jiekzou/custom.css?v=eiGYmfVG7WzbFAghGUBURPqB1xg=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/simpleblue/bundle-simpleblue-mobile.min.css?v=X7swQJ1TyCJAf6FMVjDPbYhUAiMdNFddEy1-m0_TbFQ" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/jiekzou/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/jiekzou/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/jiekzou/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 190451;
+        var currentBlogApp = 'jiekzou';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'SimpleBlue';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    <div id="page_begin_html">
+        <link type="text/css" rel="stylesheet" href="https://files.cnblogs.com/files/jiekzou/myRewards.css" />
+    <style type="text/css">
+     #profile_block a:first-child{color:red;}
+    </style>
+<div id="divTotal" style="float:right;text-align:right;padding-right:24px;">
+<!--站内统计-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1257397063'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s95.cnzz.com/z_stat.php%3Fid%3D1257397063%26online%3D1%26show%3Dline' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+<div style="float:right;margin-right:20px;">
+    <!--<object type="application/x-shockwave-flash" id="ximalaya_player" data="http://www.ximalaya.com/swf/sound/red.swf?id=3212758&&auto=true" width="260" height="36"></object>
+<embed src="http://sc1.111ttt.com/2014/1/08/12/1121617429.mp3" hidden="true" autostart="true" loop="false" height='30px'> -->
+</div>
+    </div>
+    <div id="home">
+    <div id="header">
+        <div id="blogTitle">
+            
+<div class="title"><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/jiekzou/">在一瞬间有一千万种可能......</a>
+</div>
+<div class="subtitle">
+
+</div>
+
+        </div>
+        <div id="navigator">
+            
+<ul id="navList">
+    <li id="nav_sitehome"><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+    <li id="nav_myhome">
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/jiekzou/">
+首页</a>
+</li>
+    <li id="nav_newpost">
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+    <li id="nav_contact">
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E9%82%B9%E7%90%BC%E4%BF%8A">
+联系</a></li>
+    <li id="nav_rss">
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/jiekzou/rss/">
+订阅</a></li>
+    <li id="nav_admin">
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+            <div class="blogStats">
+                
+<span id="stats_post_count">随笔 - 
+159&nbsp;</span>
+<span id="stats_article_count">文章 - 
+3&nbsp;</span>
+<!-- <span id="stats-comment_count"></span> -->
+<span id="stats_comment_count">评论 - 
+2280</span>
+            </div>
+        </div>
+    </div>
+    <div id="main">
+        <div id="mainContent">
+            <div class="forFlow">
+                
+
+
+
+
+
+
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/05/22.html">2019年5月22日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/10902097.html">
+[置顶]    《H5+移动应用实战开发》已出版
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：《H5+移动应用实战开发》终于出版了，最近在忙着Vue和Webpack相关的前端书籍写稿。本书面向的读者为：从后端转前端，或零基础开始学习移动端开发的人。前后端完全分离的开发方式越来越成为一种趋势，下一本书，将是专业前端书籍，是关于Vue在实际工作中的单页应用开发，涉及到Vue全家桶以及webpac            <a href="https://www.cnblogs.com/jiekzou/p/10902097.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-05-22 08:29 邹琼俊 阅读 (1905) 评论 (12)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10902097" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2017/02/28.html">2017年2月28日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/6475829.html">
+[置顶]    关于《ASP.NET MVC企业级实战》
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：大家好，我的书《ASP.NET MVC企业级实战》已经出版啦，感谢大家过去的关注与支持！前言部分，出版的时候漏了部分内容，我这里将其贴出来。 注意：书上的源码下载地址已失效，最新源码下载地址：https://pan.baidu.com/s/1n0oAoRguvM-B5vFCasENAw 本书提供源码            <a href="https://www.cnblogs.com/jiekzou/p/6475829.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2017-02-28 10:29 邹琼俊 阅读 (11555) 评论 (40)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=6475829" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2016/06/29.html">2016年6月29日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/5625762.html">
+[置顶]    ASP.NET MVC企业级实战目录
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：电子书样稿 （关注最新进度，请加QQ群：612347965） ASP.NET MVC企业实战第1章 MVC开发前奏.pdf ASP.NET MVC企业实战第10章 站内搜索.pdf 注意：书上的源码下载地址已失效，最新源码下载地址：https://pan.baidu.com/s/1n0oAoRguv            <a href="https://www.cnblogs.com/jiekzou/p/5625762.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2016-06-29 09:42 邹琼俊 阅读 (30511) 评论 (184)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=5625762" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2015/08/31.html">2015年8月31日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/4772273.html">
+[置顶]    ASP.NET MVC4入门到精通系列目录汇总
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：序言 最近公司在招.NET程序员，我发现好多来公司面试的.NET程序员居然都没有 ASP.NET MVC项目经验，其中包括一些工作4、5年了，甚至8年10年的，许多人给我的感觉是：工作了4、5年，Web开发依旧停留在拖控件的水平，最最基本的算法，递归、排序（我不要求快速排序，你会冒泡就行了）都不会，            <a href="https://www.cnblogs.com/jiekzou/p/4772273.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2015-08-31 09:31 邹琼俊 阅读 (27709) 评论 (93)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=4772273" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2015/07/26.html">2015年7月26日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/4677994.html">
+[置顶]    网站服务架构
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：服务器划分 对于访问量大的网站而言，将网站的各个部分拆分分别部署到不同服务器上是很有必要的。例如将图片和web站点分开。一般而言，在网站的整个服务器部署上分为如下几种类型： 文件服务器：一般存储系统的相关图片和文件，给各个子系统提供统一的文件调用 代理服务器：一般使用linux+Nginx作为反向代...            <a href="https://www.cnblogs.com/jiekzou/p/4677994.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2015-07-26 16:15 邹琼俊 阅读 (15996) 评论 (37)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=4677994" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2015/05/16.html">2015年5月16日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/4508392.html">
+[置顶]    ASP.NET MVC搭建项目后台UI框架—1、后台主框架
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：目录 准备做一个新的项目，从网页设计师手中拿到了html静态页面（没有一行js），但是都一个个零散的界面，我需要做的是： 1、 把这些零散的html界面连接起来 2、 自己编写js或者jquery实现菜单效果 3、 把html页面集成在我们的MVC Razor视图中 本想着使用第三方的UI框架 如J            <a href="https://www.cnblogs.com/jiekzou/p/4508392.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2015-05-16 18:57 邹琼俊 阅读 (36028) 评论 (35)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=4508392" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2020/04/26.html">2020年4月26日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/12782752.html">
+    2020年，未来在哪里？
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：当冰冷的铁锁无情的查封了天台， 当屋内的衣物散发着霉味的悲哀， 我依然固执地用吹风吹干一件件衣物， 用熟练的指法在代码中输入：相信未来! 当所有梦想化为水中的泡影， 当逝去的青春不会再来， 我依然固执地用破旧的圆珠笔， 在一叠叠外卖单上写下：相信未来! ——这是我最近在深圳的真实写照。 2020年，            <a href="https://www.cnblogs.com/jiekzou/p/12782752.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-26 22:16 邹琼俊 阅读 (47) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12782752" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2020/04/01.html">2020年4月1日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/12615893.html">
+    JS弱类型语言的优势——之模板字符串
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：ES6中，开始支持模板字符串。 尽管Java和C#这样的高级语言有非常多吸引人的地方，但是想js这样的弱类型语言，也有独到之处。 equType：有四种类型，分别是：chl、chwp、cwp、cot，后端java接口提供了四个接口，四个接口对应四个函数调用，每一个函数名的规则是[equType]Co            <a href="https://www.cnblogs.com/jiekzou/p/12615893.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-04-01 21:12 邹琼俊 阅读 (62) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12615893" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2020/03/23.html">2020年3月23日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/12555642.html">
+    当你看见我很久没有动静，那是因为我酝酿得深沉...
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：已经许久没有更新博客了，并不是疫情阻挡了我写作的步伐，只是写作已转移到word（整理一下去换稿酬，拿了稿酬可以去换酒钱）。如下图所示，书《Vue.2x实践指南》交稿快半年了，由于疫情原因，预计下个月底才能上架，《Javascript实训教程》已完成写稿60%，《React和Mogodb实训》筹划中。            <a href="https://www.cnblogs.com/jiekzou/p/12555642.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2020-03-23 22:36 邹琼俊 阅读 (1171) 评论 (16)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12555642" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/12/30.html">2019年12月30日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/12120978.html">
+    Java+大前端
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：前后端分离，是目前Web开发的主流模式也是趋势。而Java无疑是后端开发的王者（一条彪壮的鲶鱼，不知道吃什么长大的），PHP和.NET目前仍处于水深火热之中，更像是在夹缝中求生存，因为没办法和Java正面硬拼（假设Java部队有100w人，而PHP或者.Net部队可能只有十几万人，而这些人分散在各个            <a href="https://www.cnblogs.com/jiekzou/p/12120978.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-12-30 18:08 邹琼俊 阅读 (4772) 评论 (129)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12120978" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/10/21.html">2019年10月21日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/11011271.html">
+    vue项目中常见问题及解决方案
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：webpack项目中自动引入全局scss变量文件 假设我们有一个公共的scss变量文件variables.scss webpack要识别scss，需要先安装sass的loader 在页面中需要用到这些自定义变量的时候，每次都需要显示引入： 这样操作起来非常麻烦，我们可以通过sass-resource            <a href="https://www.cnblogs.com/jiekzou/p/11011271.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-10-21 09:25 邹琼俊 阅读 (455) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11011271" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/10/17.html">2019年10月17日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/11690916.html">
+    vue-cli2.0和vue-cli3.0中当发布到生产环境时禁用console.log
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：vue-cli2.0中的方法 1.安装插件 2.修改webpack.prod.conf.js配置文件 vue-cli3.0中的方法 1.安装babel插件 2.修改babel.config.js文件如下 完！            <a href="https://www.cnblogs.com/jiekzou/p/11690916.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-10-17 11:24 邹琼俊 阅读 (677) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11690916" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/11690806.html">
+    当页面引入百度地图时，谷歌浏览器的控制台会弹出一个警告信息
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：当页面引入百度地图时，谷歌浏览器的控制台会弹出一个警告信息，错误提示如下图所示： 解决方案如下： 把api引用url里面的 api 改为 getscript 将代码： 修改为： 完...            <a href="https://www.cnblogs.com/jiekzou/p/11690806.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-10-17 11:11 邹琼俊 阅读 (404) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11690806" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/09/18.html">2019年9月18日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/11544116.html">
+    web app升级—带进度条的App自动更新
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：带进度条的App自动更新，效果如下图所示： 技术：vue、vant-ui、5+ 封装独立组件AppProgress.vue： app升级代码，封装独立js文件：appUpdateOptions.js 注意：这里的版本号以字符串比较的方式可能会出现问题，正确的方式应该是： 调用代码： 结束......            <a href="https://www.cnblogs.com/jiekzou/p/11544116.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-09-18 17:54 邹琼俊 阅读 (788) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11544116" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/08/16.html">2019年8月16日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/11366121.html">
+    websql操作类封装
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：在之前，我写了一个websql的封装类库，代码如下： (function(win) { function smpWebSql(options){ options = options || {}; this.database = null; this.DateBaseName = options.Da            <a href="https://www.cnblogs.com/jiekzou/p/11366121.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-08-16 20:15 邹琼俊 阅读 (680) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11366121" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/05/22.html">2019年5月22日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/10902097.html">
+    《H5+移动应用实战开发》已出版
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：《H5+移动应用实战开发》终于出版了，最近在忙着Vue和Webpack相关的前端书籍写稿。本书面向的读者为：从后端转前端，或零基础开始学习移动端开发的人。前后端完全分离的开发方式越来越成为一种趋势，下一本书，将是专业前端书籍，是关于Vue在实际工作中的单页应用开发，涉及到Vue全家桶以及webpac            <a href="https://www.cnblogs.com/jiekzou/p/10902097.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-05-22 08:29 邹琼俊 阅读 (1905) 评论 (12)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10902097" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/04/15.html">2019年4月15日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/10700521.html">
+    网站交互、开发方式和前端框架介绍
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：这个世界唯一不变的可能就是变化，历史的车轮滚滚向前，它不会因任何人的消极缓慢而停止。时代抛弃你时，连一声再见都不会说。 从最开始的Javascrpit、到后来的Jquery、（ExtJs、EasyUI、MiniUI）、Bootstrap、Layui，再到如今的mvvm框架（Vue.js、Angula            <a href="https://www.cnblogs.com/jiekzou/p/10700521.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-04-15 08:33 邹琼俊 阅读 (2281) 评论 (5)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10700521" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/03/07.html">2019年3月7日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/10485604.html">
+    如何在vue单页应用中使用百度地图
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：作为一名开发人员，每次接到开发任务，我们首先应该先分析需求，然后再思考技术方案和解决方案。三思而后行，这是一个好的习惯。 需求：本项目是采用vue组件化开发的单页应用项目，现需要在项目中引入百度的地图展示功能，用于展示所有项目的分布情况。搜索功能（省略，不是这里介绍的内容）....... 交互：选中            <a href="https://www.cnblogs.com/jiekzou/p/10485604.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-03-07 11:26 邹琼俊 阅读 (29112) 评论 (10)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10485604" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/01/23.html">2019年1月23日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/10307243.html">
+    犹豫了许久，还是写个年总结记录一下吧
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：之所以犹豫了许久，是因为，直觉告诉我，发这篇文章出来，园子里肯定会掀起波澜，而我却身处于漩涡中央。看到园子没以前那么热闹了，那就来吧，豁出去了，生死看淡，不服就干！一起热闹热闹吧！毕竟很快就要过年啦~ 旧的一年很快就过去，新的一年即将开始，年复一年，一个又一个的轮回。看到许多人都在写年终总结和新年计            <a href="https://www.cnblogs.com/jiekzou/p/10307243.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-01-23 16:30 邹琼俊 阅读 (8027) 评论 (116)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10307243" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2019/01/14.html">2019年1月14日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/10244906.html">
+    vue实现表计监测界面
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：已经好几个月没有更新博客了，因为最近太忙，忙得连写博客的时间都没有。上班赶项目开启996模式，下班要去练车考驾照，一边还在赶书稿，一边还接了私活。不由得感叹：年纪大了，再也经不起那么折腾..... 每个人的时间都很宝贵，谁也没有义务去分享知识，但正是由于有那么一群爱分享的程序员，我们工作中遇到许多问            <a href="https://www.cnblogs.com/jiekzou/p/10244906.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2019-01-14 12:27 邹琼俊 阅读 (1897) 评论 (6)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=10244906" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/10/31.html">2018年10月31日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9881281.html">
+    这个月干啥去了？——H5+移动应用实战开发
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：又到了公司一年当中最忙的时刻了，为了赶项目，现在居然开启了996模式，这是我从事.net开发以来从来没遇到过的。 一转眼，一个月又过了，回头一看，这个月一篇文章都没有发，上个月忙着一个人做项目，项目忙完了还不忘发篇文章吐槽一下。从明天开始就要去java项目组了，可能做前端，也可能做后端，也可能前后端            <a href="https://www.cnblogs.com/jiekzou/p/9881281.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-10-31 09:55 邹琼俊 阅读 (3580) 评论 (29)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9881281" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/09/29.html">2018年9月29日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9526045.html">
+    我想要革命想要解脱——bootstrap常见问题及解决方式
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：最近一个月，恍若隔世，天天加班，昨晚终于发版了，今天才喘一口气。有时候，即便你工作效率再怎么高，撸码再怎么快也无可避免的会加班。不信的话，可以先给你定一个交付时间，然后不断的给你加需求，就让你一个人做，偶尔再给你来几下变更，看你怎么死？本来做项目，需求、资源、时间就是一个铁三角，一旦你强行要打破这个            <a href="https://www.cnblogs.com/jiekzou/p/9526045.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-09-29 10:20 邹琼俊 阅读 (1990) 评论 (9)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9526045" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/08/24.html">2018年8月24日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9493228.html">
+    Vue2开发大全
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：参考资料： Mint UI vuex最简单、最详细的入门文档 vue从入门到进阶：自定义指令directive 开发环境：win10 64bit 开发工具：webstorm node.js npm: node.js下的包管理器。 webpack: 它主要的用途是通过CommonJS的语法把所有浏览器            <a href="https://www.cnblogs.com/jiekzou/p/9493228.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-08-24 08:32 邹琼俊 阅读 (9242) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9493228" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/08/17.html">2018年8月17日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9488520.html">
+    从.Net到Java学习第十二篇——SpringBoot+JPA提供跨域接口
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：从.Net到Java学习系列目录 最近又撸了半个月的前端代码，做app离线存储，然后又花了一周去将过去的wcf项目转webapi，java又被落下了，总感觉我特么像斗地主中的癞子牌，变来变去..... Spring Data JPA 是Spring Data 的一个子项目，它通过提供基于JPA的Re            <a href="https://www.cnblogs.com/jiekzou/p/9488520.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-08-17 08:33 邹琼俊 阅读 (1866) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9488520" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/08/16.html">2018年8月16日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9485240.html">
+    vue中引用swiper轮播插件
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：有时候我们需要在vue中使用轮播组件，如果是在vue组件中引入第三方组件的话，最好通过npm安装，从而进行统一安装包管理。 申明：本文所使用的是vue.2x版本。 通过npm安装插件： 在需要使用swiper的组件里引入swiper，swiper的初始化放在mounted里 Slider.vue源码            <a href="https://www.cnblogs.com/jiekzou/p/9485240.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-08-16 11:31 邹琼俊 阅读 (3282) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9485240" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/07/13.html">2018年7月13日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9303871.html">
+    从.Net到Java学习第十一篇——SpringBoot登录实现
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：从.Net到Java学习系列目录 通过前面10篇文章的学习，相信我们对SpringBoot已经有了一些了解，那么如何来验证我们的学习成果呢？当然是通过做项目来证明啦！所以从这一篇开始我将会对之前自己做的.net项目用java来重写。这一篇，我们来现实登录模块。 一提到登录，我们首先想到的基本的功能点            <a href="https://www.cnblogs.com/jiekzou/p/9303871.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-07-13 11:48 邹琼俊 阅读 (2125) 评论 (21)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9303871" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/07/11.html">2018年7月11日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9295600.html">
+    C# 正则表达式应用
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：正则表达式平时不常用，经常都是用的时候，临时抱佛脚，查文档，然后就是被各种坑之后，才会逐渐熟练。 在线正则表达式测试：http://tool.oschina.net/regex/ 在线JSON格式化：https://www.bejson.com/ 正则表达式手册：http://tool.oschin            <a href="https://www.cnblogs.com/jiekzou/p/9295600.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-07-11 17:10 邹琼俊 阅读 (3985) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9295600" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/07/02.html">2018年7月2日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9229373.html">
+    从.Net到Java学习第十篇——Spring Boot文件上传和下载
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：从.Net到Java学习系列目录 图片上传 Spring Boot中的文件上传就是Spring MVC中的文件上传，将其集成进来了。 在模板目录创建一个新的页面 profile/uploadPage.html 除了表单中的 enctype 属性以外，并没有太多值得关注的。文件将会通过 POST 方法            <a href="https://www.cnblogs.com/jiekzou/p/9229373.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-07-02 14:10 邹琼俊 阅读 (673) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9229373" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/06/28.html">2018年6月28日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9237773.html">
+    Access denied for user &#39;root&#39;@&#39;localhost&#39; (using password:YES) Mysql5.7
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：解决方案： （1） 打开MySQL目录下的my.ini文件，在文件的最后添加一行“skip-grant-tables”，保存并关闭文件。（my.ini在C:\ProgramData\MySQL\MySQL Server 5.7\my.ini） （2）重启MySQL服务。 （3）通过命令行进入MySQ            <a href="https://www.cnblogs.com/jiekzou/p/9237773.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-06-28 11:17 邹琼俊 阅读 (601) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9237773" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/06/26.html">2018年6月26日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9214151.html">
+    从.Net到Java学习第八篇——SpringBoot实现session共享和国际化
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：从.Net到Java学习系列目录 SpringBoot Session共享 修改pom.xml添加依赖 添加配置类RedisSessionConfig 添加一个控制器类SessionController来进行测试 先访问http://localhost:8083/boot/uid 然后修改配置文件a            <a href="https://www.cnblogs.com/jiekzou/p/9214151.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-06-26 13:21 邹琼俊 阅读 (1794) 评论 (10)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9214151" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+    
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/jiekzou/archive/2018/06/25.html">2018年6月25日</a>
+    </div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/jiekzou/p/9216305.html">
+    从.Net到Java学习第九篇——SpringBoot下Thymeleaf
+</a>
+
+        </div>
+        <div class="postCon">
+            
+
+    <div class="c_b_p_desc">
+摘要：从.Net到Java学习系列目录 Thymeleaf概述 Thymeleaf 是一个流行的模板引擎，该模板引擎采用java语言开发。模板引擎是一个技术名称，是跨领域平台的概念，在java语言体系下有模板引擎，在C#、PHP语言体系下也有模板引擎，甚至在JavaScript中也会用到模板引擎技术。Ja            <a href="https://www.cnblogs.com/jiekzou/p/9216305.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+        </div>
+        <div class="clear"></div>
+        <div class="postDesc">
+            
+
+posted @ 2018-06-25 14:56 邹琼俊 阅读 (4985) 评论 (20)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9216305" rel="nofollow">
+    编辑
+</a>
+
+        </div>
+        <div class="clear"></div>
+</div>
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/jiekzou/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+            </div>
+        </div>
+
+        <div id="sideBar">
+            <div id="sideBarMain">
+                
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+                <div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                <script>loadBlogDefaultCalendar();</script>
+                <div id="leftcontentcontainer">
+                    <!-- begin:SingleColumn -->
+                    <div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+                    <!-- end:  SingleColumn -->
+                </div>
+            </div>
+        </div>
+        <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+    <div id="footer">
+        <!--done-->
+Copyright &copy; 2020 邹琼俊
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+    </div>
+</div>
+
+    <div id="page_end_html">
+        <!--<script src="https://files.cnblogs.com/files/jiekzou/jquery.min.js"></script>-->
+<!--打赏-->
+<!--<script src="https://files.cnblogs.com/files/jiekzou/tctip.min.js"></script>
+<script>
+        window.tctipConfig = {
+            imagePrefix: "https://files.cnblogs.com/files/jiekzou",
+            cssPrefix: "https://files.cnblogs.com/files/jiekzou",
+            staticPrefix: "https://files.cnblogs.com/files/jiekzou",
+            buttonImageId: Math.ceil(Math.random() * 8) + 1,
+            buttonTip: "zanzhu", //或者 dashang
+            list: {
+                alipay: { qrimg: "https://files.cnblogs.com/files/jiekzou/zfb.bmp" },
+                weixin: { qrimg: "https://files.cnblogs.com/files/jiekzou/wxzz.bmp" }
+            }
+        };
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "//hm.baidu.com/hm.js?c5322a1541b12c12e4b3a1875556efc9";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+    </script>-->
+<!-- 右侧一键分享 -->
+<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?move=0&amp;btn=r1.gif" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+    <style type="text/css">
+        .myRewards{top:340px;}
+    </style>
+<!-- <script>
+(function($){$.fn.snow=function(options){var $flake=$('<div id="flake" />').css({'position':'absolute','top':'-50px'}).html('&#10052;'),documentHeight=$(document).height(),documentWidth=$(document).width(),defaults={minSize:10,maxSize:20,newOn:500,flakeColor:"#FFFFFF"},options=$.extend({},defaults,options);var interval=setInterval(function(){var startPositionLeft=Math.random()*documentWidth-100,startOpacity=0.5+Math.random(),sizeFlake=options.minSize+Math.random()*options.maxSize,endPositionTop=documentHeight-40,endPositionLeft=startPositionLeft-100+Math.random()*200,durationFall=documentHeight*10+Math.random()*5000;$flake.clone().appendTo('body').css({left:startPositionLeft,opacity:startOpacity,'font-size':sizeFlake,color:options.flakeColor}).animate({top:endPositionTop,left:endPositionLeft,opacity:0.2},durationFall,'linear',function(){$(this).remove()});},options.newOn);};})(jQuery);
+$.fn.snow({ minSize: 5, maxSize: 50, newOn: 1000, flakeColor: "#45B97C"});
+</script>-->
+    </div>
+</body>
+</html>

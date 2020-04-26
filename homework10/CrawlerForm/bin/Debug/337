@@ -1,0 +1,480 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>晓飞的算法工程笔记 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/coffee/bundle-coffee.min.css?v=pdMIVgsH8kXt-vOWnlL0N20TlHt3UyP9HzGgocfsP4s" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/coffee/bundle-coffee-mobile.min.css?v=na9bpAY4yh7uEWCcrXj3vfJM3VBse8YtU6-5fUUQPz0" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/VincentLee/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/VincentLee/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/VincentLee/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 215477;
+        var currentBlogApp = 'VincentLee';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'coffee';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+	<a href="https://www.cnblogs.com/VincentLee/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>			
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/VincentLee/">晓飞的算法工程笔记</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="navigator">
+			
+<ul id="navList">
+	<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+	<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/VincentLee/">
+首页</a>
+</li>
+	<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+	<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E6%99%93%E9%A3%9E%E7%9A%84%E7%AE%97%E6%B3%95%E5%B7%A5%E7%A8%8B%E7%AC%94%E8%AE%B0">
+联系</a></li>
+	<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+	<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/VincentLee/rss/">
+订阅</a>
+	
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/VincentLee/rss/">
+    <img src="/skins/coffee/images/xml.gif" alt="订阅" />
+</a></li>
+</ul>
+
+
+
+			<div class="blogStats">
+				
+				<!--done-->
+随笔- 
+26&nbsp;
+文章- 
+0&nbsp;
+评论- 
+2&nbsp;
+
+
+
+				
+			</div><!--end: blogStats -->
+		</div><!--end: navigator 博客导航栏 -->
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/VincentLee/archive/2020/04/26.html">2020年4月26日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12780637.html">
+    ACNet: 特别的想法，腾讯提出结合注意力卷积的二叉神经树进行细粒度分类 | CVPR 2020
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：论文提出了结合注意力卷积的二叉神经树进行弱监督的细粒度分类，在树结构的边上结合了注意力卷积操作，在每个节点使用路由函数来定义从根节点到叶子节点的计算路径，结合所有叶子节点的预测值进行最终的预测，论文的创意和效果来看都十分不错 来源：晓飞的算法工程笔记 公众号 论文: Attention Convol            <a href="https://www.cnblogs.com/VincentLee/p/12780637.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 16:40 晓飞的算法工程笔记 阅读 (64) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12780637" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/VincentLee/archive/2020/04/23.html">2020年4月23日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12759057.html">
+    腾讯推出超强少样本目标检测算法，公开千类少样本检测训练集FSOD | CVPR 2020
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：论文提出了新的少样本目标检测算法，创新点包括Attention RPN、多关系检测器以及对比训练策略，另外还构建了包含1000类的少样本检测数据集FSOD，在FSOD上训练得到的论文模型能够直接迁移到新类别的检测中，不需要fine tune 来源：晓飞的算法工程笔记 公众号 论文: Few Shot            <a href="https://www.cnblogs.com/VincentLee/p/12759057.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-23 10:33 晓飞的算法工程笔记 阅读 (213) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12759057" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/VincentLee/archive/2020/04/20.html">2020年4月20日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12738008.html">
+    Gaussian YOLOv3 : 对bbox预测值进行高斯建模输出不确定性，效果拔群 | ICCV 2019
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在自动驾驶中，检测模型的速度和准确率都很重要，出于这个原因，论文提出Gaussian YOLOv3。该算法在保持实时性的情况下，通过高斯建模、损失函数重建来学习bbox预测值的不确定性，从而提高准确率和TP，能够显著地降低FP，在KITTI和BDD数据集上分别提升了3.09mAP和3.5mAP。整体            <a href="https://www.cnblogs.com/VincentLee/p/12738008.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-20 15:21 晓飞的算法工程笔记 阅读 (24) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12738008" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12736375.html">
+    化繁为简，弱监督目标定位领域的新SOTA - 伪监督目标定位方法(PSOL) | CVPR 2020
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：论文提出伪监督目标定位方法(PSOL)来解决目前弱监督目标定位方法的问题，该方法将定位与分类分开成两个独立的网络，然后在训练集上使用Deep descriptor transformation(DDT)生成伪GT进行训练，整体效果达到SOTA，论文化繁为简，值得学习 来源：晓飞的算法工程笔记 公众号            <a href="https://www.cnblogs.com/VincentLee/p/12736375.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-20 10:43 晓飞的算法工程笔记 阅读 (70) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12736375" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/VincentLee/archive/2020/04/15.html">2020年4月15日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12707625.html">
+    CARS: 华为提出基于进化算法和权值共享的神经网络结构搜索，CIFAR-10上仅需单卡半天 | CVPR 2020
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：为了优化进化算法在神经网络结构搜索时候选网络训练过长的问题，参考ENAS和NSGA III，论文提出连续进化结构搜索方法(continuous evolution architecture search, CARS)，最大化利用学习到的知识，如上一轮进化的结构和参数。首先构造用于参数共享的超网，从超            <a href="https://www.cnblogs.com/VincentLee/p/12707625.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-15 19:57 晓飞的算法工程笔记 阅读 (55) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12707625" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12703666.html">
+    GhostNet: 使用简单的线性变换生成特征图，超越MobileNetV3的轻量级网络 | CVPR 2020
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：为了减少神经网络的计算消耗，论文提出Ghost模块来构建高效的网络结果。该模块将原始的卷积层分成两部分，先使用更少的卷积核来生成少量内在特征图，然后通过简单的线性变化操作来进一步高效地生成ghost特征图。从实验来看，对比其它模型，GhostNet的压缩效果最好，且准确率保持也很不错，论文思想十分值            <a href="https://www.cnblogs.com/VincentLee/p/12703666.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-15 10:36 晓飞的算法工程笔记 阅读 (171) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12703666" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/VincentLee/archive/2020/04/14.html">2020年4月14日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12700415.html">
+    Genetic CNN: 经典NAS算法，遗传算法的标准套用 | ICCV 2017
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：论文将标准的遗传算法应用到神经网络结构搜索中，首先对网络进行编码表示，然后进行遗传操作，整体方法十分简洁，搜索空间设计的十分简单，基本相当于只搜索节点间的连接方式，但是效果还是挺不错的，十分值得学习 来源：晓飞的算法工程笔记 公众号 论文: Genetic CNN 论文地址： &quot;https://ar            <a href="https://www.cnblogs.com/VincentLee/p/12700415.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-14 19:55 晓飞的算法工程笔记 阅读 (133) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12700415" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12696445.html">
+    Evolution of Image Classifiers，进化算法在神经网络结构搜索的首次尝试 | ICML 2017
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：论文提出使用进化算法来进行神经网络结构搜索，整体搜索逻辑十分简单，结合权重继承，搜索速度很快，从实验结果来看，搜索的网络准确率挺不错的。由于论文是个比较早期的想法，所以可以有很大的改进空间，后面的很大算法也是基于这种想法进行更好的补充 来源：晓飞的算法工程笔记 公众号 论文: Large Scale            <a href="https://www.cnblogs.com/VincentLee/p/12696445.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-14 10:48 晓飞的算法工程笔记 阅读 (72) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12696445" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/VincentLee/archive/2020/04/10.html">2020年4月10日</a>
+    </div>
+
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12672444.html">
+    YOLOv1/v2/v3简述 | 目标检测
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：YOLO系列是目标检测领域里十分经典的结构，虽然目前已经出了很多更高质量更复杂的网络，但YOLO的结构依然可以给算法工程师们带来很多的启发。这3篇论文看下来，感觉像是一本调参说明书，教你如何使用各种trick提高手上的目标检测网络的准确率 来源：晓飞的算法工程笔记 公众号 YOLOv1 论文: Yo            <a href="https://www.cnblogs.com/VincentLee/p/12672444.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-10 11:50 晓飞的算法工程笔记 阅读 (39) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12672444" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/VincentLee/p/12671442.html">
+    MetaQNN : 与Google同场竞技，MIT提出基于Q-Learning的神经网络搜索 | ICLR 2017
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：论文提出MetaQNN，基于Q Learning的神经网络架构搜索，将优化视觉缩小到单层上，相对于Google Brain的NAS方法着眼与整个网络进行优化，虽然准确率差了2～3%，但搜索过程要简单地多，所以才能仅用100GPU days就可以完成搜索，加速240倍。论文本身是个很初期的想法，可以看            <a href="https://www.cnblogs.com/VincentLee/p/12671442.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-10 09:50 晓飞的算法工程笔记 阅读 (84) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12671442" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/VincentLee/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script></div>
+			
+			<DIV id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</DIV>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 晓飞的算法工程笔记
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

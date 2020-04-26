@@ -1,0 +1,491 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ismallboy - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip.min.css?v=4KE41eS1YQSSwl64fGzzTUj6ijs-YQFat4AaN-g_jxc" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/darkgreentrip/bundle-darkgreentrip-mobile.min.css?v=0pGk3D9Ik_jI4q1TALBT2ybOjIePHS_80_0J4DDOQiY" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/ismallboy/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/ismallboy/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/ismallboy/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 249986;
+        var currentBlogApp = 'ismallboy';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'darkgreentrip';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/ismallboy/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/ismallboy/">ismallboy</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/ismallboy/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/ismallboy">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/ismallboy/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+117&nbsp; </span>
+<span id="stats_article_count">文章 - 
+1&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+49</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/ismallboy/archive/2020/04/26.html">2020年4月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/12779200.html">
+    你真的会看异常堆栈信息么
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：​ 接口在线上服务器出现异常的时候，我们第一时间就是去服务器看下log，检查log是否有异常堆栈信息，如果有异常堆栈信息的话，再结合api的access log，是非常容易找出问题所在的，所以我们要学会看异常堆栈信息。异常堆栈信息如何看呢？下面我们一起来看一下。 下面是一个简单的demo： pack            <a href="https://www.cnblogs.com/ismallboy/p/12779200.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 14:14 ismallboy 阅读 (248) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12779200" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/12776437.html">
+    1分钟学会linux下jmeter分布式压测流程
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：​ 最近公司要求要压测几个主要的借口，并且要输出最终的压测报告，因为压测报告要给甲方爸爸们看，让他们相信我们的服务是杠杠的，嘿嘿~。其实甲方爸爸们主要是想看服务器参数以及接口的负载能力（tps），于是我就压测了几个接口，发现了一些问题，针对有问题的接口做了一些优化。 其实做一下压测是挺好的，可以发现            <a href="https://www.cnblogs.com/ismallboy/p/12776437.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 00:22 ismallboy 阅读 (12) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12776437" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/ismallboy/archive/2020/04/22.html">2020年4月22日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/12749243.html">
+    mysql更新获取锁超时线上解决过程
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：最近有一个接口偶然出现超时报500的情况，通过服务后台log，发现以下错误，说白了就是在更新mysql的时候，获取排它锁超时导致更新失败了。 org.springframework.web.util.NestedServletException: Request processing failed;            <a href="https://www.cnblogs.com/ismallboy/p/12749243.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-22 00:46 ismallboy 阅读 (30) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12749243" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/ismallboy/archive/2020/04/20.html">2020年4月20日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/12740644.html">
+    生产的异常堆栈信息丢失，只显示了异常名称？带你一探究竟
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：今天运营那边反馈说有个功能一直弹出500的弹框，我看了下，是后台的接口报500了，于是立即上生产服务器看了下，发现这个接口有时候确实报了很多exception，找了其中一个exception的log来看，怎么那么奇怪，log中打出来的堆栈竟然看不出是哪里的业务代码报出来的（其实这个问题之前也有遇到过            <a href="https://www.cnblogs.com/ismallboy/p/12740644.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-20 21:22 ismallboy 阅读 (11) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12740644" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/ismallboy/archive/2020/03/27.html">2020年3月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/12584761.html">
+     java后端实现word上传并转html格式
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：最近有一个业务是前端要上传word格式的文稿，然后用户上传完之后，可以用浏览器直接查看该文稿，并且可以在富文本框直接引用该文稿，所以上传word文稿之后，后端保存到db的必须是html格式才行，所以涉及到word格式转html格式。 通过调查，这个word和html的处理，有两种方案，方案1是前端做            <a href="https://www.cnblogs.com/ismallboy/p/12584761.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-27 22:21 ismallboy 阅读 (127) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12584761" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/ismallboy/archive/2020/03/03.html">2020年3月3日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/12404547.html">
+    吐槽苹果开放接口のappleid登陆
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：这里吐槽一下苹果的开发文档，一切源于前段时间，公司的产品app（某知名资讯app）要接入苹果登陆（ios13发布以来，apple就流氓要求新上线的app，如果有第三方登陆的话，必须要接入appleid登陆），所以看了下苹果官方提供的appleid登陆的开发文档，看了一脸懵逼（好好学学我们国内的bat            <a href="https://www.cnblogs.com/ismallboy/p/12404547.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-03 20:57 ismallboy 阅读 (112) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12404547" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/ismallboy/archive/2020/03/02.html">2020年3月2日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/12395799.html">
+    git reset和revert(转载）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、问题描述在利用github实现多人合作程序开发的过程中，我们有时会出现错误提交的情况，此时我们希望能撤销提交操作，让程序回到提交前的样子，本文总结了两种解决方法：回退（reset）、反做（revert）。 二、背景知识git的版本管理，及HEAD的理解使用git的每次提交，Git都会自动把它们串            <a href="https://www.cnblogs.com/ismallboy/p/12395799.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-03-02 15:19 ismallboy 阅读 (15) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12395799" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/ismallboy/archive/2020/02/17.html">2020年2月17日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/12324461.html">
+    IDEA控制台输出中文乱码
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：1.菜单栏的help-&gt;edit custom VM option,如下图： 2.在打开的文件末尾加上一行： -Dfile.encoding=UTF-8 如下图：（注意直接在IDEA的安装目录的bin目录下面直接打开该文件添加是不行的） 3.重启idea就可以了。            <a href="https://www.cnblogs.com/ismallboy/p/12324461.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-02-17 23:59 ismallboy 阅读 (16) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12324461" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/ismallboy/archive/2020/02/05.html">2020年2月5日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/12263656.html">
+    ping固定频率延迟问题
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：最近电脑链接手机4G热点玩游戏，发现偶尔老是卡。然后用命令ping了一下百度的地址，发现是每隔10s就固定延迟一下，很是奇怪。然后上网搜了一下，发现两个解决方案，我用了第一个方案解决了，第二个方案我没试，但是看着也有道理我就一起贴上来了，详细如下： 解决方案一、 这是Windows的的功能问题，并不            <a href="https://www.cnblogs.com/ismallboy/p/12263656.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-02-05 14:25 ismallboy 阅读 (47) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12263656" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/ismallboy/archive/2019/11/29.html">2019年11月29日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/ismallboy/p/11960958.html">
+    sign in with apple后端校验（java）
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：最近新开发的ios平台的app在提审的时候，被拒了，原因是app上如果有接第三方登陆（比如，微信，微博，facebook等），那就必须要接apple id登陆，坑爹~苹果霸权啊！然而没办法，靠他吃饭，他是爸爸，唯有顺从。下面我来说一下对接苹果登陆的后端验证模块，目前这一块网上资料比较少，而且说得不够            <a href="https://www.cnblogs.com/ismallboy/p/11960958.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-29 23:39 ismallboy 阅读 (2526) 评论 (24)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11960958" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/ismallboy/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 ismallboy
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

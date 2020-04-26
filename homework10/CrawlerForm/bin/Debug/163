@@ -1,0 +1,230 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ClarenceSun - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/book/bundle-book.min.css?v=Yr9TGmN8ri6FBY9Rkzqw6l-UX-n2toh8YHB85y4FqJ0" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/book/bundle-book-mobile.min.css?v=9mAu4TwtRDzYz0p44sAVkFWE9nZCxO_rGCjvQ8nF6I0" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/ClarenceSun/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/ClarenceSun/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/ClarenceSun/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 594842;
+        var currentBlogApp = 'ClarenceSun';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'BOOK';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <script type="text/javascript">
+	try {
+		if (screen.availWidth > 1200) {
+			document.getElementById("MainCss").href = '/skins/book/bundle-book-2.min.css';
+		}
+	} catch (e) { }
+</script>
+
+<div id="header">
+<div id="HeaderTitle">
+<div id="Title">
+<a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/ClarenceSun/">ClarenceSun</a>
+
+</div>
+<div id="subTitle">
+
+</div>
+</div>
+</div>
+
+
+<div id="main">
+	
+
+
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/ClarenceSun/archive/2020/04/26.html"></a>
+	2020年4月26日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/ClarenceSun/p/12782756.html">
+    JS+Selenium+excel追加写入，使用python成功爬取京东任何商品~
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：之前一直是requests库做爬虫，这次尝试下使用selenium做爬虫，效率不高，但是却没有限制，文章是分别结合大牛的selenium爬虫以及excel追加写入操作而成，还有待优化，打算爬取更多信息后进行词云分析 &#39;&#39;&#39; 爬取京东商品信息: 请求url: https://www.jd.com/ 提            <a href="https://www.cnblogs.com/ClarenceSun/p/12782756.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2020-04-26 22:19 ClarenceSun 阅读 (13) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12782756" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+		
+<p class="date">
+	<a href="https://www.cnblogs.com/ClarenceSun/archive/2020/04/12.html"></a>
+	2020年4月12日		  
+</p>
+
+		<div class="post">
+			<h2>
+
+<a class="postTitle2" href="https://www.cnblogs.com/ClarenceSun/p/12670402.html">
+    干货！Python中字符串、列表、元祖、字典，集合之间的转换
+</a>
+</h2>
+			
+			
+
+    <div class="c_b_p_desc">
+摘要：一、字符串的转化 1、字符串转换成列表 字符串转换成list 的时候，str可以作为迭代对象，直接放入；也可以使用split对字符串进行切割。然后返回list 1 s = &#39;1a1b1c&#39; 2 print(list(s)) 3 print(s.split(&#39;1&#39;)) 1 [&#39;1&#39;, &#39;a&#39;, &#39;1&#39;            <a href="https://www.cnblogs.com/ClarenceSun/p/12670402.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+
+			
+			<p class="postfoot">		
+				
+
+posted @ 2020-04-12 21:16 ClarenceSun 阅读 (17) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12670402" rel="nofollow">
+    编辑
+</a>
+
+			</p>
+		</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	<p id="footer">
+	Powered by: 
+	<br />
+	
+	
+<a href="https://www.cnblogs.com/" id="Footer1_Hyperlink3" style="font-size: 12px; font-family: Verdana">博客园</a>
+	<br />
+	Copyright &copy; 2020 ClarenceSun
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+</p>
+
+
+</div>
+<div id="rightmenu">
+	
+		<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+		
+<h3>导航</h3>
+<ul>
+			<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+			<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/ClarenceSun/">
+首页</a>
+</li>
+			<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+			<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/ClarenceSun">
+联系</a></li>
+			<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/ClarenceSun/rss/">
+订阅</a>
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/ClarenceSun/rss/">
+    <img src="/skins/book/images/xml.gif" alt="订阅" />
+</a></li>
+			<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		
+<h3>统计</h3>
+<ul>
+    <li>随笔 - 
+2</li>
+    <li>文章 - 
+0</li>
+    <li>评论 - 
+0</li>
+    <li>
+        引用 - 
+0
+    </li>
+</ul>
+
+
+		
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+		<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+	
+</div>
+			
+			
+			
+			
+			 
+
+	
+
+
+    
+</body>
+</html>

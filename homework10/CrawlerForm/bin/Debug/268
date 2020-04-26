@@ -1,0 +1,330 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="never" />
+    <meta property="og:description" content="本文始发于个人公众号： TechFlow ，原创不易，求个关注 今天是spark专题的第四篇文章，我们一起来看下Pair RDD。 定义 在之前的文章当中，我们已经熟悉了RDD的相关概念，也了解了RD" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>spark中的pair rdd，看这一篇就够了 - TechFlow2019 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/simplememory/bundle-simplememory.min.css?v=OL4qeo1LNGlN1rKIhv5UctANvt0M6Nx6kLzr_ffx3Xk" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/techflow/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/techflow/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/techflow/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 569749;
+        var currentBlogApp = 'techflow';
+        var cb_enable_mathjax = true;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']], processClass: 'math', processEscapes: true },
+        TeX: {
+        equationNumbers: { autoNumber: ['AMS'], useLabelIds: true },
+        extensions: ['extpfeil.js', 'mediawiki-texvc.js'],
+        Macros: {bm: "\\boldsymbol"}
+        },
+        'HTML-CSS': { linebreaks: { automatic: true } },
+        SVG: { linebreaks: { automatic: true } }
+        });
+    </script>
+    <script src="https://mathjax.cnblogs.com/2_7_5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/techflow/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/techflow/">TechFlow2019</a>
+</h1>
+<h2>
+
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/techflow/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/TechFlow2019">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/techflow/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+122&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+60</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		<div id="post_detail">
+    <!--done-->
+    <div id="topics">
+        <div class="post">
+            <h1 class = "postTitle">
+                
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/techflow/p/12781837.html">spark中的pair rdd，看这一篇就够了</a>
+
+            </h1>
+            <div class="clear"></div>
+            <div class="postBody">
+                
+<div id="cnblogs_post_body" class="blogpost-body cnblogs-markdown">
+    <p>本文始发于个人公众号：<strong>TechFlow</strong>，原创不易，求个关注</p>
+<br>
+<section id="nice" data-tool="mdnice编辑器" data-website="https://www.mdnice.com" style="font-size: 16px; color: black; padding: 0 10px; line-height: 1.6; word-spacing: 0px; letter-spacing: 0px; word-break: break-word; word-wrap: break-word; text-align: left; font-family: Optima-Regular, Optima, PingFangSC-light, PingFangTC-light, 'PingFang SC', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; margin-top: -10px;"><p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">今天是<strong style="font-weight: bold; color: rgb(71, 193, 168);">spark专题的第四篇</strong>文章，我们一起来看下Pair RDD。</p>
+<h2 data-tool="mdnice编辑器" style="margin-top: 30px; font-weight: bold; font-size: 22px; border-bottom: 2px solid rgb(89,89,89); margin-bottom: 30px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 22px; display: inline-block; border-bottom: 2px solid rgb(89,89,89);">定义</span><span class="suffix"></span></h2>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">在之前的文章当中，我们已经熟悉了RDD的相关概念，也了解了RDD基本的转化操作和行动操作。今天我们来看一下RDD当中非常常见的<strong style="font-weight: bold; color: rgb(71, 193, 168);">PairRDD</strong>，也叫做键值对RDD，可以理解成KVRDD。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">KV很好理解，就是<strong style="font-weight: bold; color: rgb(71, 193, 168);">key和value的组合</strong>，比如Python当中的dict或者是C++以及Java当中的map中的基本元素都是键值对。相比于之前基本的RDD，pariRDD可以支持更多的操作，相对来说更加灵活，可以完成更加复杂的功能。比如我们可以根据key进行聚合，或者是计算交集等。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">所以本身pairRDD只不过是数据类型是KV结构的RDD而已，并没有太多的内涵，大家不需要担心。</p>
+<h2 data-tool="mdnice编辑器" style="margin-top: 30px; font-weight: bold; font-size: 22px; border-bottom: 2px solid rgb(89,89,89); margin-bottom: 30px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 22px; display: inline-block; border-bottom: 2px solid rgb(89,89,89);">Pair RDD转化操作</span><span class="suffix"></span></h2>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">Pair RDD也是RDD，所以之前介绍的RDD的转化操作Pair RDD自然也可以使用。它们两者有些像是<strong style="font-weight: bold; color: rgb(71, 193, 168);">类继承</strong>的关系，RDD是父类，Pair RDD是实现了一些新特性的子类。子类可以调用父类当中所有的方法，但是父类却不能调用子类中的方法。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">调用的时候需要注意，由于我们的Pair RDD中的数据格式是KV的二元组，所以我们传入的函数必须是针对<strong style="font-weight: bold; color: rgb(71, 193, 168);">二元组</strong>数据的，不然的话可能运算的结果会有问题。下面我们来列举一些最常用的转化操作。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">为了方便演示，我们用一个固定的RDD来运行各种转化操作，来直观了解一下这些转化操作究竟起什么样的作用。</p>
+<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px;"><code class="hljs" style="overflow-x: auto; padding: 16px; color: #333; background: #f8f8f8; display: -webkit-box; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; border-radius: 0px; font-size: 12px; -webkit-overflow-scrolling: touch;">ex1&nbsp;=&nbsp;sc.parallelize([[<span class="hljs-number" style="color: #008080; line-height: 26px;">1</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">2</span>],&nbsp;[<span class="hljs-number" style="color: #008080; line-height: 26px;">3</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">4</span>],&nbsp;[<span class="hljs-number" style="color: #008080; line-height: 26px;">3</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">5</span>]])<br></code></pre>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; font-weight: bold; font-size: 20px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content">keys，values和sortByKey</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">这三个转化操作应该是最常用也是最简单的，简单到我们通过字面意思就可以猜出它们的意思。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">我们先来看keys和values：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f8f4898e8f?w=718&amp;h=312&amp;f=jpeg&amp;s=24443" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">我们的RDD当中二元组当中的第一个元素会被当做key，第二个元素当做value，需要注意的是，它并不是一个map或者是dict，所以<strong style="font-weight: bold; color: rgb(71, 193, 168);">key和value都是可以重复的</strong>。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">sortByKey也很直观，我们从字面意思就看得出来是对RDD当中的数据根据key值进行排序，同样，我们也来看下结果：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f8ac0bdd5e?w=665&amp;h=157&amp;f=jpeg&amp;s=13361" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; font-weight: bold; font-size: 20px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content">mapValues和flatMapValues</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">mapValues不能直接使用，而<strong style="font-weight: bold; color: rgb(71, 193, 168);">必须要传入一个函数作为参数</strong>。它的意思是对所有的value执行这个函数，比如我们想把所有的value全部转变成字符串，我们可以这么操作：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f8ed9687e5?w=667&amp;h=152&amp;f=jpeg&amp;s=13672" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">flatMapValues的操作<strong style="font-weight: bold; color: rgb(71, 193, 168);">和我们的认知有些相反</strong>，我们都知道flatMap操作是可以将一个嵌套的数组打散，但是我们怎么对一个value打散嵌套呢？毕竟我们的value不一定就是一个数组，这就要说到我们传入的函数了，这个flatMap的操作其实是针对函数返回的结果的，也就是说函数会返回一个迭代器，然后打散的内容其实是这个迭代器当中的值。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">我这么表述可能有些枯燥，我们来看一个例子就明白了：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f9072e27cf?w=705&amp;h=148&amp;f=jpeg&amp;s=16594" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">不知道这个结果有没有出乎大家的意料，它的整个流程是这样的，我们调用flatMapValues运算之后返回一个迭代器，迭代器的内容是range(x, x+3)。其实是<strong style="font-weight: bold; color: rgb(71, 193, 168);">每一个key对应一个这样的迭代器</strong>，之后再将迭代器当中的内容打散，和key构成新的pair。</p>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; font-weight: bold; font-size: 20px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content">groupByKey，reduceByKey和foldByKey</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">这两个功能也比较接近，我们先说第一个，如果学过SQL的同学对于group by操作的含义应该非常熟悉。如果没有了解过也没有关系，group by<strong style="font-weight: bold; color: rgb(71, 193, 168);">可以简单理解成归并或者是分桶</strong>。也就是说将key值相同的value归并到一起，得到的结果是key-list的Pair RDD，也就是我们把key值相同的value放在了一个list当中。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">我们也来看下例子：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f9239fc5cd?w=645&amp;h=157&amp;f=jpeg&amp;s=13752" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">我们调用完groupby之后得到的结果是一个对象，所以需要调用一下mapValues将它转成list才可以使用，否则的话是不能使用collect获取的。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">reduceByKey和groupByKey类似，只不过groupByKey只是归并到一起，然而reduceByKey是传入reduce函数，执行reduce之后的结果。我们来看一个例子：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f93211bc88?w=660&amp;h=158&amp;f=jpeg&amp;s=14344" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">在这个例子当中我们执行了累加，把key值相同的value加在了一起。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">foldByKey和fold的用法差别并不大，唯一不同的是我们<strong style="font-weight: bold; color: rgb(71, 193, 168);">加上了根据key值聚合的逻辑</strong>。如果我们把分区的初始值设置成0的话，那么它用起来和reduceByKey几乎没有区别：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f934a55281?w=710&amp;h=159&amp;f=jpeg&amp;s=13811" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">我们只需要清楚foldByKey当中的<strong style="font-weight: bold; color: rgb(71, 193, 168);">初始值针对的是分区</strong>即可。</p>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; font-weight: bold; font-size: 20px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content">combineByKey</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">这个也是一个很核心并且不太容易理解的转化操作，我们先来看它的参数，它一共接受5个参数。我们一个一个来说，首先是第一个参数，是<strong style="font-weight: bold; color: rgb(71, 193, 168);">createCombiner</strong>。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">它的作用是<strong style="font-weight: bold; color: rgb(71, 193, 168);">初始化</strong>，将value根据我们的需要做初始化，比如将string类型的转化成int，或者是其他的操作。我们用记号可以写成是V =&gt; C，这里的V就是value，C是我们初始化之后的新值。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">它会和value一起被当成新的pair传入第二个函数，所以第二个函数的<strong style="font-weight: bold; color: rgb(71, 193, 168);">接受参数是(C, V)的二元组</strong>。我们要做的是定义这个二元组的合并，所以第二个函数可以写成(C, V) =&gt; C。源码里的注释和网上的教程都是这么写的，但我觉得由于出现了两个C，可能会让人难以理解，我觉得可以写成(C, V) =&gt; D，比较好。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">最后一个函数是将D进行合并，所以它可以写成是(D, D) =&gt; D。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">到这里我们看似好像明白了它的原理，但是又好像有很多问号，总觉得哪里有些不太对劲。我想了很久，才找到了问题的根源，出在哪里呢，在于合并。有没有发现第二个函数和第三个函数都是用来合并的，<strong style="font-weight: bold; color: rgb(71, 193, 168);">为什么我们要合并两次</strong>，它们之间的区别是什么？如果这个问题没搞明白，那么对于它的使用一定是错误的，我个人觉得这个问题才是这个转化操作的核心，没讲清楚这个问题的博客都是不够清楚的。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">其实这两次合并的逻辑大同小异，但是<strong style="font-weight: bold; color: rgb(71, 193, 168);">合并的范围</strong>不一样，第一次合并是针对分区的，第二次合并是针对key的。因为在spark当中数据可能不止存放在一个分区内，所以我们要合并两次，第一次先将分区内部的数据整合在一起，第二次再跨分区合并。由于不同分区的数据可能相隔很远，所以会导致网络传输的时间过长，所以我们希望传输的数据尽量小，这才有了groupby两次的原因。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">我们再来看一个例子：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f9b70aead6?w=883&amp;h=363&amp;f=jpeg&amp;s=39920" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">在这个例子当中我们计算了<strong style="font-weight: bold; color: rgb(71, 193, 168);">每个单词出现的平均个数</strong>，我们一点一点来看。首先，我们第一个函数将value转化成了(1, value)的元组，元组的第0号元素表示出现该单词的文档数，第1号元素表示文档内出现的次数。所以第二个函数，也就是在分组内聚合的函数，我们对于出现的文档数只需要加一即可，对于出现的次数要进行累加。因为这一次聚合的对象都是(1, value)类型的元素，也就是没有聚合之前的结果。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">在第三个函数当中，我们对于出现的总数也进行累加，是因为这一个函数处理的结果是各个分区已经聚合一次的结果了。比如apple在一个分区内出现在了两个文档内，一共出现了20次，在一个分区出现在了三个文档中，一共出现了30次，那么显然我们一共出现在了5个文档中，一共出现了50次。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">由于我们要计算平均，所以我们要用<strong style="font-weight: bold; color: rgb(71, 193, 168);">出现的总次数除以出现的文档数</strong>。最后经过map之后由于我们得到的还是一个二元组，我们不能直接collect，需要用collectAsMap。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">我们把上面这个例子用图来展示，会很容易理解：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f965f8bc36?w=2160&amp;h=930&amp;f=jpeg&amp;s=77232" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<h2 data-tool="mdnice编辑器" style="margin-top: 30px; font-weight: bold; font-size: 22px; border-bottom: 2px solid rgb(89,89,89); margin-bottom: 30px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 22px; display: inline-block; border-bottom: 2px solid rgb(89,89,89);">连接操作</span><span class="suffix"></span></h2>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">在spark当中，除了基础的转化操作之外，spark还提供了额外的<strong style="font-weight: bold; color: rgb(71, 193, 168);">连接操作</strong>给pair RDD。通过连接，我们可以很方便地像是操作集合一样操作RDD。操作的方法也非常简单，和SQL当中操作数据表的形式很像，就是join操作。join操作又可以分为join(inner join)、left join和right join。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">如果你熟悉SQL的话，想必这三者的区别应该非常清楚，它和SQL当中的join是一样的。如果不熟悉也没有关系，解释起来并不复杂。在join的时候我们往往是用一张表去join另外一张表，就好像两个数相减，我们用一个数减去另外一个数一样。比如A.join(B)，我们把<strong style="font-weight: bold; color: rgb(71, 193, 168);">A叫做左表，B叫做右表</strong>。所谓的join，就是把两张表当中某一个字段或者是某些字段值相同的行连接在一起。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">比如一张表是学生表，一张表是出勤表。我们两张表用学生的id一关联，就得到了学生的出勤记录。但是既然是集合关联，<strong style="font-weight: bold; color: rgb(71, 193, 168);">就会出现数据关联不上的情况</strong>。比如某个学生没有出勤，或者是出勤表里记错了学生id。对于数据关联不上的情况，我们的处理方式有四种。第一种是全都丢弃，关联不上的数据就不要了。第二种是全部保留，关联不上的字段就记为NULL。第三种是左表关联不上的保留，右表丢弃。第四种是右表保留，左表丢弃。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">下图展示了这四种join，非常形象。</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f9a28d2571?w=440&amp;h=320&amp;f=jpeg&amp;s=25251" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">我们看几个实际的例子来体会一下。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">首先创建数据集：</p>
+<pre class="custom" data-tool="mdnice编辑器" style="margin-top: 10px; margin-bottom: 10px;"><code class="hljs" style="overflow-x: auto; padding: 16px; color: #333; background: #f8f8f8; display: -webkit-box; font-family: Operator Mono, Consolas, Monaco, Menlo, monospace; border-radius: 0px; font-size: 12px; -webkit-overflow-scrolling: touch;">ex1&nbsp;=&nbsp;sc.parallelize([[<span class="hljs-string" style="color: #d14; line-height: 26px;">'frank'</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">30</span>],&nbsp;[<span class="hljs-string" style="color: #d14; line-height: 26px;">'bob'</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">9</span>],&nbsp;[<span class="hljs-string" style="color: #d14; line-height: 26px;">'silly'</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">3</span>]])<br>ex2&nbsp;=&nbsp;sc.parallelize([[<span class="hljs-string" style="color: #d14; line-height: 26px;">'frank'</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">80</span>],&nbsp;[<span class="hljs-string" style="color: #d14; line-height: 26px;">'bob'</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">12</span>],&nbsp;[<span class="hljs-string" style="color: #d14; line-height: 26px;">'marry'</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">22</span>],&nbsp;[<span class="hljs-string" style="color: #d14; line-height: 26px;">'frank'</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">21</span>],&nbsp;[<span class="hljs-string" style="color: #d14; line-height: 26px;">'bob'</span>,&nbsp;<span class="hljs-number" style="color: #008080; line-height: 26px;">22</span>]])<br></code></pre>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">接着，我们分别运行这四种join，观察一下join之后的结果。</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f9a742ed66?w=954&amp;h=854&amp;f=jpeg&amp;s=78394" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">从结果当中我们可以看到，如果两个数据集当中都存在多条key值相同的数据，spark会将它们两两相乘匹配在一起。</p>
+<h2 data-tool="mdnice编辑器" style="margin-top: 30px; font-weight: bold; font-size: 22px; border-bottom: 2px solid rgb(89,89,89); margin-bottom: 30px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 22px; display: inline-block; border-bottom: 2px solid rgb(89,89,89);">行动操作</span><span class="suffix"></span></h2>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">最后，我们看下pair RDD的行动操作。pair RDD同样是rdd，所以<strong style="font-weight: bold; color: rgb(71, 193, 168);">普通rdd适用的行动操作，同样适用于pair rdd</strong>。但是除此之外，spark还为它开发了独有的行动操作。</p>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; font-weight: bold; font-size: 20px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content">countByKey</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">countByKey这个操作顾名思义就是根据Key值计算每个Key值出现的条数，它等价于count groupby的SQL语句。我们来看个具体的例子：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f9b3bcc4f6?w=852&amp;h=284&amp;f=jpeg&amp;s=33673" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; font-weight: bold; font-size: 20px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content">collectAsMap</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">这个也很好理解，其实就是讲最后的结果<strong style="font-weight: bold; color: rgb(71, 193, 168);">以map的形式输出</strong>：</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64f9c0392dca?w=844&amp;h=287&amp;f=jpeg&amp;s=31250" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">从返回的结果可以看到，输出的是一个dict类型。也就是Python当中的"map"。</p>
+<h3 data-tool="mdnice编辑器" style="margin-top: 30px; margin-bottom: 15px; font-weight: bold; font-size: 20px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content">lookup</span><span class="suffix" style="display: none;"></span></h3>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">这个单词看起来比较少见，其实它代表的是<strong style="font-weight: bold; color: rgb(71, 193, 168);">根据key值查找对应的value的意思</strong>。也就是常用的get函数，我们传入一个key值，会自动返回key值对应的所有的value。如果有多个value，则会返回list。</p>
+<figure data-tool="mdnice编辑器" style="margin: 0; margin-top: 10px; margin-bottom: 10px;"><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64fac3eaf406?w=715&amp;h=157&amp;f=jpeg&amp;s=14695" alt="" style="display: block; margin: 0 auto; max-width: 100%"></figure>
+<h2 data-tool="mdnice编辑器" style="margin-top: 30px; font-weight: bold; font-size: 22px; border-bottom: 2px solid rgb(89,89,89); margin-bottom: 30px; color: rgb(89,89,89);"><span class="prefix" style="display: none;"></span><span class="content" style="font-size: 22px; display: inline-block; border-bottom: 2px solid rgb(89,89,89);">总结</span><span class="suffix"></span></h2>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">到这里，所有的pair RDD相关的操作就算是介绍完了。pair rdd在我们日常的使用当中出现的频率非常高，利用它可以非常方便地实现一些比较复杂的操作。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">另外，今天的这篇文章内容不少，想要完全吃透，需要一点功夫。这不是看一篇文章就可以实现的，但是也没有关系，我们初学的时候只需要对这些api和使用方法有一个大概的印象即可，具体的使用细节可以等用到的时候再去查阅相关的资料。</p>
+<p data-tool="mdnice编辑器" style="font-size: 16px; padding-top: 8px; padding-bottom: 8px; margin: 0; line-height: 26px; color: rgb(89,89,89);">今天的文章就是这些，如果觉得有所收获，请顺手点个<strong style="font-weight: bold; color: rgb(71, 193, 168);">关注或者转发</strong>吧，你们的举手之劳对我来说很重要。</p>
+</section>
+<p><img src="https://user-gold-cdn.xitu.io/2020/4/26/171b64fb78a89c2e?w=258&amp;h=258&amp;f=png&amp;s=23988" alt=""></p>
+
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+            </div>
+            <div class="postDesc">posted @ 
+<span id="post-date">2020-04-26 19:48</span>&nbsp;
+<a href="https://www.cnblogs.com/techflow/">TechFlow2019</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12781837" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12781837);return false;">收藏</a></div>
+        </div>
+	    
+	    
+    </div><!--end: topics 文章、评论容器-->
+</div>
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 569749, cb_blogApp = 'techflow', cb_blogUserGuid = '9eb32f80-09d7-4c19-e763-08d7804a3aa0';
+    var cb_entryId = 12781837, cb_entryCreatedDate = '2020-04-26 19:48', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div>
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 TechFlow2019
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    <div id="page_end_html">
+        
+
+    </div>
+</body>
+</html>

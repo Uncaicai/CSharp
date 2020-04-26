@@ -1,0 +1,297 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    <meta property="og:description" content="ThreadLocal 是一个老生常谈的问题，在源码学习以及实际项目研发中，往往都能见到它的踪影，用途比较广泛，所以有必要深入一番。 敢问，ThreadLocal 都用到了哪里？有没有运用它去解决过业" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>ThreadLocal 是什么鬼？用法、源码一锅端 - 一猿小讲 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/sea/bundle-sea.min.css?v=Jpv_XRZqv7HnW0FXxHohZmb1TG6nYuWdNSwqJML5lHA" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/sea/bundle-sea-mobile.min.css?v=GEzW0neGdNE-VMws0ftJENKA__n-moeEPmS2Y9XCJis" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/socoool/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/socoool/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/socoool/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 468548;
+        var currentBlogApp = 'socoool';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'sea';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    <!--done-->
+<div id="header">
+	
+<!--done-->
+<div class="header">
+	<div class="headerText">
+		<a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/socoool/">一猿小讲</a>
+<br>
+		
+川广者鱼大，山高者木修
+
+	</div>
+</div>
+
+
+</div>
+
+<div id="mytopmenu">
+	
+		<div id="mylinks">
+<a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+ &nbsp;
+
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/socoool/">
+首页</a>
+ &nbsp;
+
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+ &nbsp;
+
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E4%B8%80%E7%8C%BF%E5%B0%8F%E8%AE%B2">
+联系</a> &nbsp;
+
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/socoool/rss/">
+订阅</a>
+<a id="blog_nav_rss_image" href="https://www.cnblogs.com/socoool/rss/">
+    <img src="/skins/sea/images/xml.gif" alt="订阅" />
+</a>&nbsp;
+
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+
+
+</div>
+		<DIV id="mystats">随笔-
+89&nbsp;
+评论-
+1&nbsp;
+文章-
+0&nbsp;
+<!--trackbacks-<partial name="./Shared/_PingTrackCount.cshtml" model="BlogServer.Web.Models.DetailBlogPage" />-->
+
+</DIV>
+	
+</div>
+<div id="centercontent">
+	<div id="post_detail">
+<div class="post">
+	<h1 class = "postTitle">
+<a id="cb_post_title_url" class="postTitle2" href="https://www.cnblogs.com/socoool/p/12779491.html">ThreadLocal 是什么鬼？用法、源码一锅端</a>
+</h1>
+	
+<div id="cnblogs_post_body" class="blogpost-body ">
+    <p>ThreadLocal 是一个老生常谈的问题，在源码学习以及实际项目研发中，往往都能见到它的踪影，用途比较广泛，所以有必要深入一番。</p>
+<p><strong>敢问，ThreadLocal 都用到了哪里？有没有运用它去解决过业务问题呢？</strong></p>
+<p>没用过、答不上来也没关系，因为通过今天的分享，能让你轻松 get 如下几点，收获满满。</p>
+<p><span style="background-color: #ffff00;">a）ThreadLocal 快速入门；</span></p>
+<p><span style="background-color: #ffff00;">b）ThreadLocal 源码解读；</span></p>
+<p><span style="background-color: #ffff00;">c）ThreadLocal 使用场景；</span></p>
+<p><span style="background-color: #ffff00;">d）ThreadLocal 阿里规约中的奇技淫巧。</span></p>
+<h1><strong><em><em><span>1.</span></em></em></strong>&nbsp;<strong>ThreadLocal 快速入门</strong></h1>
+<p>理论暂且不谈，ThreadLocal 到底该怎么用？don't talk, show me the code！</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426143919264-34722926.png" alt=""></p>
+<p>上图是老项目真实在用的一个场景，主要借助 ThreadLocal 统计请求处理的耗时。仔细去看 ThreadLocal 使用起来其实蛮简单，接下来通过一段代码，让你快速掌握 ThreadLocal 的使用。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426143945098-2140838948.png" alt=""></p>
+<p>如上面代码所示，模拟一个业务请求处理耗时的场景，我们跑起来，看一看。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144007200-2125040444.png" alt=""></p>
+<p>虽然代码能跑起来，充其量只是带你熟练使用了一把 ThreadLocal 的 API，并没有充分体会到 ThreadLocal 的核心设计理念。</p>
+<p>看官别急，容我稍微修饰修饰代码，请看仔细。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144034710-989619217.png" alt=""></p>
+<p>代码调整很简单，就是把 main 方法中的代码，挪到线程体内去执行，然后看看获取请求开始时设置的时间值，是否会在多线程情况下而发生错乱？代码不会骗人的，跑起来看一看。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144116536-1594419476.png" alt=""></p>
+<p>依据程序结果，就可以简单对 ThreadLocal 做个小结。</p>
+<p><span style="background-color: #ffff00;"><strong>第一：</strong>对于 ThreadLocal 而言，最常用的 API，就是 get、set、remove，其实还有 initialValue（常用来在创建 ThreadLocal 对象时设置初始值）；</span></p>
+<p><span style="background-color: #ffff00;"><strong>第二：</strong>针对程序输出的结果而言，站在线程的角度去看，就好像每一个线程都完全拥有 ThreadLocal 的变量，感觉就是为每一个使用该变量的线程都提供一个变量值的副本，使每一个线程都可以独立的改变自己的副本，而不会和其它线程的副本发生冲突。</span></p>
+<p><span style="background-color: #ffff00;"><strong>第三：</strong>坊间说 ThreadLocal 是 Thread Local Variable（线程局部变量）的意思，或许将它命名为 ThreadLocalVar 会更加合适。</span></p>
+<p>总结起来就一句「<strong>通过 ThreadLocal 能达到线程隔离的机制</strong>」，这句话真的对吗？其实是要持怀疑态度的。</p>
+<p>don&rsquo;t talk, show me the code！代码不会骗人的，拿出证据来。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144224216-774715334.png" alt=""></p>
+<p>上面代码是假想的一个场景，主要看代码。按照 ThreadLocal 的设计理念，会直接断言每个线程的序列号独立维护，互不影响。</p>
+<p>可是结果却差点意思，居然没有达到线程隔离的效果，程序真实输出如下。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144258701-28098889.png" alt=""></p>
+<p><strong>现象：</strong>当 ThreadLocal 设置的 value 都指向同一个对象（示例中的 FlowNo 对象），这个时候 ThreadLocal 就失灵啦（其实是有点难理解，没关系，后面有图解释）。</p>
+<p><strong>烟未灭，酒过半，是时候走进 JDK 源码看一看。</strong></p>
+<h1><strong><em><em>2.</em></em></strong>&nbsp;<strong>ThreadLocal 源码解读</strong></h1>
+<p>首先从常用的 set 方法作为切入点，若搞懂这个方法，把 ThreadLocal 差不多就看穿啦。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144347610-650182045.png" alt=""></p>
+<p>如红色圈住部分代码，简单释义。</p>
+<p><span style="background-color: #ffff00;">a）首先获取当前线程的对象 t；</span></p>
+<p><span style="background-color: #ffff00;">b）然后获取 t 对应的成员变量 ThreadLocalMap；</span></p>
+<p><span style="background-color: #ffff00;">c）接着判断 ThreadLocalMap 是否为空，不为空则将 ThreadLocal 和新的 value 放入到 ThreadLocalMap 中；</span></p>
+<p><span style="background-color: #ffff00;">d）如果 ThreadLocalMap 为空，则对线程的成员变量 ThreadLocalMap 进行初始化操作，并将 ThreadLocal 和 value 放入 ThreadLocalMap 中。</span></p>
+<p>哎呦，我去！ThreadLocal 刚用明白，这 ThreadLocalMap 又是什么鬼？别急，我们慢慢细看。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144431590-1911989126.png" alt=""></p>
+<p>通过上面源码，可以清楚的知道 ThreadLocalMap 是 ThreadLocal 中的一个静态内部类，而 ThreadLocalMap 里面定义了一个静态的内部类 Entry 来保存数据，在 Entry 内部使用 ThreadLocal 作为 key，而 value 就是要设置的值（WeakReference，稍微留意一下，后面会再次提及）。</p>
+<p>说了这么多，感觉苦涩的文字，不如粗糙的图一张（<strong>想着点开篇的代码，说不定就醍醐灌顶啦，记住这个图就行啦</strong>）。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144458756-1912780847.png" alt=""></p>
+<p>还记得开篇案例最后一个现象吗？当 ThreadLocal 设置的 value&nbsp;都指向同一个对象，ThreadLocal 就失灵啦。</p>
+<p>依据上图，如果设置的 value 初始值均都指向同一个对象时（指的是Entry的value），多线程情况下，不发生影响才怪。</p>
+<p>另外，对照着上面的图，再去看 get 方法，就相对好理解很多啦，不再贴代码，直接去看 remove 方法的源码。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144527521-747930714.png" alt=""></p>
+<p>remove 方法很简单，主要把 ThreadLocal 对象做为 key 从 ThreadLocalMap 清除对应的 Entry。</p>
+<p>remove 方法的用途在哪里？结合下面下面这个继承关系图去说说。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144552433-617913752.png" alt=""></p>
+<p>依据上图所示，很明显 Entry 的 Key 是一个 WeakReference 弱引用（ThreadLocal 使用到了弱引用），极端情况下可能会发生内存泄露，所以代码上最终建议调用 remove 方法释放内存，避免发生内存泄露。</p>
+<p>本次源码剖析就到这里，接下来我们看看 ThreadLocal 的主要使用场景。</p>
+<h1><strong><em><em>3.</em></em></strong>&nbsp;<strong>ThreadLocal 使用场景</strong></h1>
+<p>ThreadLocal 使用场景其实非常多，下面简单列举几个。</p>
+<p><span style="background-color: #ffff00;">a) Java 日志门面 org.sl4j.MDC 底层使用 ThreadLocal 来保证线程之间的数据隔离及数据传递；</span></p>
+<p><span style="background-color: #ffff00;">b) Hiberante 的Session工具类 HibernateUtil，借用 ThreadLocal 用于 session 管理（老项目还在用）；</span></p>
+<p><span style="background-color: #ffff00;">c）分布式链路跟踪；</span></p>
+<p><span style="background-color: #ffff00;">d）类似项目研发中统计方法耗时，记录登录 Session 信息，用户 ID 等等；</span></p>
+<p><span style="background-color: #ffff00;">e) JDK 7 之后提供的随机数生成器 ThreadLocalRandom，底层也借用 ThreadLocal 来实现。</span></p>
+<h1><strong><em><em>4.</em></em></strong>&nbsp;<strong>ThreadLocal 阿里规约中的奇技淫巧</strong></h1>
+<p><strong><strong>【强制】</strong>必须回收自定义的 ThreadLocal 变量，尤其在线程池场景下，线程经常会被复用， 如果不清理自定义的 ThreadLocal 变量，可能会影响后续业务逻辑和造成内存泄露等问题。尽量在代理中使用 try-finally 块进行回收。</strong></p>
+<div class="cnblogs_code">
+<pre><span style="color: #000000;">正例：
+objectThreadLocal.set(userInfo);
+</span><span style="color: #0000ff;">try</span><span style="color: #000000;"> {
+  </span><span style="color: #008000;">//</span><span style="color: #008000;"> ...</span>
+} <span style="color: #0000ff;">finally</span><span style="color: #000000;"> {
+  objectThreadLocal.remove();
+}</span></pre>
+</div>
+<p><strong>【参考】</strong>ThreadLocal 对象使用 static 修饰，ThreadLocal 无法解决共享对象的更新问题。</p>
+<p><strong>说明：</strong>这个变量是针对一个线程内所有操作共享的，所以设置为静态变量，所有此类实例共享此静态变量，也就是说在类第一次被使用时装载，只分配一块存储空间，所有此类的对象(只要是这个线程内定义的)都可以操控这个变量。</p>
+<p><img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144820848-363882497.png" alt=""></p>
+<p>&nbsp;</p>
+<p>&nbsp;<img src="https://img2020.cnblogs.com/blog/1514436/202004/1514436-20200426144836373-1905630701.png" alt=""></p>
+<p>阿里开发规约对于 ThreadLocal 推荐使用约定，势必对你会有一定的参考价值。另外，继华山版之后泰山版的开发规约已经新鲜出炉啦，大家可以自行下载。</p>
+<h1><strong><em><em><span>5.</span></em></em></strong>&nbsp;<strong>写在最后</strong></h1>
+<p>行文至此，接近尾声，本次主要带你对 ThreadLocal 进行快速入门，并通过剖析源码，带你知晓 ThreadLocal 背后的东西，最后对阿里开发规约中 ThreadLocal 的使用约定简单罗列，相信会对你实践有一定的指导意义。</p>
+<p>本次分享就到这里，希望对你有所帮助吧。</p>
+<p><strong>一起聊技术、谈业务、喷架构，少走弯路，不踩大坑。</strong>会持续输出原创精彩分享，敬请期待！</p>
+</div>
+<div id="MySignature"></div>
+<div class="clear"></div>
+<div id="blog_post_info_block">
+    <div id="blog_post_info"></div>
+    <div class="clear"></div>
+    <div id="post_next_prev"></div>
+</div>
+	<div class="postDesc">posted on 
+<span id="post-date">2020-04-26 14:50</span>&nbsp;
+<a href="https://www.cnblogs.com/socoool/">一猿小讲</a>&nbsp;
+阅读(<span id="post_view_count">...</span>)&nbsp;
+评论(<span id="post_comment_count">...</span>)&nbsp;
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12779491" rel="nofollow">编辑</a>&nbsp;
+<a href="javascript:void(0)" onclick="AddToWz(12779491);return false;">收藏</a></div>
+</div>
+
+
+<script src="https://common.cnblogs.com/highlight/9.12.0/highlight.min.js"></script>
+<script>markdown_highlight();</script>
+<script>
+    var allowComments = true, cb_blogId = 468548, cb_blogApp = 'socoool', cb_blogUserGuid = '527b03a2-9165-42ef-a7da-08d63488fefb';
+    var cb_entryId = 12779491, cb_entryCreatedDate = '2020-04-26 14:50', cb_postType = 1; 
+    loadViewCount(cb_entryId);
+</script><a name="!comments"></a>
+<div id="blog-comments-placeholder"></div>
+<script>
+    var commentManager = new blogCommentManager();
+    commentManager.renderComments(0);
+</script>
+
+<div id="comment_form" class="commentform">
+    <a name="commentform"></a>
+    <div id="divCommentShow"></div>
+    <div id="comment_nav"><span id="span_refresh_tips"></span><a href="javascript:void(0);" onclick="return RefreshCommentList();" id="lnk_RefreshComments" runat="server" clientidmode="Static">刷新评论</a><a href="#" onclick="return RefreshPage();">刷新页面</a><a href="#top">返回顶部</a></div>
+    <div id="comment_form_container"></div>
+    <div class="ad_text_commentbox" id="ad_text_under_commentbox"></div>
+    <div id="ad_t2"></div>
+    <div id="opt_under_post"></div>
+    <script async="async" src="https://www.googletagservices.com/tag/js/gpt.js"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+    <script>
+        googletag.cmd.push(function () {
+            googletag.defineSlot("/1090369/C1", [300, 250], "div-gpt-ad-1546353474406-0").addService(googletag.pubads());
+            googletag.defineSlot("/1090369/C2", [468, 60], "div-gpt-ad-1539008685004-0").addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+    </script>
+    <div id="cnblogs_c1" class="c_ad_block">
+        <div id="div-gpt-ad-1546353474406-0" style="height:250px; width:300px;"></div>
+    </div>
+    <div id="under_post_news"></div>
+    <div id="cnblogs_c2" class="c_ad_block">
+        <div id="div-gpt-ad-1539008685004-0" style="height:60px; width:468px;">
+            <script>
+                if (new Date() >= new Date(2018, 9, 13)) {
+                    googletag.cmd.push(function () { googletag.display("div-gpt-ad-1539008685004-0"); });
+                }
+            </script>
+        </div>
+    </div>
+    <div id="under_post_kb"></div>
+    <div id="HistoryToday" class="c_ad_block"></div>
+    <script type="text/javascript">
+        fixPostBody();
+        deliverBigBanner();
+setTimeout(function() { incrementViewCount(cb_entryId); }, 50);        deliverAdT2();
+        deliverAdC1();
+        deliverAdC2();
+        loadNewsAndKb();
+        loadBlogSignature();
+LoadPostCategoriesTags(cb_blogId, cb_entryId);        LoadPostInfoBlock(cb_blogId, cb_entryId, cb_blogApp, cb_blogUserGuid);
+        GetPrevNextPost(cb_entryId, cb_blogId, cb_entryCreatedDate, cb_postType);
+        loadOptUnderPost();
+        GetHistoryToday(cb_blogId, cb_blogApp, cb_entryCreatedDate);
+    </script>
+</div></div>
+
+
+</div>
+<div id="leftcontent">
+	
+		<DIV id="leftcontentcontainer">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="calendar"><div id="blog-calendar" style="display:none"></div></div>                
+                    <script>loadBlogDefaultCalendar();</script><br>
+			<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script></DIV>
+	
+</div>
+<!--done-->
+<div class="footer">
+	Powered by: <a href="http://www.cnblogs.com">博客园</a>
+	Copyright &copy; 2020 一猿小讲
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+</div>
+
+
+
+
+
+
+    
+</body>
+</html>

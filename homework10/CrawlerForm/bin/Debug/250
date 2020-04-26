@@ -1,0 +1,493 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>黑米面包派 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    
+    <link type="text/css" rel="stylesheet" href="https://www.cnblogs.com/wujiwen/custom.css?v=B0i0Ojskr47vq1sTa7eeXuXMgDg=" />
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/SimpleMemory/bundle-SimpleMemory-mobile.min.css" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/wujiwen/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/wujiwen/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/wujiwen/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 326262;
+        var currentBlogApp = 'wujiwen';
+        var cb_enable_mathjax = true;
+        var isLogined = false;
+        var skinName = 'SimpleMemory';
+    </script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+        tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']], processClass: 'math', processEscapes: true },
+        TeX: {
+        equationNumbers: { autoNumber: ['AMS'], useLabelIds: true },
+        extensions: ['extpfeil.js', 'mediawiki-texvc.js'],
+        Macros: {bm: "\\boldsymbol"}
+        },
+        'HTML-CSS': { linebreaks: { automatic: true } },
+        SVG: { linebreaks: { automatic: true } }
+        });
+    </script>
+    <script src="https://mathjax.cnblogs.com/2_7_5/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/wujiwen/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/wujiwen/">黑米面包派</a>
+</h1>
+<h2>
+我的主页www.wujiwen.cn
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/wujiwen/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E9%BB%91%E7%B1%B3%E9%9D%A2%E5%8C%85%E6%B4%BE">
+联系</a></li>
+<li>
+
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+12&nbsp; </span>
+<span id="stats_article_count">文章 - 
+0&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+3</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/wujiwen/archive/2020/04/26.html">2020年4月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/12782276.html">
+    【认证与授权】2、基于session的认证方式
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：用户认证通过以后，在服务端生成用户相关的数据保存在当前会话`（Session）`中，发给客户端的数据将通过`session_id `存放在`cookie`中。在后续的请求操作中，客户端将带上`session_id`，服务端就可以验证是否存在了，并可拿到其中的数据校验其合法性。当用户退出系统或`session_id`到期时，服务端则会销毁`session_id`。具体可查看上篇的基本概念了解。            <a href="https://www.cnblogs.com/wujiwen/p/12782276.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 21:08 黑米面包派 阅读 (41) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12782276" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/12782270.html">
+    【认证与授权】1、基本概念
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：在互联网中我们一致都有提到或接触到关于认证和授权概念或名字，那到底什么是认证？什么是授权？他们两又有什么联系和区别呢？本系列将记录自己近一段时间学习和实践的过程，以便加深理解过程。
+
+我们先来一起认识两个单词authentication和 authorization，有没有发现什么特点，我第一次接触到的时候，我一直都分不清楚这两个单词的意思（其实就是英语差）。直到后续学习的过程中经常会碰到它们，我才理解了这两个词的意思，在接下来的文章中，你也可能会经常看见它们。            <a href="https://www.cnblogs.com/wujiwen/p/12782270.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 21:06 黑米面包派 阅读 (29) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12782270" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+            <div class="postSeparator"></div>
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/12781218.html">
+    Redis学习与应用-位图
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：位图`bitmap`是通过一个`bit`来表示某个元素对应的值或者状态，是由一组bit位组成，每个bit位对应0和1两个状态，虽然内部还是采用string类型进行存储，但是redis提供了直接操作位图的指令，可以把他看作是一个bit数组，数组的下标就是偏移量。            <a href="https://www.cnblogs.com/wujiwen/p/12781218.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 18:13 黑米面包派 阅读 (3) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12781218" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/wujiwen/archive/2018/10/13.html">2018年10月13日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/9782394.html">
+    通过Jenkins自动构建dubbo服务时的问题汇总
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：最近接触新的dubbo项目，项目初始时，测试环境的提供者服务发布较频繁，奈何公司又没有自动发布工具，遂自己在测试环境中搭建了Jenkins用于dubbo服务的发布。由于第一次使用，过程中也遇到了一些问题，记录与此 Q1、DubboShutdownHook 问题描述 打包/停止原进程/拷贝/解压 过程            <a href="https://www.cnblogs.com/wujiwen/p/9782394.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-10-13 12:01 黑米面包派 阅读 (994) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9782394" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/wujiwen/archive/2018/09/12.html">2018年9月12日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/9638008.html">
+    “万恶之源”的动态代理
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前言 最近准备整理一下框架学习的只是，发现不管是RPC框架，还是Spring的框架，Mybatis的框架都有很多地方地方用到了动态代理的方式，例如我们强大的Spring AOP、Mybatis中的接口方法查询都是用到了JDK动态代理，为了后期巩固知识的方便，我希望自己能从基础入手，真正理解框架。也要            <a href="https://www.cnblogs.com/wujiwen/p/9638008.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-09-12 23:04 黑米面包派 阅读 (763) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9638008" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/wujiwen/archive/2018/09/09.html">2018年9月9日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/9615120.html">
+    Spring Boot+Quartz实现一个实时管理的定时任务
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：项目实践过程中碰到一个动态管理定时任务的需求：针对每个人员进行信息的定时更新，具体更新时间可随时调整、启动、暂定等。 思路 将每个人员信息的定时配置保存到数据库中，这样实现了任务的动态展示和管理。任务的每一次新增或变更，都会去数据库变更信息。 设置一个统一的任务管理器，专门负责动态任务的增删改查。             <a href="https://www.cnblogs.com/wujiwen/p/9615120.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-09-09 21:11 黑米面包派 阅读 (971) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9615120" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/wujiwen/archive/2018/08/28.html">2018年8月28日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/9551395.html">
+    Golang学习系列：（一）介绍和安装
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：Golang学习系列：（一）介绍和安装 Java程序员带你来到Go的世界，让我们开始探索吧！ Go是一种新的语言，一种并发的，带有垃圾回收的、快速编译的语言，它具有一下特点: 他可以在一台计算机上用几秒钟的时间编译一个大型的Go程序 Go为软件构造提供了一种模型，它使依赖分析更加容易，且避免了大部分            <a href="https://www.cnblogs.com/wujiwen/p/9551395.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2018-08-28 23:20 黑米面包派 阅读 (73) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9551395" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/wujiwen/archive/2017/09/05.html">2017年9月5日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/9595258.html">
+    数据结构(2)-链表
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：填补那些模棱两可的后知后觉 什么是链表 链表是一种用于存储数据集合的数据结构，他是最简单的动态数据结构。上一篇我们虽显然实现了一个简单的动态数组。单这仅仅是面向使用者而言，其实数组的底层还是维护的是一个静态的数组，我们只是简单的通过拷贝的当时实现容量的增减，但是！！！链表 则是真正意义上的动态数据结            <a href="https://www.cnblogs.com/wujiwen/p/9595258.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2017-09-05 22:14 黑米面包派 阅读 (34) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9595258" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/wujiwen/archive/2017/08/28.html">2017年8月28日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/9549836.html">
+    数据结构(1)-数组
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：填补那些摸棱两可的后知后觉 这一篇幅我们将重点介绍数组这种非常重要的数据结构，并实现一个自己的数组类。 一，什么是数组 数组简单来说就是将所有的数据排成一排存放在系统分配的一个内存块上，通过使用特定元素的索引作为数组的下标，可以在常数时间内访问数组元素的这么一个结构； 二，为什么能在常数时间内访问数            <a href="https://www.cnblogs.com/wujiwen/p/9549836.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2017-08-28 17:46 黑米面包派 阅读 (43) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=9549836" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/wujiwen/archive/2017/03/24.html">2017年3月24日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/wujiwen/p/6613183.html">
+    SpringMVC学习总结（一）--Hello World入门
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：一、什么是Spring MVC Spring MVC属于SpringFrameWork的后续产品，已经融合在Spring Web Flow里面。Spring 框架提供了构建 Web 应用程序的全功能 MVC 模块。使用 Spring 可插入的&#160;MVC&#160;架构，从而在使用Spring进行WEB开发时，可            <a href="https://www.cnblogs.com/wujiwen/p/6613183.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2017-03-24 20:09 黑米面包派 阅读 (1014) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=6613183" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/wujiwen/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 黑米面包派
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>

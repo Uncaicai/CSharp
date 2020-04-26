@@ -1,0 +1,501 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="referrer" content="origin" />
+    
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta http-equiv="Cache-Control" content="no-siteapp" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>丶谦信 - 博客园</title>
+    
+    <link rel="stylesheet" href="/css/blog-common.min.css?v=-oFz8B4m7JhHaZzdTkzPza2oLZNDRR8obnCz6w7OHbU" />
+    <link id="MainCss" rel="stylesheet" href="/skins/blacklowkey/bundle-blacklowkey.min.css?v=Fx4xdLkGuHnlaG7xntG_wAnZrnorJWp5u_TWKqbvMF0" />
+    
+    <link id="mobile-style" media="only screen and (max-width: 767px)" type="text/css" rel="stylesheet" href="/skins/blacklowkey/bundle-blacklowkey-mobile.min.css?v=cYvlxMu_nd6MVfg-vi7YqOC6FaZ7VHFsDM166vO_ekA" />
+    
+    <link type="application/rss+xml" rel="alternate" href="https://www.cnblogs.com/lyosaki88/rss" />
+    <link type="application/rsd+xml" rel="EditURI" href="https://www.cnblogs.com/lyosaki88/rsd.xml" />
+    <link type="application/wlwmanifest+xml" rel="wlwmanifest" href="https://www.cnblogs.com/lyosaki88/wlwmanifest.xml" />
+    <script src="https://common.cnblogs.com/scripts/jquery-2.2.0.min.js"></script>
+    <script src="/js/blog-common.min.js?v=z6JkvKQ7L_bGD-nwJExYzsoFf5qnluqZJru6RsfoZuM"></script>
+    <script>
+        var currentBlogId = 143673;
+        var currentBlogApp = 'lyosaki88';
+        var cb_enable_mathjax = false;
+        var isLogined = false;
+        var skinName = 'BlackLowKey';
+    </script>
+    
+    
+    
+</head>
+<body>
+    <a name="top"></a>
+    
+    
+<!--done-->
+<div id="home">
+<div id="header">
+	<div id="blogTitle">
+        <a id="lnkBlogLogo" href="https://www.cnblogs.com/lyosaki88/"><img id="blogLogo" src="/skins/custom/images/logo.gif" alt="返回主页" /></a>		
+		
+<!--done-->
+<h1><a id="Header1_HeaderTitle" class="headermaintitle HeaderMainTitle" href="https://www.cnblogs.com/lyosaki88/">安静小角落</a>
+</h1>
+<h2>
+若要百倍的获取，必须千倍的付出
+</h2>
+
+
+
+
+		
+	</div><!--end: blogTitle 博客的标题和副标题 -->
+	<div id="navigator">
+		
+<ul id="navList">
+<li><a id="blog_nav_sitehome" class="menu" href="https://www.cnblogs.com/">
+博客园</a>
+</li>
+<li>
+<a id="blog_nav_myhome" class="menu" href="https://www.cnblogs.com/lyosaki88/">
+首页</a>
+</li>
+<li>
+
+<a id="blog_nav_newpost" class="menu" href="https://i.cnblogs.com/EditPosts.aspx?opt=1">
+新随笔</a>
+</li>
+<li>
+<a id="blog_nav_contact" class="menu" href="https://msg.cnblogs.com/send/%E4%B8%B6%E8%B0%A6%E4%BF%A1">
+联系</a></li>
+<li>
+<a id="blog_nav_rss" class="menu" href="https://www.cnblogs.com/lyosaki88/rss/">
+订阅</a>
+<!--<partial name="./Shared/_XmlLink.cshtml" model="Model" /></li>--></li>
+<li>
+<a id="blog_nav_admin" class="menu" href="https://i.cnblogs.com/">
+管理</a>
+</li>
+</ul>
+
+
+		<div class="blogStats">
+			
+			<span id="stats_post_count">随笔 - 
+25&nbsp; </span>
+<span id="stats_article_count">文章 - 
+1&nbsp; </span>
+<span id="stats-comment_count">评论 - 
+90</span>
+
+			
+		</div><!--end: blogStats -->
+	</div><!--end: navigator 博客导航栏 -->
+</div><!--end: header 头部 -->
+
+<div id="main">
+	<div id="mainContent">
+	<div class="forFlow">
+		
+<!--done-->
+
+
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2020/04/26.html">2020年4月26日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_14.html">
+    从零开始实现放置游戏（十四）——实现战斗挂机（5）地图移动和聊天
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一节添加了websocket组件，实现了前后端通信。后面我们只需要根据游戏的业务逻辑，逐步实现各种功能即可。 另外，在实现具体业务逻辑时，发现上一章设计的消息对象有些不合理，由于粒度过粗，导致可以复用的部分很少，且这里的通信模型并不是一个请求对应一个响应的模式。比如：玩家a从地图A移动到地图B。此            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_14.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-26 17:07 丶谦信 阅读 (142) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12780873" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2020/04/15.html">2020年4月15日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_13.html">
+    从零开始实现放置游戏（十三）——实现战斗挂机（4）添加websocket组件
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前两张，我们已经实现了登陆界面和游戏的主界面。不过游戏主界面的数据都是在前端写死的文本，本章我们给game模块添加websocket组件，实现前后端通信，这样，前端的数据就可以从后端动态获取到了。 一、添加maven依赖 在game模块的pom中，我们添加3个依赖包如下： 1 &lt;!-- websoc            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_13.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2020-04-15 10:52 丶谦信 阅读 (577) 评论 (2)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=12703813" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2019/11/01.html">2019年11月1日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_12.html">
+    从零开始实现放置游戏（十二）——实现战斗挂机（3）数据字典和缓存改造
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一章，我们添加了游戏的主界面和注册登录功能。由于距离上上篇间隔较长，可能有些内容想些的后来就忘了。同时，逻辑也不复杂，所以描述比较粗略。 现在随着模块的增加，整个架构也暴露出一些问题。本章我们将对整个系统进行大规模重构。 比如，之前为了快速开发，rms模块，我们采用了直接访问数据库的方式，对于rm            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_12.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-11-01 19:37 丶谦信 阅读 (652) 评论 (5)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11779133" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2019/10/21.html">2019年10月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_11.html">
+    从零开始实现放置游戏（十一）——实现战斗挂机（2）注册登陆和游戏主界面
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：本章主要实现注册登陆功能和游戏的主界面。有了游戏的界面，大家能有更直观的认识。 本章我们主要开发的是idlewow-game模块，其实就是游戏的客户端展示层。因为是放置游戏，为了方便，主要使用spring-mvc来开发，整个游戏形式是类似web端的文字mud游戏，会稍带一些图形图片。当然，游戏的客户            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_11.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-10-21 11:38 丶谦信 阅读 (794) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11711499" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2019/07/12.html">2019年7月12日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_10.html">
+    从零开始实现放置游戏（十）——实现战斗挂机（1）hessian服务端搭建
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前面实现RMS系统时，我们让其直接访问底层数据库。后面我们在idlewow-game模块实现游戏逻辑时，将不再直接访问底层数据，而是通过hessian服务暴露接口给表现层。 本章，我们先把hessian服务搭好，并做一个简单的测试，这里以用户注册接口为例。 先简单介绍下，实现hessian接口，只需            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_10.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-12 12:47 丶谦信 阅读 (1155) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11171013" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2019/07/09.html">2019年7月9日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_9.html">
+    从零开始实现放置游戏（九）——实现后台管理系统（7）地图选择控件
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前面做了地图怪物的添加，删除，查询等功能。但添加怪物的时候，需要选择怪物所在地图。前几张的源代码中，我忘了把这部分改回去，所以如果想要成功添加，需要自己改一下html界面，手动填写怪物所在地图的ID。然而，我们配置的时候，地图ID并不是固定的，而是数据库自增的。所以这里最好做成一个弹窗，点击后弹出一            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_9.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-09 12:37 丶谦信 阅读 (1960) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11156572" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2019/07/08.html">2019年7月8日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_8.html">
+    从零开始实现放置游戏（八）——实现后台管理系统（6）代码重构
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前几张，我们主要实现了升级经验、人物等级属性、地图、地图怪物，这四种配置的增删查改以及Excel导入功能。我们主要以地图怪物为例，因此在文章末尾提供的源代码中只实现了地图怪物这部分的逻辑功能。 如果你照猫画虎，把4种配置功能的逻辑全部实现的话，就会发现，增删查改的代码基本相同，除了SQL语句和模型对            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_8.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-07-08 17:38 丶谦信 阅读 (1101) 评论 (3)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11152608" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2019/06/27.html">2019年6月27日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_7.html">
+    从零开始实现放置游戏（七）——实现后台管理系统（5）参数校验
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前面几章实现了在RMS系统中进行数据的增删查改以及通过Excel批量导入。但仍有遗留的问题，比如在新增或编辑时，怪物的生命值、护甲等数据我们可以输入负值，这种数据是不合理且没有意义的。本章我们就实现服务端对参数的校验。 一、添加依赖项 在rms模块的pom.xml中，添加校验组件的依赖项（注意：之前            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_7.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-06-27 17:06 丶谦信 阅读 (642) 评论 (4)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11098193" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2019/06/21.html">2019年6月21日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_6.html">
+    从零开始实现放置游戏（六）——实现后台管理系统（4）Excel批量导入
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：前面我们已经实现了在后台管理系统中，对配置数据的增删查改。但每次添加只能添加一条数据，实际生产中，大量数据通过手工一条一条添加不太现实。本章我们就实现通过Excel导入配置数据的功能。这里我们还是以地图数据为例，其他配置项可参照此例。 涉及的功能点主要有对office文档的编程、文件上传功能。流程图            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_6.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-06-21 08:52 丶谦信 阅读 (1126) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11061813" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+		
+
+
+<div class="day">
+    <div class="dayTitle">
+        <a href="https://www.cnblogs.com/lyosaki88/archive/2019/06/20.html">2019年6月20日</a>
+    </div>
+
+        <div class="postTitle">
+            
+
+<a class="postTitle2" href="https://www.cnblogs.com/lyosaki88/p/idlewow_5.html">
+    从零开始实现放置游戏（五）——实现后台管理系统（3）实现切面日志
+</a>
+
+        </div>
+        <div class="postCon">
+
+    <div class="c_b_p_desc">
+摘要：上一章，我们初步实现了后台管理系统的增删查改功能。然而还有很多功能不完善。这一章，我们先把系统日志搭建起来，不管是生产问题排查，还是方便开发调试，日志都是必不可少的核心功能。所谓切面日志，比如说，我们想把每个方法的入参都记录日志，那需要在每个方法里都写一行记录参数的语句，非常繁琐。所以需要提取出切面            <a href="https://www.cnblogs.com/lyosaki88/p/idlewow_5.html" class="c_b_p_desc_readmore">阅读全文</a>
+    </div>
+</div>
+        <div class="clear"></div>
+        <div class="postDesc">
+
+posted @ 2019-06-20 19:05 丶谦信 阅读 (776) 评论 (0)
+<a href="https://i.cnblogs.com/EditPosts.aspx?postid=11060680" rel="nofollow">
+    编辑
+</a>
+</div>
+        <div class="clear"></div>
+</div>
+
+
+
+<div class="topicListFooter">
+    <div id="nav_next_page">
+        
+    <a href="https://www.cnblogs.com/lyosaki88/default.html?page=2">
+        下一页
+    </a>
+
+    </div>    
+</div>
+
+
+
+
+
+
+
+
+	</div><!--end: forFlow -->
+	</div><!--end: mainContent 主体内容容器-->
+
+	<div id="sideBar">
+		<div id="sideBarMain">
+			
+<div id="sidebar_news" class="newsItem">
+            <script>loadBlogNews();</script>
+</div>
+
+			<div id="blog-calendar" style="display:none"></div><script>loadBlogDefaultCalendar();</script>
+			
+			<div id="leftcontentcontainer">
+				<div id="blog-sidecolumn"></div>
+                    <script>loadBlogSideColumn();</script>
+			</div>
+			
+		</div><!--end: sideBarMain -->
+	</div><!--end: sideBar 侧边栏容器 -->
+	<div class="clear"></div>
+	</div><!--end: main -->
+	<div class="clear"></div>
+	<div id="footer">
+		<!--done-->
+Copyright &copy; 2020 丶谦信
+<br /><span id="poweredby">Powered by .NET Core on Kubernetes</span>
+
+
+
+	</div><!--end: footer -->
+</div><!--end: home 自定义的最大容器 -->
+
+
+    
+</body>
+</html>
